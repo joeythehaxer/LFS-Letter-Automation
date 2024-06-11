@@ -6,7 +6,7 @@ from custom_logging import Logger
 import config
 
 class TeamsExcelWatcher:
-    def __init__(self, data_collector, logger, tenant_id, client_id, client_secret, excel_file_id, excel_file_drive, interval=604800):
+    def __init__(self, data_collector, logger, tenant_id=None, client_id=None, client_secret=None, excel_file_id=None, excel_file_drive=None, interval=604800):
         self.data_collector = data_collector
         self.interval = interval
         self.excel_file_id = excel_file_id

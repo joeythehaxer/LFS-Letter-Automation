@@ -12,6 +12,7 @@ class DataCollector:
         # Assuming excel_data is in the required format
         # Convert the data to a pandas DataFrame
         values = excel_data['values']
+        print(values)
         headers = values[0]
         data = values[1:]
         df = pd.DataFrame(data, columns=headers)

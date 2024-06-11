@@ -1,5 +1,5 @@
 import os
-from logging import Logger
+from custom_logging import Logger
 
 class Printer:
     def __init__(self, print_server_dir, logger):
@@ -8,13 +8,12 @@ class Printer:
 
     def print_letter(self, letter, filename):
         self.logger.log('info', f'Printing letter: {filename}')
-        # Logic to print/send letter to print server
+        # Save the document to the print server directory
         file_path = os.path.join(self.print_server_dir, filename)
-        with open(file_path, 'w') as file:
-            file.write(letter)
+        letter.save(file_path)
 
     def send_to_print_server(self, letters, data):
         self.logger.log('info', 'Sending letters to print server')
-        for letter, resident in zip(letters, data):
-            filename = f"{resident['address']}_{resident['work_order_number']}.txt"
+        for (letter, resident) in letters:
+            filename = f"{resident['address']}_{resident['work_order_number']}.docx"
             self.print_letter(letter, filename)

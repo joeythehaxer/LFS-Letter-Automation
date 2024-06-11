@@ -1,15 +1,25 @@
-from logging import Logger
+from custom_logging import Logger
+import os
 
 class TemplateManager:
     def __init__(self, templates_dir, logger):
         self.templates_dir = templates_dir
         self.logger = logger
 
+    def get_template_path(self, template_name):
+        """
+        Returns the file path of the specified template.
+
+        :param template_name: Name of the template.
+        :return: The file path of the template.
+        """
+        return os.path.join(self.templates_dir, f"{template_name}.docx")
+
     def load_template(self, template_name):
         self.logger.log('info', f'Loading template: {template_name}')
         # Logic to load a specific template
-        template_path = f"{self.templates_dir}/{template_name}.txt"
-        with open(template_path, 'r') as file:
+        template_path = self.get_template_path(template_name)
+        with open(template_path, 'rb') as file:
             template = file.read()
         return template
 

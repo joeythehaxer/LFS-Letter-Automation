@@ -18,8 +18,8 @@ def main():
     # Initialize components
     data_collector = DataCollector(logger)
     template_manager = TemplateManager(templates_dir, logger)
-    letter_generator = LetterGenerator(template_manager, logger)
     printer = Printer(print_server_dir, logger)
+    letter_generator = LetterGenerator(template_manager, logger, printer)
 
     if config.USE_TEAMS_EXCEL:
         watcher = TeamsExcelWatcher(
@@ -37,11 +37,8 @@ def main():
     else:
         data = data_collector.collect_data()
 
-    # Generate letters
-    letters = letter_generator.generate_customized_letters(data)
-
-    # Print letters
-    printer.send_to_print_server(letters, data)
+    # Generate and print letters
+    letter_generator.generate_and_print_letters(data)
 
     # Start watcher (in a separate thread or process in a real implementation)
     # watcher.watch_for_changes()
