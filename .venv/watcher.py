@@ -1,26 +1,24 @@
 import time
 import requests
 from msal import ConfidentialClientApplication
+import config
 from data_collection import DataCollector
 from custom_logging import Logger
-import config
 
 class TeamsExcelWatcher:
-    def __init__(self, data_collector, logger, tenant_id, client_id, client_secret, excel_file_id, excel_file_drive, interval=604800):
+    def __init__(self, data_collector, logger, tenant_id, client_id, client_secret, excel_file_id, excel_file_drive, interval=config.WATCHER_INTERVAL):
         self.data_collector = data_collector
         self.interval = interval
         self.excel_file_id = excel_file_id
         self.excel_file_drive = excel_file_drive
         self.logger = logger
 
-        # Initialize the MSAL Confidential Client
         self.app = ConfidentialClientApplication(
             client_id,
             authority=f"https://login.microsoftonline.com/{tenant_id}",
             client_credential=client_secret
         )
 
-        # Acquire token for Microsoft Graph API
         self.token = self.acquire_token()
 
     def acquire_token(self):
@@ -41,7 +39,6 @@ class TeamsExcelWatcher:
         response = requests.get(url, headers=headers)
         if response.status_code == 200:
             worksheets = response.json().get('value', [])
-            # Find the worksheet with the specified name
             worksheet_id = next(ws['id'] for ws in worksheets if ws['name'] == config.EXCEL_SHEET_NAME)
             sheet_url = f"https://graph.microsoft.com/v1.0/drives/{self.excel_file_drive}/items/{self.excel_file_id}/workbook/worksheets/{worksheet_id}/usedRange"
             sheet_response = requests.get(sheet_url, headers=headers)
