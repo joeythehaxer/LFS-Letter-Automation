@@ -33,9 +33,20 @@ def main():
             config.WATCHER_INTERVAL
         )
         excel_data = watcher.get_excel_data()
-        data = data_collector.get_resident_data(excel_data)
+        df = data_collector.parse_excel_data(excel_data)
     else:
-        data = data_collector.collect_data()
+        df = data_collector.collect_data()
+
+    # Define filters if needed
+    filters = {
+        config.LETTER_1_COLUMN: '',  # Example filter: only residents who haven't received the first letter
+        config.LETTER_2_COLUMN: '',  # Example filter: only residents who haven't received the second letter
+        config.LETTER_3_COLUMN: ''  # Example filter: only residents who haven't received the third letter
+    }
+
+    # Collect and filter data
+    filtered_data = data_collector.filter_data(df, filters)
+    data = filtered_data.to_dict(orient='records')
 
     # Generate and print letters
     letter_generator.generate_and_print_letters(data)

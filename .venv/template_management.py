@@ -1,6 +1,7 @@
 from custom_logging import Logger
 import os
 
+
 class TemplateManager:
     def __init__(self, templates_dir, logger):
         self.templates_dir = templates_dir
@@ -24,15 +25,34 @@ class TemplateManager:
         return template
 
     def pick_template(self, resident):
-        # Logic to pick the appropriate template based on letter status
-        if not resident.get('1st letter'):
-            self.logger.log('info', 'Selected template1 for the first letter')
-            return "template1"  # First letter template
-        elif not resident.get('2nd letter'):
-            self.logger.log('info', 'Selected template2 for the second letter')
-            return "template2"  # Second letter template
-        elif not resident.get('3rd letter'):
-            self.logger.log('info', 'Selected template3 for the third letter')
-            return "template3"  # Third letter template
+        """
+        Picks the appropriate template based on the value in the review 1 column
+        and the letter status columns.
+
+        :param resident: Dictionary containing resident data.
+        :return: The name of the template to use.
+        """
+        review_value = resident.get('review 1', None)
+        if review_value == 'CertainValue':  # Replace with the actual value you're checking for
+            if not resident.get(config.LETTER_1_COLUMN):
+                self.logger.log('info', 'Selected template1_group1 for the first letter')
+                return "template1_group1"
+            elif not resident.get(config.LETTER_2_COLUMN):
+                self.logger.log('info', 'Selected template2_group1 for the second letter')
+                return "template2_group1"
+            elif not resident.get(config.LETTER_3_COLUMN):
+                self.logger.log('info', 'Selected template3_group1 for the third letter')
+                return "template3_group1"
+        else:
+            if not resident.get(config.LETTER_1_COLUMN):
+                self.logger.log('info', 'Selected template1_group2 for the first letter')
+                return "template1_group2"
+            elif not resident.get(config.LETTER_2_COLUMN):
+                self.logger.log('info', 'Selected template2_group2 for the second letter')
+                return "template2_group2"
+            elif not resident.get(config.LETTER_3_COLUMN):
+                self.logger.log('info', 'Selected template3_group2 for the third letter')
+                return "template3_group2"
+
         self.logger.log('info', 'All letters have been sent')
         return None  # All letters have been sent
