@@ -1,5 +1,7 @@
 # Configuration file to manage constants and configuration settings
 
+USE_GUI = True  # Switch to toggle between GUI and command-line interface
+
 USE_TEAMS_EXCEL = True  # Switch to toggle between local and Teams Excel
 
 LOCAL_EXCEL_FILE = 'residents.xlsx'

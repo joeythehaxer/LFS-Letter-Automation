@@ -7,7 +7,7 @@ from custom_logging import Logger
 import config
 
 
-def main():
+def run_cli():
     # Configuration
     templates_dir = config.TEMPLATES_DIR
     print_server_dir = config.PRINT_SERVER_DIR
@@ -51,9 +51,14 @@ def main():
     # Generate and print letters
     letter_generator.generate_and_print_letters(data)
 
-    # Start watcher (in a separate thread or process in a real implementation)
-    # watcher.watch_for_changes()
 
+if __name__ == "__main__":
+    if config.USE_GUI:
+        from gui import LetterAutomationGUI
+        import tkinter as tk
 
-if __name__ == '__main__':
-    main()
+        root = tk.Tk()
+        app = LetterAutomationGUI(root)
+        root.mainloop()
+    else:
+        run_cli()
