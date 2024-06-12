@@ -2,6 +2,7 @@ import pandas as pd
 import config
 from custom_logging import Logger
 
+
 class DataCollector:
     def __init__(self, logger):
         self.logger = logger
@@ -18,9 +19,6 @@ class DataCollector:
         df = self.parse_excel_data(excel_data)
         return df.to_dict(orient='records')
 
-    def get_last_letter_date(self, resident):
-        return resident.get(config.LETTER_1_COLUMN, None)
-
     def collect_data(self):
         if config.USE_TEAMS_EXCEL:
             self.logger.log('info', 'Collecting data from Teams-stored Excel sheet')
@@ -30,14 +28,17 @@ class DataCollector:
             df = pd.read_excel(config.LOCAL_EXCEL_FILE, sheet_name=config.EXCEL_SHEET_NAME)
             return df
 
-    def filter_data(self, df, filters):
-        for column, value in filters.items():
-            df = df[df[column] == value]
-        return df
+    def filter_data(self, df, filter_value):
+        """
+        Filters the DataFrame to include only rows where any of the letter columns are empty
+        and applies additional filter conditions.
+        """
+        letter_columns = [config.LETTER_1_COLUMN, config.LETTER_2_COLUMN, config.LETTER_3_COLUMN]
+        print(letter_columns)
+        filter_condition = df[letter_columns].isnull().any(axis=1) | (df[letter_columns] == '').any(axis=1)
+        print(filter_condition)
+        # Apply additional filter condition
+        additional_filter_condition = df[config.NEW_FILTER_COLUMN] == filter_value
+        filter_condition = filter_condition & additional_filter_condition
 
-    def collect_and_filter_data(self, filters):
-        df = self.collect_data()
-        if df is not None:
-            df = self.filter_data(df, filters)
-            return df.to_dict(orient='records')
-        return []
+        return df[filter_condition]

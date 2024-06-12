@@ -1,32 +1,33 @@
 # Configuration file to manage constants and configuration settings
 
-USE_GUI = True  # Switch to toggle between GUI and command-line interface
+USE_GUI = False# Switch to toggle between GUI and command-line interface
 
-USE_TEAMS_EXCEL = True  # Switch to toggle between local and Teams Excel
+USE_TEAMS_EXCEL = False  # Switch to toggle between local and Teams Excel
 
 LOCAL_EXCEL_FILE = 'residents.xlsx'
-EXCEL_SHEET_NAME = 'Sheet1'  # Sheet name to use
+EXCEL_SHEET_NAME = 'ABRI ONLY TRACKER  '  # Sheet name to use
 
 # Column names in the Excel sheet
-ADDRESS_COLUMN = 'address'
-NAME_COLUMN = 'name'
-WORK_ORDER_COLUMN = 'work_order_number'
-LETTER_1_COLUMN = '1st_letter'
-LETTER_2_COLUMN = '2nd_letter'
-LETTER_3_COLUMN = '3rd_letter'
-REVIEW_COLUMN = 'review 1'  # Column used to determine the template group
+ADDRESS_COLUMN = 'ITEM LOCATION / ADDRESS'
+NAME_COLUMN = 'Supplied Contact'
+WORK_ORDER_COLUMN = 'PO number / Action Number'
+LETTER_1_COLUMN = '1ST ACCESS LETTER DATE/CALL '
+LETTER_2_COLUMN = '2ND ACCESS LETTER DATE/CALL'
+LETTER_3_COLUMN = '3RD ACCESS LETTER DATE/CALL'
+REVIEW_COLUMN = 'Review 1'  # Column used to determine the template group
+NEW_FILTER_COLUMN = 'ORDER STATUS'  # New column for the additional filter
 
 # Template group values
-REVIEW_POSITIVE_VALUE = 'CertainValue'  # Replace with the actual value
+REVIEW_POSITIVE_VALUE = 'A NEW DOOR/S REQUIRED'  # Replace with the actual value
 TEMPLATE_GROUP1 = {
-    'LETTER_1_TEMPLATE': 'template1_group1',
-    'LETTER_2_TEMPLATE': 'template2_group1',
-    'LETTER_3_TEMPLATE': 'template3_group1'
+    'LETTER_1_TEMPLATE': 'template1',
+    'LETTER_2_TEMPLATE': 'template2',
+    'LETTER_3_TEMPLATE': 'template3'
 }
 TEMPLATE_GROUP2 = {
-    'LETTER_1_TEMPLATE': 'template1_group2',
-    'LETTER_2_TEMPLATE': 'template2_group2',
-    'LETTER_3_TEMPLATE': 'template3_group2'
+    'LETTER_1_TEMPLATE': 'template1',
+    'LETTER_2_TEMPLATE': 'template2',
+    'LETTER_3_TEMPLATE': 'template3'
 }
 
 TEMPLATES_DIR = 'templates'

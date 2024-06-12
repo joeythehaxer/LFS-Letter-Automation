@@ -37,15 +37,9 @@ def run_cli():
     else:
         df = data_collector.collect_data()
 
-    # Define filters if needed
-    filters = {
-        config.LETTER_1_COLUMN: '',  # Example filter: only residents who haven't received the first letter
-        config.LETTER_2_COLUMN: '',  # Example filter: only residents who haven't received the second letter
-        config.LETTER_3_COLUMN: ''  # Example filter: only residents who haven't received the third letter
-    }
-
     # Collect and filter data
-    filtered_data = data_collector.filter_data(df, filters)
+    filter_value = input("Enter the filter value for the new column: ")
+    filtered_data = data_collector.filter_data(df, filter_value)
     data = filtered_data.to_dict(orient='records')
 
     # Generate and print letters
