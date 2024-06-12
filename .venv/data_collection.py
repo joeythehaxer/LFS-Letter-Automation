@@ -1,5 +1,4 @@
 import pandas as pd
-from datetime import datetime
 from custom_logging import Logger
 import config
 
@@ -12,7 +11,6 @@ class DataCollector:
         # Assuming excel_data is in the required format
         # Convert the data to a pandas DataFrame
         values = excel_data['values']
-        print(values)
         headers = values[0]
         data = values[1:]
         df = pd.DataFrame(data, columns=headers)
@@ -23,7 +21,7 @@ class DataCollector:
 
     def get_last_letter_date(self, resident):
         # Logic to get last letter date from resident data
-        return resident.get('last_letter_date', None)
+        return resident.get(config.LETTER_1_COLUMN, None)
 
     def collect_data(self):
         if config.USE_TEAMS_EXCEL:
@@ -31,6 +29,6 @@ class DataCollector:
             return None  # Placeholder, actual data will come from TeamsExcelWatcher
         else:
             self.logger.log('info', 'Collecting data from local Excel file')
-            df = pd.read_excel(config.LOCAL_EXCEL_FILE)
+            df = pd.read_excel(config.LOCAL_EXCEL_FILE, sheet_name=config.EXCEL_SHEET_NAME)
             data = df.to_dict(orient='records')
             return data
