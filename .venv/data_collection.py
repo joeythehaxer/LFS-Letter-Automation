@@ -25,20 +25,30 @@ class DataCollector:
             return None  # Placeholder, actual data will come from TeamsExcelWatcher
         else:
             self.logger.log('info', 'Collecting data from local Excel file')
-            df = pd.read_excel(config.LOCAL_EXCEL_FILE, sheet_name=config.EXCEL_SHEET_NAME)
+            df = pd.read_excel(config.LOCAL_EXCEL_FILE, sheet_name=config.EXCEL_SHEET_NAME, header=1)
+            print("DataFrame Columns:", df.columns.tolist())  # Debug statement
             return df
 
-    def filter_data(self, df, filter_value):
+    def filter_data(self, df):
         """
         Filters the DataFrame to include only rows where any of the letter columns are empty
         and applies additional filter conditions.
         """
         letter_columns = [config.LETTER_1_COLUMN, config.LETTER_2_COLUMN, config.LETTER_3_COLUMN]
-        print(letter_columns)
+        print("Expected Letter Columns:", letter_columns)  # Debug statement
+
+        for col in letter_columns:
+            if col not in df.columns:
+                raise KeyError(f"Column '{col}' not found in DataFrame columns")
+
         filter_condition = df[letter_columns].isnull().any(axis=1) | (df[letter_columns] == '').any(axis=1)
-        print(filter_condition)
-        # Apply additional filter condition
-        additional_filter_condition = df[config.NEW_FILTER_COLUMN] == filter_value
-        filter_condition = filter_condition & additional_filter_condition
+
+        # Apply additional filter conditions from config
+        for filter_cond in config.FILTERS:
+            column = filter_cond['column']
+            value = filter_cond['value']
+            if column not in df.columns:
+                raise KeyError(f"Column '{column}' not found in DataFrame columns")
+            filter_condition = filter_condition & (df[column] == value)
 
         return df[filter_condition]

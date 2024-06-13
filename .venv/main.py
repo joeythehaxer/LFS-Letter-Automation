@@ -38,8 +38,7 @@ def run_cli():
         df = data_collector.collect_data()
 
     # Collect and filter data
-    filter_value = input("Enter the filter value for the new column: ")
-    filtered_data = data_collector.filter_data(df, filter_value)
+    filtered_data = data_collector.filter_data(df)
     data = filtered_data.to_dict(orient='records')
 
     # Generate and print letters

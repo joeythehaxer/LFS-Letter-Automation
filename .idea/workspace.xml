@@ -4,22 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74a96bdd-1efa-4d84-addb-91076e962341" name="Changes" comment="hello world">
-      <change afterPath="$PROJECT_DIR$/.venv/app.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/residents.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/templates/1. Remedial Works Letter Green.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/templates/2. Remedial Works Letter Amber.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/templates/3. Remedial Works Letter Red.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/templates/template1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/templates/template2.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/templates/template3.docx" afterDir="false" />
+    <list default="true" id="74a96bdd-1efa-4d84-addb-91076e962341" name="Changes" comment="added filtration and gui">
+      <change afterPath="$PROJECT_DIR$/.venv/print_server/NOT SUPPLIED .docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/print_server/~$T SUPPLIED .docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/data_collection.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/data_collection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/letter_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/letter_generation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/printing.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/printing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/residents.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/residents.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/template_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/template_management.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/watcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/watcher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.custom_logging.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Joseph/PycharmProjects/Excel To Letter Automation/.venv/templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.custom_logging.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Joseph/PycharmProjects/Excel To Letter Automation/.venv&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Joseph\PycharmProjects\Excel To Letter Automation\.venv" />
       <recent name="C:\Users\Joseph\PycharmProjects\Excel To Letter Automation\.venv\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -118,13 +116,58 @@
       <option name="project" value="LOCAL" />
       <updated>1718102456357</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated config to enhance selection of data from excel sheet">
+      <option name="closed" value="true" />
+      <created>1718177884965</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718177884965</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated to select templates also based on new door or not">
+      <option name="closed" value="true" />
+      <created>1718180026239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718180026239</updated>
+    </task>
+    <task id="LOCAL-00004" summary="transferred customisable values to config.py">
+      <option name="closed" value="true" />
+      <created>1718180458213</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718180458213</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added gui and on off switch for gui">
+      <option name="closed" value="true" />
+      <created>1718180988270</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718180988270</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added filtration and gui">
+      <option name="closed" value="true" />
+      <created>1718197402976</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718197402976</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="hello world" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello world" />
+    <MESSAGE value="updated config to enhance selection of data from excel sheet" />
+    <MESSAGE value="updated to select templates also based on new door or not" />
+    <MESSAGE value="transferred customisable values to config.py" />
+    <MESSAGE value="added gui and on off switch for gui" />
+    <MESSAGE value="added filtration and gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="added filtration and gui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
