@@ -1,11 +1,22 @@
 import pandas as pd
-import config
+import json
+import os
 from custom_logging import Logger
+
+DEFAULT_CONFIG_PATH = 'default_config.json'
 
 
 class DataCollector:
     def __init__(self, logger):
         self.logger = logger
+        self.load_defaults()
+
+    def load_defaults(self):
+        if os.path.exists(DEFAULT_CONFIG_PATH):
+            with open(DEFAULT_CONFIG_PATH, 'r') as f:
+                self.default_config = json.load(f)
+        else:
+            raise FileNotFoundError(f"{DEFAULT_CONFIG_PATH} not found. Please create it with the necessary configurations.")
 
     def parse_excel_data(self, excel_data):
         self.logger.log('info', 'Parsing Excel data')
@@ -20,21 +31,17 @@ class DataCollector:
         return df.to_dict(orient='records')
 
     def collect_data(self):
-        if config.USE_TEAMS_EXCEL:
-            self.logger.log('info', 'Collecting data from Teams-stored Excel sheet')
-            return None  # Placeholder, actual data will come from TeamsExcelWatcher
-        else:
-            self.logger.log('info', 'Collecting data from local Excel file')
-            df = pd.read_excel(config.LOCAL_EXCEL_FILE, sheet_name=config.EXCEL_SHEET_NAME, header=1)
-            print("DataFrame Columns:", df.columns.tolist())  # Debug statement
-            return df
+        self.logger.log('info', 'Collecting data from local Excel file')
+        df = pd.read_excel(self.default_config['LOCAL_EXCEL_FILE'], sheet_name=self.default_config['EXCEL_SHEET_NAME'], header=self.default_config['HEADER_ROW'] - 1)
+        print("DataFrame Columns:", df.columns.tolist())  # Debug statement
+        return df
 
     def filter_data(self, df):
         """
         Filters the DataFrame to include only rows where any of the letter columns are empty
         and applies additional filter conditions.
         """
-        letter_columns = [config.LETTER_1_COLUMN, config.LETTER_2_COLUMN, config.LETTER_3_COLUMN]
+        letter_columns = [self.default_config['LETTER_1_COLUMN'], self.default_config['LETTER_2_COLUMN'], self.default_config['LETTER_3_COLUMN']]
         print("Expected Letter Columns:", letter_columns)  # Debug statement
 
         for col in letter_columns:
@@ -43,8 +50,8 @@ class DataCollector:
 
         filter_condition = df[letter_columns].isnull().any(axis=1) | (df[letter_columns] == '').any(axis=1)
 
-        # Apply additional filter conditions from config
-        for filter_cond in config.FILTERS:
+        # Apply additional filter conditions from default config
+        for filter_cond in self.default_config['FILTERS']:
             column = filter_cond['column']
             value = filter_cond['value']
             if column not in df.columns:

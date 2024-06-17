@@ -1,11 +1,13 @@
 # Configuration file to manage constants and configuration settings
 
+import os
+
 USE_GUI = True  # Switch to toggle between GUI and command-line interface
 
 USE_TEAMS_EXCEL = False  # Switch to toggle between local and Teams Excel
 
 LOCAL_EXCEL_FILE = 'residents.xlsx'
-EXCEL_SHEET_NAME = 'Sheet1'  # Sheet name to use
+EXCEL_SHEET_NAME = 'ABRI ONLY TRACKER'  # Sheet name to use
 
 # Column names in the Excel sheet
 ADDRESS_COLUMN = 'Address'
@@ -47,8 +49,8 @@ PRINT_SERVER_DIR = 'print_server'
 WATCHER_INTERVAL = 604800  # 7 days in seconds
 
 # Microsoft Graph API configuration
-TENANT_ID = 'your-tenant-id'
-CLIENT_ID = 'your-client-id'
-CLIENT_SECRET = 'your-client-secret'
-EXCEL_FILE_ID = 'your-excel-file-id'
-EXCEL_FILE_DRIVE = 'your-excel-file-drive'  # Usually "drive-id" or "groups/group-id"
+TENANT_ID = os.getenv('TENANT_ID')
+CLIENT_ID = os.getenv('CLIENT_ID')
+CLIENT_SECRET = os.getenv('CLIENT_SECRET')
+EXCEL_FILE_ID = os.getenv('EXCEL_FILE_ID')
+EXCEL_FILE_DRIVE = os.getenv('EXCEL_FILE_DRIVE')  # Usually "drive-id" or "groups/group-id"

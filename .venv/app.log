@@ -1155,3 +1155,850 @@
 2024-06-13 15:51:29,647 - LetterAutomationLogger - INFO - Collecting data from local Excel file
 2024-06-13 15:53:33,396 - LetterAutomationLogger - INFO - Collecting data from local Excel file
 2024-06-13 15:54:04,507 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-14 08:01:25,660 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-14 08:01:48,968 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-14 08:11:30,505 - LetterAutomationLogger - INFO - Defaults file not found. Using empty defaults.
+2024-06-14 08:18:06,035 - LetterAutomationLogger - INFO - Defaults file not found. Using empty defaults.
+2024-06-14 08:30:16,387 - LetterAutomationLogger - INFO - Starting data collection
+2024-06-14 08:30:16,387 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-14 08:30:17,794 - LetterAutomationLogger - INFO - Loaded data with columns: ['ITEM ID', 'CLIENT', 'CLIENT DERIVATIVE\n(RAISED BY)', 'LFS JOB NUMBER', 'PO number / Action Number', 'Tender Number / Risk Hub', 'DATE RECEIVED (DATE RAISED)', 'TARGET DATE', 'Supplied Contact', 'ITEM LOCATION / ADDRESS', 'AREA', 'POSTCODE', 'Action Description', 'Review 1', 'TYPE OF WORKS', 'INSTALL NOTES', 'ITEM OF WORKS COUNT', 'ORDER STATUS', 'PRODUCTION STATUS', 'ITEM STATUS', 'FIRE STOPPING STATUS', '1ST ACCESS LETTER DATE/CALL ', '2ND ACCESS LETTER DATE/CALL', '3RD ACCESS LETTER DATE/CALL', 'ANY CARDED DATES', 'BOOKED DATE', 'OPERATIVE', 'COMMENTS ', 'COMPLETION EVIDENCE RECEIVED', 'PROCESSED TO CLIENT FILE', 'FIRAS', 'FIRAS REFERENCE', 'FINANCIAL', 'WORK ORDER VALUE', 'Final Invoice Number', 'Sent  Application Date', 'Final Invoice Date / Valuation Date', 'Invoice / Valuation Approved Date', 'TOTAL VALUE', 'FS', 'DW', 'Deposit Invoice Number ', 'Deposit Invoice Date', 'INVOICING NOTES']
+2024-06-14 08:30:17,794 - LetterAutomationLogger - INFO - Expected Letter Columns: ['1ST ACCESS LETTER DATE/CALL ', '2ND ACCESS LETTER DATE/CALL', '3RD ACCESS LETTER DATE/CALL']
+2024-06-14 08:30:17,840 - LetterAutomationLogger - INFO - Filtered data with 227 rows
+2024-06-14 08:39:13,618 - LetterAutomationLogger - INFO - Starting data collection
+2024-06-14 08:39:13,618 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-14 08:39:14,579 - LetterAutomationLogger - INFO - Loaded data with columns: ['ITEM ID', 'CLIENT', 'CLIENT DERIVATIVE\n(RAISED BY)', 'LFS JOB NUMBER', 'PO number / Action Number', 'Tender Number / Risk Hub', 'DATE RECEIVED (DATE RAISED)', 'TARGET DATE', 'Supplied Contact', 'ITEM LOCATION / ADDRESS', 'AREA', 'POSTCODE', 'Action Description', 'Review 1', 'TYPE OF WORKS', 'INSTALL NOTES', 'ITEM OF WORKS COUNT', 'ORDER STATUS', 'PRODUCTION STATUS', 'ITEM STATUS', 'FIRE STOPPING STATUS', '1ST ACCESS LETTER DATE/CALL ', '2ND ACCESS LETTER DATE/CALL', '3RD ACCESS LETTER DATE/CALL', 'ANY CARDED DATES', 'BOOKED DATE', 'OPERATIVE', 'COMMENTS ', 'COMPLETION EVIDENCE RECEIVED', 'PROCESSED TO CLIENT FILE', 'FIRAS', 'FIRAS REFERENCE', 'FINANCIAL', 'WORK ORDER VALUE', 'Final Invoice Number', 'Sent  Application Date', 'Final Invoice Date / Valuation Date', 'Invoice / Valuation Approved Date', 'TOTAL VALUE', 'FS', 'DW', 'Deposit Invoice Number ', 'Deposit Invoice Date', 'INVOICING NOTES']
+2024-06-14 08:39:14,580 - LetterAutomationLogger - INFO - Expected Letter Columns: ['1ST ACCESS LETTER DATE/CALL ', '2ND ACCESS LETTER DATE/CALL', '3RD ACCESS LETTER DATE/CALL']
+2024-06-14 08:39:14,582 - LetterAutomationLogger - INFO - Filtered data with 227 rows
+2024-06-14 08:58:40,674 - LetterAutomationLogger - INFO - Starting data collection
+2024-06-14 08:58:40,685 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-14 08:58:41,625 - LetterAutomationLogger - INFO - Loaded data with columns: ['ITEM ID', 'CLIENT', 'CLIENT DERIVATIVE\n(RAISED BY)', 'LFS JOB NUMBER', 'PO number / Action Number', 'Tender Number / Risk Hub', 'DATE RECEIVED (DATE RAISED)', 'TARGET DATE', 'Supplied Contact', 'ITEM LOCATION / ADDRESS', 'AREA', 'POSTCODE', 'Action Description', 'Review 1', 'TYPE OF WORKS', 'INSTALL NOTES', 'ITEM OF WORKS COUNT', 'ORDER STATUS', 'PRODUCTION STATUS', 'ITEM STATUS', 'FIRE STOPPING STATUS', '1ST ACCESS LETTER DATE/CALL ', '2ND ACCESS LETTER DATE/CALL', '3RD ACCESS LETTER DATE/CALL', 'ANY CARDED DATES', 'BOOKED DATE', 'OPERATIVE', 'COMMENTS ', 'COMPLETION EVIDENCE RECEIVED', 'PROCESSED TO CLIENT FILE', 'FIRAS', 'FIRAS REFERENCE', 'FINANCIAL', 'WORK ORDER VALUE', 'Final Invoice Number', 'Sent  Application Date', 'Final Invoice Date / Valuation Date', 'Invoice / Valuation Approved Date', 'TOTAL VALUE', 'FS', 'DW', 'Deposit Invoice Number ', 'Deposit Invoice Date', 'INVOICING NOTES']
+2024-06-14 08:58:41,625 - LetterAutomationLogger - INFO - Expected Letter Columns: ['1ST ACCESS LETTER DATE/CALL ', '2ND ACCESS LETTER DATE/CALL', '3RD ACCESS LETTER DATE/CALL']
+2024-06-14 08:58:41,662 - LetterAutomationLogger - INFO - Filtered data with 227 rows
+2024-06-14 09:33:17,119 - LetterAutomationLogger - INFO - Starting data collection
+2024-06-14 09:33:17,131 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-14 09:33:18,466 - LetterAutomationLogger - INFO - Loaded data with columns: ['ITEM ID', 'CLIENT', 'CLIENT DERIVATIVE\n(RAISED BY)', 'LFS JOB NUMBER', 'PO number / Action Number', 'Tender Number / Risk Hub', 'DATE RECEIVED (DATE RAISED)', 'TARGET DATE', 'Supplied Contact', 'ITEM LOCATION / ADDRESS', 'AREA', 'POSTCODE', 'Action Description', 'Review 1', 'TYPE OF WORKS', 'INSTALL NOTES', 'ITEM OF WORKS COUNT', 'ORDER STATUS', 'PRODUCTION STATUS', 'ITEM STATUS', 'FIRE STOPPING STATUS', '1ST ACCESS LETTER DATE/CALL ', '2ND ACCESS LETTER DATE/CALL', '3RD ACCESS LETTER DATE/CALL', 'ANY CARDED DATES', 'BOOKED DATE', 'OPERATIVE', 'COMMENTS ', 'COMPLETION EVIDENCE RECEIVED', 'PROCESSED TO CLIENT FILE', 'FIRAS', 'FIRAS REFERENCE', 'FINANCIAL', 'WORK ORDER VALUE', 'Final Invoice Number', 'Sent  Application Date', 'Final Invoice Date / Valuation Date', 'Invoice / Valuation Approved Date', 'TOTAL VALUE', 'FS', 'DW', 'Deposit Invoice Number ', 'Deposit Invoice Date', 'INVOICING NOTES']
+2024-06-14 09:33:18,466 - LetterAutomationLogger - INFO - Expected Letter Columns: ['1ST ACCESS LETTER DATE/CALL ', '2ND ACCESS LETTER DATE/CALL', '3RD ACCESS LETTER DATE/CALL']
+2024-06-14 09:33:18,483 - LetterAutomationLogger - INFO - Filtered data with 1305 rows
+2024-06-14 09:34:36,374 - LetterAutomationLogger - INFO - Starting data collection
+2024-06-14 09:34:36,374 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-14 09:34:37,336 - LetterAutomationLogger - INFO - Loaded data with columns: ['ITEM ID', 'CLIENT', 'CLIENT DERIVATIVE\n(RAISED BY)', 'LFS JOB NUMBER', 'PO number / Action Number', 'Tender Number / Risk Hub', 'DATE RECEIVED (DATE RAISED)', 'TARGET DATE', 'Supplied Contact', 'ITEM LOCATION / ADDRESS', 'AREA', 'POSTCODE', 'Action Description', 'Review 1', 'TYPE OF WORKS', 'INSTALL NOTES', 'ITEM OF WORKS COUNT', 'ORDER STATUS', 'PRODUCTION STATUS', 'ITEM STATUS', 'FIRE STOPPING STATUS', '1ST ACCESS LETTER DATE/CALL ', '2ND ACCESS LETTER DATE/CALL', '3RD ACCESS LETTER DATE/CALL', 'ANY CARDED DATES', 'BOOKED DATE', 'OPERATIVE', 'COMMENTS ', 'COMPLETION EVIDENCE RECEIVED', 'PROCESSED TO CLIENT FILE', 'FIRAS', 'FIRAS REFERENCE', 'FINANCIAL', 'WORK ORDER VALUE', 'Final Invoice Number', 'Sent  Application Date', 'Final Invoice Date / Valuation Date', 'Invoice / Valuation Approved Date', 'TOTAL VALUE', 'FS', 'DW', 'Deposit Invoice Number ', 'Deposit Invoice Date', 'INVOICING NOTES']
+2024-06-14 09:34:37,337 - LetterAutomationLogger - INFO - Expected Letter Columns: ['1ST ACCESS LETTER DATE/CALL ', '2ND ACCESS LETTER DATE/CALL', '3RD ACCESS LETTER DATE/CALL']
+2024-06-14 09:34:37,339 - LetterAutomationLogger - INFO - Filtered data with 1305 rows
+2024-06-14 09:34:37,437 - LetterAutomationLogger - INFO - Printing document: print_server\Resident.docx
+2024-06-14 09:34:37,437 - LetterAutomationLogger - INFO - Generated and sent letter for Resident
+2024-06-14 09:34:37,497 - LetterAutomationLogger - INFO - Printing document: print_server\Ms Pye -  - please.docx
+2024-06-14 09:34:37,497 - LetterAutomationLogger - INFO - Generated and sent letter for Ms Pye -  - please
+2024-06-14 09:34:37,557 - LetterAutomationLogger - INFO - Printing document: print_server\Resident.docx
+2024-06-14 09:34:37,557 - LetterAutomationLogger - INFO - Generated and sent letter for Resident
+2024-06-14 09:34:37,626 - LetterAutomationLogger - INFO - Printing document: print_server\Resident.docx
+2024-06-14 09:34:37,627 - LetterAutomationLogger - INFO - Generated and sent letter for Resident
+2024-06-14 10:34:41,739 - LetterAutomationLogger - ERROR - Failed to load sheet columns: 'LetterAutomationGUI' object has no attribute 'work_order_menu'
+2024-06-14 10:34:49,806 - LetterAutomationLogger - ERROR - Failed to load sheet columns: 'LetterAutomationGUI' object has no attribute 'work_order_menu'
+2024-06-14 10:34:57,687 - LetterAutomationLogger - ERROR - Failed to load sheet columns: 'LetterAutomationGUI' object has no attribute 'work_order_menu'
+2024-06-14 10:35:08,934 - LetterAutomationLogger - ERROR - Failed to load sheet columns: 'LetterAutomationGUI' object has no attribute 'work_order_menu'
+2024-06-14 10:35:12,343 - LetterAutomationLogger - ERROR - Failed to load sheet columns: expected floating-point number but got ""
+2024-06-14 10:35:14,920 - LetterAutomationLogger - ERROR - Failed to load sheet columns: 'LetterAutomationGUI' object has no attribute 'work_order_menu'
+2024-06-14 10:57:19,311 - LetterAutomationLogger - ERROR - Failed to load sheet columns: 'LetterAutomationGUI' object has no attribute 'work_order_menu'
+2024-06-14 11:00:31,408 - LetterAutomationLogger - ERROR - Failed to load sheet columns: 'LetterAutomationGUI' object has no attribute 'work_order_menu'
+2024-06-17 09:49:22,630 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-17 10:45:26,214 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-17 10:45:27,275 - LetterAutomationLogger - ERROR - Error generating letter for Mr R J Chandler
+07460202000
+chandrob@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr R J Chandler\n07460202000\nchandrob@gmail.com.docx'
+2024-06-17 10:45:27,287 - LetterAutomationLogger - ERROR - Error generating letter for Ms N J Griffin
+07758922449
+nicolag1963@hotmail.com: [Errno 22] Invalid argument: 'print_server\\Ms N J Griffin\n07758922449\nnicolag1963@hotmail.com.docx'
+2024-06-17 10:45:27,302 - LetterAutomationLogger - ERROR - Error generating letter for Customer Name: Mr J Cousin
+Telephone Number: 
+Mobile Number: 07476718771
+Email Address: cousinphotos@gmail.com: [Errno 22] Invalid argument: 'print_server\\Customer Name: Mr J Cousin\nTelephone Number: \nMobile Number: 07476718771\nEmail Address: cousinphotos@gmail.com.docx'
+2024-06-17 10:45:27,372 - LetterAutomationLogger - INFO - Printing document: print_server\Mr Styles .docx
+2024-06-17 10:45:27,507 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Mr Styles .docx
+2024-06-17 10:45:27,507 - LetterAutomationLogger - INFO - Generated and sent letter for Mr Styles 
+2024-06-17 10:45:27,576 - LetterAutomationLogger - INFO - Printing document: print_server\Mr Khurshid - 07919461432.docx
+2024-06-17 10:45:27,633 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Mr Khurshid - 07919461432.docx
+2024-06-17 10:45:27,633 - LetterAutomationLogger - INFO - Generated and sent letter for Mr Khurshid - 07919461432
+2024-06-17 10:45:27,648 - LetterAutomationLogger - ERROR - Error generating letter for  Mrs I Ball
+Telephone Number: 01344627976
+Mobile Number: 07714782777: [Errno 22] Invalid argument: 'print_server\\ Mrs I Ball\nTelephone Number: 01344627976\nMobile Number: 07714782777.docx'
+2024-06-17 10:45:27,667 - LetterAutomationLogger - ERROR - Error generating letter for Miss E Evans 
+Mobile Number: 07506575560
+evanselizabeth1@icloud.com: [Errno 22] Invalid argument: 'print_server\\Miss E Evans \nMobile Number: 07506575560\nevanselizabeth1@icloud.com.docx'
+2024-06-17 10:45:27,681 - LetterAutomationLogger - ERROR - Error generating letter for Mr S Chandler-King & Miss N 
+McGuire Mobile Number: 07437004317
+stevenking13@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Mr S Chandler-King & Miss N \nMcGuire Mobile Number: 07437004317\nstevenking13@hotmail.co.uk.docx'
+2024-06-17 10:45:27,698 - LetterAutomationLogger - ERROR - Error generating letter for Mr J Woodford 07399164720
+woodfordjacob12@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr J Woodford 07399164720\nwoodfordjacob12@gmail.com.docx'
+2024-06-17 10:45:27,716 - LetterAutomationLogger - ERROR - Error generating letter for Miss A Caldwell & Mr K Marks
+07904293571
+abbeycaldwell@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Miss A Caldwell & Mr K Marks\n07904293571\nabbeycaldwell@hotmail.co.uk.docx'
+2024-06-17 10:45:27,732 - LetterAutomationLogger - ERROR - Error generating letter for Miss A Whitton
+07496178061
+whittonamy0@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss A Whitton\n07496178061\nwhittonamy0@gmail.com.docx'
+2024-06-17 10:45:27,751 - LetterAutomationLogger - ERROR - Error generating letter for  Mr M Tomala
+07828846334
+marektomala1@wp.pl: [Errno 22] Invalid argument: 'print_server\\ Mr M Tomala\n07828846334\nmarektomala1@wp.pl.docx'
+2024-06-17 10:45:27,768 - LetterAutomationLogger - ERROR - Error generating letter for Miss G Anderson
+07463780047
+ gabbieanderson12@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss G Anderson\n07463780047\n gabbieanderson12@gmail.com.docx'
+2024-06-17 10:45:27,785 - LetterAutomationLogger - ERROR - Error generating letter for Miss G M Lee
+07519051734
+Ginalee98@hotail.co.uk: [Errno 22] Invalid argument: 'print_server\\Miss G M Lee\n07519051734\nGinalee98@hotail.co.uk.docx'
+2024-06-17 10:45:27,802 - LetterAutomationLogger - ERROR - Error generating letter for Mr F Deylami & Mrs F Zareyan
+Mobile Number: 07882042067
+ deylami100@yahoo.co.uk: [Errno 22] Invalid argument: 'print_server\\Mr F Deylami & Mrs F Zareyan\nMobile Number: 07882042067\n deylami100@yahoo.co.uk.docx'
+2024-06-17 10:45:27,819 - LetterAutomationLogger - ERROR - Error generating letter for  Miss J King
+ 07487880686
+jordan.king1997@hotmail.com: [Errno 22] Invalid argument: 'print_server\\ Miss J King\n 07487880686\njordan.king1997@hotmail.com.docx'
+2024-06-17 10:45:27,832 - LetterAutomationLogger - ERROR - Error generating letter for Mr J McClure
+01730624273
+07379382377
+jordanmcclure@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Mr J McClure\n01730624273\n07379382377\njordanmcclure@hotmail.co.uk.docx'
+2024-06-17 10:45:27,849 - LetterAutomationLogger - ERROR - Error generating letter for Mr N Dodd
+ 07764793789
+neild@maximcomms.co.uk: [Errno 22] Invalid argument: 'print_server\\Mr N Dodd\n 07764793789\nneild@maximcomms.co.uk.docx'
+2024-06-17 10:45:27,865 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Rawlings
+ 07724413504: [Errno 22] Invalid argument: 'print_server\\Mr A Rawlings\n 07724413504.docx'
+2024-06-17 10:45:27,881 - LetterAutomationLogger - ERROR - Error generating letter for  Ms L Liu
+ 07899121525
+lucia_jia_rejoice@yahoo.co.uk: [Errno 22] Invalid argument: 'print_server\\ Ms L Liu\n 07899121525\nlucia_jia_rejoice@yahoo.co.uk.docx'
+2024-06-17 10:45:27,898 - LetterAutomationLogger - ERROR - Error generating letter for Mr KJ Colwill
+0778699265: [Errno 22] Invalid argument: 'print_server\\Mr KJ Colwill\n0778699265.docx'
+2024-06-17 10:45:27,916 - LetterAutomationLogger - ERROR - Error generating letter for  Miss D Piatkowska
+ 07548202945
+dagmarapiatkowska1996@outlook.com: [Errno 22] Invalid argument: 'print_server\\ Miss D Piatkowska\n 07548202945\ndagmarapiatkowska1996@outlook.com.docx'
+2024-06-17 10:45:27,935 - LetterAutomationLogger - ERROR - Error generating letter for Ms KL Dugan
+ 07392691733
+ kimlouise1404@gmail.com: [Errno 22] Invalid argument: 'print_server\\Ms KL Dugan\n 07392691733\n kimlouise1404@gmail.com.docx'
+2024-06-17 10:45:28,027 - LetterAutomationLogger - INFO - Printing document: print_server\key safe code 2891.docx
+2024-06-17 10:45:28,282 - LetterAutomationLogger - INFO - Document sent to printer: print_server\key safe code 2891.docx
+2024-06-17 10:45:28,282 - LetterAutomationLogger - INFO - Generated and sent letter for key safe code 2891
+2024-06-17 10:45:28,298 - LetterAutomationLogger - ERROR - Error generating letter for Mr & Mrs Nowak –
+Tel – 01730 895513
+Mob - 07717495724
+Email – Stefan.n@ntlworld.com: [Errno 22] Invalid argument: 'print_server\\Mr & Mrs Nowak –\nTel – 01730 895513\nMob - 07717495724\nEmail – Stefan.n@ntlworld.com.docx'
+2024-06-17 10:45:28,401 - LetterAutomationLogger - INFO - Printing document: print_server\Mrs Fisher 07300936250..docx
+2024-06-17 10:45:28,643 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Mrs Fisher 07300936250..docx
+2024-06-17 10:45:28,643 - LetterAutomationLogger - INFO - Generated and sent letter for Mrs Fisher 07300936250.
+2024-06-17 10:45:28,659 - LetterAutomationLogger - ERROR - Error generating letter for Miss J McPherson
+07540349825
+jaijays.jim@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss J McPherson\n07540349825\njaijays.jim@gmail.com.docx'
+2024-06-17 10:45:28,676 - LetterAutomationLogger - ERROR - Error generating letter for Miss D M Moss
+Telephone Number: 01753841307
+Mobile Number: 07522048385: [Errno 22] Invalid argument: 'print_server\\Miss D M Moss\nTelephone Number: 01753841307\nMobile Number: 07522048385.docx'
+2024-06-17 10:45:28,696 - LetterAutomationLogger - ERROR - Error generating letter for Ms R Rider
+ 07534 427515
+rebeccarider567@gmail.com: [Errno 22] Invalid argument: 'print_server\\Ms R Rider\n 07534 427515\nrebeccarider567@gmail.com.docx'
+2024-06-17 10:45:28,715 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Rawlings
+ 07724413504: [Errno 22] Invalid argument: 'print_server\\Mr A Rawlings\n 07724413504.docx'
+2024-06-17 10:45:28,818 - LetterAutomationLogger - INFO - Printing document: print_server\07488256144.docx
+2024-06-17 10:45:29,241 - LetterAutomationLogger - INFO - Document sent to printer: print_server\07488256144.docx
+2024-06-17 10:45:29,241 - LetterAutomationLogger - INFO - Generated and sent letter for 07488256144
+2024-06-17 10:45:29,261 - LetterAutomationLogger - ERROR - Error generating letter for Miss M Somuah
+ 07446535003
+mildred_somuah@yahoo.com: [Errno 22] Invalid argument: 'print_server\\Miss M Somuah\n 07446535003\nmildred_somuah@yahoo.com.docx'
+2024-06-17 10:45:29,275 - LetterAutomationLogger - ERROR - Error generating letter for Mr D W Hockley
+ 01420542792
+ 07876820294
+derek.hockley34@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr D W Hockley\n 01420542792\n 07876820294\nderek.hockley34@gmail.com.docx'
+2024-06-17 10:45:29,292 - LetterAutomationLogger - ERROR - Error generating letter for Miss H Furnival
+07443492192
+ hopefurnival9@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss H Furnival\n07443492192\n hopefurnival9@gmail.com.docx'
+2024-06-17 10:45:29,309 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Wilson
+ 07548961543
+abo.wilson.aw@icloud.com: [Errno 22] Invalid argument: 'print_server\\Mr A Wilson\n 07548961543\nabo.wilson.aw@icloud.com.docx'
+2024-06-17 10:45:29,325 - LetterAutomationLogger - ERROR - Error generating letter for Ms A E Stephenson
+07904910526
+ anneofwales@live.co.uk: [Errno 22] Invalid argument: 'print_server\\Ms A E Stephenson\n07904910526\n anneofwales@live.co.uk.docx'
+2024-06-17 10:45:29,342 - LetterAutomationLogger - ERROR - Error generating letter for Mr M Eariss & Mrs S Eariss
+01329238670
+ 07535336444
+mark_eariss@hotmail.com: [Errno 22] Invalid argument: 'print_server\\Mr M Eariss & Mrs S Eariss\n01329238670\n 07535336444\nmark_eariss@hotmail.com.docx'
+2024-06-17 10:45:30,381 - LetterAutomationLogger - ERROR - Error generating letter for Miss L McKenner
+ 07469773483
+ 07469773483
+mckenner.lisa@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss L McKenner\n 07469773483\n 07469773483\nmckenner.lisa@gmail.com.docx'
+2024-06-17 10:45:30,398 - LetterAutomationLogger - ERROR - Error generating letter for Mrs M Choudhury
+ 07563476491
+07563476491
+dinara.choudhury@icloud.com: [Errno 22] Invalid argument: 'print_server\\Mrs M Choudhury\n 07563476491\n07563476491\ndinara.choudhury@icloud.com.docx'
+2024-06-17 10:45:30,418 - LetterAutomationLogger - ERROR - Error generating letter for Mrs R Nikiforoviene
+ 07749995962
+ rimanikifo@googlemail.com: [Errno 22] Invalid argument: 'print_server\\Mrs R Nikiforoviene\n 07749995962\n rimanikifo@googlemail.com.docx'
+2024-06-17 10:45:30,513 - LetterAutomationLogger - ERROR - Error generating letter for Mrs D McIntosh
+02380221409
+ 07527907962: [Errno 22] Invalid argument: 'print_server\\Mrs D McIntosh\n02380221409\n 07527907962.docx'
+2024-06-17 10:45:30,624 - LetterAutomationLogger - ERROR - Error generating letter for Mr C Linnell & Miss L M 
+Pomeroy
+07746296180
+ chrislinnell556@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr C Linnell & Miss L M \nPomeroy\n07746296180\n chrislinnell556@gmail.com.docx'
+2024-06-17 10:45:30,723 - LetterAutomationLogger - ERROR - Error generating letter for Ms B Graham
+01420475466: [Errno 22] Invalid argument: 'print_server\\Ms B Graham\n01420475466.docx'
+2024-06-17 10:45:30,880 - LetterAutomationLogger - ERROR - Error generating letter for Mr R Vernier
+ 07925096266
+rogmvern@btinternet.com: [Errno 22] Invalid argument: 'print_server\\Mr R Vernier\n 07925096266\nrogmvern@btinternet.com.docx'
+2024-06-17 10:45:31,870 - LetterAutomationLogger - ERROR - Error generating letter for Mrs B Kovacova
+07910138240
+ bronislava33@seznam.cz: [Errno 22] Invalid argument: 'print_server\\Mrs B Kovacova\n07910138240\n bronislava33@seznam.cz.docx'
+2024-06-17 10:45:31,888 - LetterAutomationLogger - ERROR - Error generating letter for  Mr R Attwood
+ 07845459917
+ Robattwood@aol.com_x000D_: [Errno 22] Invalid argument: 'print_server\\ Mr R Attwood\n 07845459917\n Robattwood@aol.com_x000D_.docx'
+2024-06-17 10:45:32,467 - LetterAutomationLogger - INFO - Printing document: print_server\NOT SUPPLIED.docx
+2024-06-17 10:45:33,577 - LetterAutomationLogger - INFO - Document sent to printer: print_server\NOT SUPPLIED.docx
+2024-06-17 10:45:33,579 - LetterAutomationLogger - INFO - Generated and sent letter for NOT SUPPLIED
+2024-06-17 10:45:33,603 - LetterAutomationLogger - ERROR - Error generating letter for  Mr P J Roberts
+ 07802322033: [Errno 22] Invalid argument: 'print_server\\ Mr P J Roberts\n 07802322033.docx'
+2024-06-17 10:45:33,623 - LetterAutomationLogger - ERROR - Error generating letter for Mr J Weighill
+ 07806808425
+07806808425
+ strongebox4jw@btinternet.com: [Errno 22] Invalid argument: 'print_server\\Mr J Weighill\n 07806808425\n07806808425\n strongebox4jw@btinternet.com.docx'
+2024-06-17 10:45:33,644 - LetterAutomationLogger - ERROR - Error generating letter for Mrs S E M Knight
+07889265754: [Errno 22] Invalid argument: 'print_server\\Mrs S E M Knight\n07889265754.docx'
+2024-06-17 10:45:33,668 - LetterAutomationLogger - ERROR - Error generating letter for Ms M Madondoro
+ 07543034702
+madondorom@gmail.com: [Errno 22] Invalid argument: 'print_server\\Ms M Madondoro\n 07543034702\nmadondorom@gmail.com.docx'
+2024-06-17 10:45:33,722 - LetterAutomationLogger - ERROR - Error generating letter for Ms M P Prince
+ 01420488316: [Errno 22] Invalid argument: 'print_server\\Ms M P Prince\n 01420488316.docx'
+2024-06-17 10:45:33,738 - LetterAutomationLogger - ERROR - Error generating letter for Ms M Robins
+ 01420475401
+ 07790408922: [Errno 22] Invalid argument: 'print_server\\Ms M Robins\n 01420475401\n 07790408922.docx'
+2024-06-17 10:45:33,759 - LetterAutomationLogger - ERROR - Error generating letter for Mrs J Norgate
+ 01420479845_x000D_: [Errno 22] Invalid argument: 'print_server\\Mrs J Norgate\n 01420479845_x000D_.docx'
+2024-06-17 10:45:33,777 - LetterAutomationLogger - ERROR - Error generating letter for Mr S Eaton
+07496919005
+ weaton248@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr S Eaton\n07496919005\n weaton248@gmail.com.docx'
+2024-06-17 10:45:33,813 - LetterAutomationLogger - ERROR - Error generating letter for  Mrs E H Perry
+ 01753713935
+07878825371
+biturbo10@aol.com: [Errno 22] Invalid argument: 'print_server\\ Mrs E H Perry\n 01753713935\n07878825371\nbiturbo10@aol.com.docx'
+2024-06-17 10:45:33,892 - LetterAutomationLogger - ERROR - Error generating letter for Mrs J Hawkins & Mr P Hibberd
+07488243549: [Errno 22] Invalid argument: 'print_server\\Mrs J Hawkins & Mr P Hibberd\n07488243549.docx'
+2024-06-17 10:45:34,024 - LetterAutomationLogger - ERROR - Error generating letter for Mr MH Bindon
+07557381950
+m.bindon246@btinternet.com: [Errno 22] Invalid argument: 'print_server\\Mr MH Bindon\n07557381950\nm.bindon246@btinternet.com.docx'
+2024-06-17 10:45:34,050 - LetterAutomationLogger - ERROR - Error generating letter for Miss PM Scriven
+02380600830
+patscriven2017@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss PM Scriven\n02380600830\npatscriven2017@gmail.com.docx'
+2024-06-17 10:45:34,081 - LetterAutomationLogger - ERROR - Error generating letter for Mr R Oliver
+07723446690
+ rcoliver54@gmail.com_x000D_: [Errno 22] Invalid argument: 'print_server\\Mr R Oliver\n07723446690\n rcoliver54@gmail.com_x000D_.docx'
+2024-06-17 10:45:34,102 - LetterAutomationLogger - ERROR - Error generating letter for  Mr S Callan
+07791379331_x000D_: [Errno 22] Invalid argument: 'print_server\\ Mr S Callan\n07791379331_x000D_.docx'
+2024-06-17 10:45:34,122 - LetterAutomationLogger - ERROR - Error generating letter for Mr P Butterworth
+07862194997
+peterbutterworth8@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr P Butterworth\n07862194997\npeterbutterworth8@gmail.com.docx'
+2024-06-17 10:45:34,139 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Arthurs
+07762017714
+alanarthurs01@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr A Arthurs\n07762017714\nalanarthurs01@gmail.com.docx'
+2024-06-17 10:45:34,172 - LetterAutomationLogger - ERROR - Error generating letter for Mr D Jones
+07775813778
+ davejns05@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr D Jones\n07775813778\n davejns05@gmail.com.docx'
+2024-06-17 10:45:34,187 - LetterAutomationLogger - ERROR - Error generating letter for Mr J Green
+07717875779: [Errno 22] Invalid argument: 'print_server\\Mr J Green\n07717875779.docx'
+2024-06-17 10:45:34,209 - LetterAutomationLogger - ERROR - Error generating letter for Mrs M Cross
+07904659701
+marilyncross@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Mrs M Cross\n07904659701\nmarilyncross@hotmail.co.uk.docx'
+2024-06-17 10:45:34,224 - LetterAutomationLogger - ERROR - Error generating letter for Mr J Burnett
+07833096671
+jb50v8@msn.com: [Errno 22] Invalid argument: 'print_server\\Mr J Burnett\n07833096671\njb50v8@msn.com.docx'
+2024-06-17 10:45:34,340 - LetterAutomationLogger - ERROR - Error generating letter for  Mr M Blake
+07795208259: [Errno 22] Invalid argument: 'print_server\\ Mr M Blake\n07795208259.docx'
+2024-06-17 10:45:34,377 - LetterAutomationLogger - ERROR - Error generating letter for Mr J Buntin
+01753542742: [Errno 22] Invalid argument: 'print_server\\Mr J Buntin\n01753542742.docx'
+2024-06-17 10:45:34,401 - LetterAutomationLogger - ERROR - Error generating letter for temp No. (contact first) 07748854425
+shannonrawlings@hotmail.co.uk
+07479383789: [Errno 22] Invalid argument: 'print_server\\temp No. (contact first) 07748854425\nshannonrawlings@hotmail.co.uk\n07479383789.docx'
+2024-06-17 10:45:34,446 - LetterAutomationLogger - ERROR - Error generating letter for Mr C King
+01753670812
+07886251220
+rosherking@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr C King\n01753670812\n07886251220\nrosherking@gmail.com.docx'
+2024-06-17 10:45:34,507 - LetterAutomationLogger - ERROR - Error generating letter for Mrs K Awan
+ 07405233268: [Errno 22] Invalid argument: 'print_server\\Mrs K Awan\n 07405233268.docx'
+2024-06-17 10:45:34,664 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Pritchard
+07916876631
+pritchardanthony472@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr A Pritchard\n07916876631\npritchardanthony472@gmail.com.docx'
+2024-06-17 10:45:34,901 - LetterAutomationLogger - INFO - Printing document: print_server\nan.docx
+2024-06-17 10:45:35,669 - LetterAutomationLogger - INFO - Document sent to printer: print_server\nan.docx
+2024-06-17 10:45:35,670 - LetterAutomationLogger - INFO - Generated and sent letter for nan
+2024-06-17 10:45:35,700 - LetterAutomationLogger - ERROR - Error generating letter for Voyage Care
+ 01189461775
+26stbarnabusroad@voyagecare.com: [Errno 22] Invalid argument: 'print_server\\Voyage Care\n 01189461775\n26stbarnabusroad@voyagecare.com.docx'
+2024-06-17 10:45:35,730 - LetterAutomationLogger - ERROR - Error generating letter for  Mr I Savage
+07424857077
+von.savage@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\ Mr I Savage\n07424857077\nvon.savage@hotmail.co.uk.docx'
+2024-06-17 10:45:35,757 - LetterAutomationLogger - ERROR - Error generating letter for Mr R Donnelly
+ 07958139567
+ jackiemiddleton310@yahoo.co.uk: [Errno 22] Invalid argument: 'print_server\\Mr R Donnelly\n 07958139567\n jackiemiddleton310@yahoo.co.uk.docx'
+2024-06-17 10:45:35,774 - LetterAutomationLogger - ERROR - Error generating letter for Mr K Coleman
+07379757064: [Errno 22] Invalid argument: 'print_server\\Mr K Coleman\n07379757064.docx'
+2024-06-17 10:45:35,797 - LetterAutomationLogger - ERROR - Error generating letter for Mr J Richardson & Miss A 
+Dawson
+01753594266
+07590464029
+dj_kurious20@hotmail.com: [Errno 22] Invalid argument: 'print_server\\Mr J Richardson & Miss A \nDawson\n01753594266\n07590464029\ndj_kurious20@hotmail.com.docx'
+2024-06-17 10:45:35,827 - LetterAutomationLogger - ERROR - Error generating letter for Mrs W Gerrard & Mr G Bocking
+01753549862
+07403240821
+wendy.gerrard@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Mrs W Gerrard & Mr G Bocking\n01753549862\n07403240821\nwendy.gerrard@hotmail.co.uk.docx'
+2024-06-17 10:45:35,845 - LetterAutomationLogger - ERROR - Error generating letter for Miss N Jama & Mr M Sharif 
+Abduallahi
+ 07506753350
+naima_quruh@hotmail.co.u: [Errno 22] Invalid argument: 'print_server\\Miss N Jama & Mr M Sharif \nAbduallahi\n 07506753350\nnaima_quruh@hotmail.co.u.docx'
+2024-06-17 10:45:35,868 - LetterAutomationLogger - ERROR - Error generating letter for Mr G J Wilday
+ 07717315805
+ glengooner74@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr G J Wilday\n 07717315805\n glengooner74@gmail.com.docx'
+2024-06-17 10:45:35,908 - LetterAutomationLogger - ERROR - Error generating letter for Mr R W Coumbe
+ 07780651129
+Mum (Pat Combe) 0142085457: [Errno 22] Invalid argument: 'print_server\\Mr R W Coumbe\n 07780651129\nMum (Pat Combe) 0142085457.docx'
+2024-06-17 10:45:35,942 - LetterAutomationLogger - ERROR - Error generating letter for Mr W Lopez Rodriguez
+ 07591760068
+wilson.uk@yahoo.com: [Errno 22] Invalid argument: 'print_server\\Mr W Lopez Rodriguez\n 07591760068\nwilson.uk@yahoo.com.docx'
+2024-06-17 10:45:35,968 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Jozwiak 
+Mobile Number: 07548165647
+Email Address: magnusjozwiak@outlook.com: [Errno 22] Invalid argument: 'print_server\\Mr A Jozwiak \nMobile Number: 07548165647\nEmail Address: magnusjozwiak@outlook.com.docx'
+2024-06-17 10:45:35,997 - LetterAutomationLogger - ERROR - Error generating letter for  Mrs J Szatkowska
+Mobile Number: 07590114626
+Email Address: maciuszekjoanna@gmail.com: [Errno 22] Invalid argument: 'print_server\\ Mrs J Szatkowska\nMobile Number: 07590114626\nEmail Address: maciuszekjoanna@gmail.com.docx'
+2024-06-17 10:45:36,019 - LetterAutomationLogger - ERROR - Error generating letter for Miss M Street
+ 07951480080
+ melissaks95@hotmail.com: [Errno 22] Invalid argument: 'print_server\\Miss M Street\n 07951480080\n melissaks95@hotmail.com.docx'
+2024-06-17 10:45:36,053 - LetterAutomationLogger - ERROR - Error generating letter for  Ms C Bamigbola
+ 07983386160
+christine2005b@yahoo.co.uk: [Errno 22] Invalid argument: 'print_server\\ Ms C Bamigbola\n 07983386160\nchristine2005b@yahoo.co.uk.docx'
+2024-06-17 10:45:36,075 - LetterAutomationLogger - ERROR - Error generating letter for  Ms W Holdway
+ 07876190826
+Holdwaywendy180@yahoo.com: [Errno 22] Invalid argument: 'print_server\\ Ms W Holdway\n 07876190826\nHoldwaywendy180@yahoo.com.docx'
+2024-06-17 10:45:36,146 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Jackson
+01709962418
+07788128370
+adamjackson764@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr A Jackson\n01709962418\n07788128370\nadamjackson764@gmail.com.docx'
+2024-06-17 10:45:36,178 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Bradshaw
+07936740114
+andy.s.bradshaw@btinternet.com: [Errno 22] Invalid argument: 'print_server\\Mr A Bradshaw\n07936740114\nandy.s.bradshaw@btinternet.com.docx'
+2024-06-17 10:45:36,214 - LetterAutomationLogger - ERROR - Error generating letter for Mrs J Farrar
+07864815698
+ jaf04031960@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mrs J Farrar\n07864815698\n jaf04031960@gmail.com.docx'
+2024-06-17 10:45:36,245 - LetterAutomationLogger - ERROR - Error generating letter for Miss CA Brindley & Mr HJ Wheeldon
+07927291479
+ lottieanais@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss CA Brindley & Mr HJ Wheeldon\n07927291479\n lottieanais@gmail.com.docx'
+2024-06-17 10:45:36,271 - LetterAutomationLogger - ERROR - Error generating letter for Mr C Bennett
+ 07804032376: [Errno 22] Invalid argument: 'print_server\\Mr C Bennett\n 07804032376.docx'
+2024-06-17 10:45:36,293 - LetterAutomationLogger - ERROR - Error generating letter for Miss L Sines & Mr S Loveridge
+ 07359656733
+seanloveridge31@gmail.com_x000D_: [Errno 22] Invalid argument: 'print_server\\Miss L Sines & Mr S Loveridge\n 07359656733\nseanloveridge31@gmail.com_x000D_.docx'
+2024-06-17 10:45:36,328 - LetterAutomationLogger - ERROR - Error generating letter for Mr & Mrs P Evans
+01753339547
+07495737954
+paulevans0001@hotmail.com: [Errno 22] Invalid argument: 'print_server\\Mr & Mrs P Evans\n01753339547\n07495737954\npaulevans0001@hotmail.com.docx'
+2024-06-17 10:45:36,372 - LetterAutomationLogger - ERROR - Error generating letter for Ms J Casey
+ 07730134242
+ jadecasey52@icloud.com: [Errno 22] Invalid argument: 'print_server\\Ms J Casey\n 07730134242\n jadecasey52@icloud.com.docx'
+2024-06-17 10:45:36,410 - LetterAutomationLogger - ERROR - Error generating letter for Mr M L Davidson
+00127622867
+ 07778050189
+ml.davidson@btinternet.com: [Errno 22] Invalid argument: 'print_server\\Mr M L Davidson\n00127622867\n 07778050189\nml.davidson@btinternet.com.docx'
+2024-06-17 10:45:36,429 - LetterAutomationLogger - ERROR - Error generating letter for Mr P B Kennedy
+ 07492858140
+philip.kennedy69@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr P B Kennedy\n 07492858140\nphilip.kennedy69@gmail.com.docx'
+2024-06-17 10:45:36,462 - LetterAutomationLogger - ERROR - Error generating letter for Ms G Neenan
+01753646826
+07935491990
+ graceandhenry@sky.com: [Errno 22] Invalid argument: 'print_server\\Ms G Neenan\n01753646826\n07935491990\n graceandhenry@sky.com.docx'
+2024-06-17 10:45:36,495 - LetterAutomationLogger - ERROR - Error generating letter for Miss S Hatt
+ 01730601734
+ 07539341149
+Shell-82@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Miss S Hatt\n 01730601734\n 07539341149\nShell-82@hotmail.co.uk.docx'
+2024-06-17 10:45:36,517 - LetterAutomationLogger - ERROR - Error generating letter for Mrs M Nickless
+07974192051
+michnickless79@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Mrs M Nickless\n07974192051\nmichnickless79@hotmail.co.uk.docx'
+2024-06-17 10:45:36,536 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Everle
+ 07841959447
+ev2008@live.co.uk: [Errno 22] Invalid argument: 'print_server\\Mr A Everle\n 07841959447\nev2008@live.co.uk.docx'
+2024-06-17 10:45:36,556 - LetterAutomationLogger - ERROR - Error generating letter for Miss C L Outlaw
+02380326878_x000D_: [Errno 22] Invalid argument: 'print_server\\Miss C L Outlaw\n02380326878_x000D_.docx'
+2024-06-17 10:45:36,572 - LetterAutomationLogger - ERROR - Error generating letter for Miss K Maidment
+ 07376543493
+REDLYNX1994@GMAIL.COM: [Errno 22] Invalid argument: 'print_server\\Miss K Maidment\n 07376543493\nREDLYNX1994@GMAIL.COM.docx'
+2024-06-17 10:45:36,593 - LetterAutomationLogger - ERROR - Error generating letter for Miss E Patterson
+ 07398217279
+ emilypatterson106@yahoo.co.uk: [Errno 22] Invalid argument: 'print_server\\Miss E Patterson\n 07398217279\n emilypatterson106@yahoo.co.uk.docx'
+2024-06-17 10:45:36,662 - LetterAutomationLogger - ERROR - Error generating letter for  Miss J J Prescott
+ 02392591589
+ 07541220357: [Errno 22] Invalid argument: 'print_server\\ Miss J J Prescott\n 02392591589\n 07541220357.docx'
+2024-06-17 10:45:36,698 - LetterAutomationLogger - ERROR - Error generating letter for Ms D West
+07834521862
+deliawest54@gmail.com: [Errno 22] Invalid argument: 'print_server\\Ms D West\n07834521862\ndeliawest54@gmail.com.docx'
+2024-06-17 10:45:36,734 - LetterAutomationLogger - ERROR - Error generating letter for  Miss T West
+ 07506714645
+westtanya888@yahoo.co.uk: [Errno 22] Invalid argument: 'print_server\\ Miss T West\n 07506714645\nwesttanya888@yahoo.co.uk.docx'
+2024-06-17 10:45:36,753 - LetterAutomationLogger - ERROR - Error generating letter for  Miss S Penfold
+ 07895886955
+shalice82@gmail.com: [Errno 22] Invalid argument: 'print_server\\ Miss S Penfold\n 07895886955\nshalice82@gmail.com.docx'
+2024-06-17 10:45:36,770 - LetterAutomationLogger - ERROR - Error generating letter for Mrs Morris
+07903389243
+Scribbie12.cj@googlemail.com: [Errno 22] Invalid argument: 'print_server\\Mrs Morris\n07903389243\nScribbie12.cj@googlemail.com.docx'
+2024-06-17 10:45:36,790 - LetterAutomationLogger - ERROR - Error generating letter for  Mr A Young
+07432838482: [Errno 22] Invalid argument: 'print_server\\ Mr A Young\n07432838482.docx'
+2024-06-17 10:45:36,808 - LetterAutomationLogger - ERROR - Error generating letter for  Mr S Davis
+01420769702
+ 07882066331
+chopperd1936@gmail.com: [Errno 22] Invalid argument: 'print_server\\ Mr S Davis\n01420769702\n 07882066331\nchopperd1936@gmail.com.docx'
+2024-06-17 10:45:36,832 - LetterAutomationLogger - ERROR - Error generating letter for  Mr S Peters
+07580168171
+stuartapeters@yahoo.co.uk: [Errno 22] Invalid argument: 'print_server\\ Mr S Peters\n07580168171\nstuartapeters@yahoo.co.uk.docx'
+2024-06-17 10:45:36,855 - LetterAutomationLogger - ERROR - Error generating letter for Miss N Gordon
+07519939557
+nadgordon@outlook.com: [Errno 22] Invalid argument: 'print_server\\Miss N Gordon\n07519939557\nnadgordon@outlook.com.docx'
+2024-06-17 10:45:36,882 - LetterAutomationLogger - ERROR - Error generating letter for Mrs S Green & Mr M Green
+ 07828839232
+sofiahgreen@hotmail.com: [Errno 22] Invalid argument: 'print_server\\Mrs S Green & Mr M Green\n 07828839232\nsofiahgreen@hotmail.com.docx'
+2024-06-17 10:45:36,908 - LetterAutomationLogger - ERROR - Error generating letter for  Miss E Welch
+ 07397955104
+ e.welch66@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\ Miss E Welch\n 07397955104\n e.welch66@hotmail.co.uk.docx'
+2024-06-17 10:45:36,941 - LetterAutomationLogger - ERROR - Error generating letter for Miss C Turner
+07837540983
+claireturnip@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Miss C Turner\n07837540983\nclaireturnip@hotmail.co.uk.docx'
+2024-06-17 10:45:36,957 - LetterAutomationLogger - ERROR - Error generating letter for Miss M Jones
+07548376342
+mandymacey42@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss M Jones\n07548376342\nmandymacey42@gmail.com.docx'
+2024-06-17 10:45:36,988 - LetterAutomationLogger - ERROR - Error generating letter for Mrs V Forrest & Mr S Forrest
+07818799560
+ vbarnes2807@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Mrs V Forrest & Mr S Forrest\n07818799560\n vbarnes2807@hotmail.co.uk.docx'
+2024-06-17 10:45:37,007 - LetterAutomationLogger - ERROR - Error generating letter for Ms C A Booth
+ 07446670050
+carolebooth701@icloud.com: [Errno 22] Invalid argument: 'print_server\\Ms C A Booth\n 07446670050\ncarolebooth701@icloud.com.docx'
+2024-06-17 10:45:37,065 - LetterAutomationLogger - ERROR - Error generating letter for Mrs T Green
+07871566409
+ teeaj1970@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mrs T Green\n07871566409\n teeaj1970@gmail.com.docx'
+2024-06-17 10:45:37,087 - LetterAutomationLogger - ERROR - Error generating letter for Mrs J Limb
+ 01753267653
+ 07740084963: [Errno 22] Invalid argument: 'print_server\\Mrs J Limb\n 01753267653\n 07740084963.docx'
+2024-06-17 10:45:37,108 - LetterAutomationLogger - ERROR - Error generating letter for Mrs R E Taylor
+ 07926399749 - bit deaf, can't hear properly: [Errno 22] Invalid argument: "print_server\\Mrs R E Taylor\n 07926399749 - bit deaf, can't hear properly.docx"
+2024-06-17 10:45:37,132 - LetterAutomationLogger - ERROR - Error generating letter for 07936880091
+jnesbitt425@gmail.com: [Errno 22] Invalid argument: 'print_server\\07936880091\njnesbitt425@gmail.com.docx'
+2024-06-17 10:45:37,158 - LetterAutomationLogger - ERROR - Error generating letter for E J R English
+07702590711
+english1974@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\E J R English\n07702590711\nenglish1974@hotmail.co.uk.docx'
+2024-06-17 10:45:37,174 - LetterAutomationLogger - ERROR - Error generating letter for Mrs P-K Lambeth
+Mobile Number: 07940361777: [Errno 22] Invalid argument: 'print_server\\Mrs P-K Lambeth\nMobile Number: 07940361777.docx'
+2024-06-17 10:45:37,192 - LetterAutomationLogger - ERROR - Error generating letter for  Mrs A Woodland
+Mobile Number: 07840265092: [Errno 22] Invalid argument: 'print_server\\ Mrs A Woodland\nMobile Number: 07840265092.docx'
+2024-06-17 10:45:37,211 - LetterAutomationLogger - ERROR - Error generating letter for Miss E Morley
+07402685737
+e.morley23@hotmail.com: [Errno 22] Invalid argument: 'print_server\\Miss E Morley\n07402685737\ne.morley23@hotmail.com.docx'
+2024-06-17 10:45:37,231 - LetterAutomationLogger - ERROR - Error generating letter for Miss L Hull
+01420257352
+lisa.m.hull@hotmail.com: [Errno 22] Invalid argument: 'print_server\\Miss L Hull\n01420257352\nlisa.m.hull@hotmail.com.docx'
+2024-06-17 10:45:37,247 - LetterAutomationLogger - ERROR - Error generating letter for  Miss T Guyon
+Mobile Number: 07547206448
+Email Address: tracyguyon@icloud.com: [Errno 22] Invalid argument: 'print_server\\ Miss T Guyon\nMobile Number: 07547206448\nEmail Address: tracyguyon@icloud.com.docx'
+2024-06-17 10:45:37,270 - LetterAutomationLogger - ERROR - Error generating letter for Mr J Bullet
+Mobile Number: 07482055000
+Email Address: jakeisemailed@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr J Bullet\nMobile Number: 07482055000\nEmail Address: jakeisemailed@gmail.com.docx'
+2024-06-17 10:45:37,294 - LetterAutomationLogger - ERROR - Error generating letter for Miss F Erdogan
+Mobile Number: 07957250669
+Email Address: fgerdogan@outlook.com: [Errno 22] Invalid argument: 'print_server\\Miss F Erdogan\nMobile Number: 07957250669\nEmail Address: fgerdogan@outlook.com.docx'
+2024-06-17 10:45:37,330 - LetterAutomationLogger - ERROR - Error generating letter for Miss Z Piper
+Mobile Number: 07808049428
+Email Address: zellapiper@icloud.com: [Errno 22] Invalid argument: 'print_server\\Miss Z Piper\nMobile Number: 07808049428\nEmail Address: zellapiper@icloud.com.docx'
+2024-06-17 10:45:37,375 - LetterAutomationLogger - ERROR - Error generating letter for Mr M A McGeoch
+Mobile Number: 07712438675: [Errno 22] Invalid argument: 'print_server\\Mr M A McGeoch\nMobile Number: 07712438675.docx'
+2024-06-17 10:45:37,396 - LetterAutomationLogger - ERROR - Error generating letter for Miss P Sweeney
+Mobile Number: 07925388663
+Email Address: paulaswee@icloud.com: [Errno 22] Invalid argument: 'print_server\\Miss P Sweeney\nMobile Number: 07925388663\nEmail Address: paulaswee@icloud.com.docx'
+2024-06-17 10:45:37,413 - LetterAutomationLogger - ERROR - Error generating letter for Mr M Roberts 
+Mobile Number: 07818484854
+matroberts68@hotmail.com: [Errno 22] Invalid argument: 'print_server\\Mr M Roberts \nMobile Number: 07818484854\nmatroberts68@hotmail.com.docx'
+2024-06-17 10:45:37,434 - LetterAutomationLogger - ERROR - Error generating letter for Mrs S Donnelly
+Telephone Number: 07496312789
+Mobile Number: 07496312789
+Email Address: sphelps1993@yahoo.com: [Errno 22] Invalid argument: 'print_server\\Mrs S Donnelly\nTelephone Number: 07496312789\nMobile Number: 07496312789\nEmail Address: sphelps1993@yahoo.com.docx'
+2024-06-17 10:45:37,451 - LetterAutomationLogger - ERROR - Error generating letter for Customer Name: Ms K Ringwald
+Mobile Number: 07522262256
+Email Address: kas.ringwald@gmail.com: [Errno 22] Invalid argument: 'print_server\\Customer Name: Ms K Ringwald\nMobile Number: 07522262256\nEmail Address: kas.ringwald@gmail.com.docx'
+2024-06-17 10:45:37,468 - LetterAutomationLogger - ERROR - Error generating letter for  Mr D Scadding
+07711044418
+ellishahughes1998@icloud.com_x000D_: [Errno 22] Invalid argument: 'print_server\\ Mr D Scadding\n07711044418\nellishahughes1998@icloud.com_x000D_.docx'
+2024-06-17 10:45:37,500 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Chivers
+Mobile Number: 07932889358
+aaronchivers37@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr A Chivers\nMobile Number: 07932889358\naaronchivers37@gmail.com.docx'
+2024-06-17 10:45:37,521 - LetterAutomationLogger - ERROR - Error generating letter for  Mr M Foreman
+Mobile Number: 07878356548
+max.foreman1972@gmail.com: [Errno 22] Invalid argument: 'print_server\\ Mr M Foreman\nMobile Number: 07878356548\nmax.foreman1972@gmail.com.docx'
+2024-06-17 10:45:37,673 - LetterAutomationLogger - INFO - Printing document: print_server\VOID - key safe box on right side of communal door (outside) - code is 2891.docx
+2024-06-17 10:45:37,857 - LetterAutomationLogger - INFO - Document sent to printer: print_server\VOID - key safe box on right side of communal door (outside) - code is 2891.docx
+2024-06-17 10:45:37,857 - LetterAutomationLogger - INFO - Generated and sent letter for VOID - key safe box on right side of communal door (outside) - code is 2891
+2024-06-17 10:45:37,875 - LetterAutomationLogger - ERROR - Error generating letter for Mr T Hughes
+Mobile Number: 07395831353
+tristanhughes30@outlook.com: [Errno 22] Invalid argument: 'print_server\\Mr T Hughes\nMobile Number: 07395831353\ntristanhughes30@outlook.com.docx'
+2024-06-17 10:45:37,899 - LetterAutomationLogger - ERROR - Error generating letter for Ms V Sauls
+Mobile Number: 07555158545 valenciasaul@yahoo.co.uk: [Errno 22] Invalid argument: 'print_server\\Ms V Sauls\nMobile Number: 07555158545 valenciasaul@yahoo.co.uk.docx'
+2024-06-17 10:45:37,920 - LetterAutomationLogger - ERROR - Error generating letter for Miss M Spratt & Mr B Hardie
+Mobile Number: 07467377169
+meganspratt11@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Miss M Spratt & Mr B Hardie\nMobile Number: 07467377169\nmeganspratt11@hotmail.co.uk.docx'
+2024-06-17 10:45:37,944 - LetterAutomationLogger - ERROR - Error generating letter for Miss J Harrison
+Mobile Number: 07903550704
+Email Address: shevenom@yahoo.com: [Errno 22] Invalid argument: 'print_server\\Miss J Harrison\nMobile Number: 07903550704\nEmail Address: shevenom@yahoo.com.docx'
+2024-06-17 10:45:37,969 - LetterAutomationLogger - ERROR - Error generating letter for Miss C Male
+Mobile Number: 07852218348
+mistelmale83@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss C Male\nMobile Number: 07852218348\nmistelmale83@gmail.com.docx'
+2024-06-17 10:45:37,993 - LetterAutomationLogger - ERROR - Error generating letter for Miss J Crick
+Mobile Number: 07710822393
+Email Address: janetcrick00@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss J Crick\nMobile Number: 07710822393\nEmail Address: janetcrick00@gmail.com.docx'
+2024-06-17 10:45:38,010 - LetterAutomationLogger - ERROR - Error generating letter for Miss J Berkouz 
+Mobile Number: 07519808040
+Jennyhudson7575@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss J Berkouz \nMobile Number: 07519808040\nJennyhudson7575@gmail.com.docx'
+2024-06-17 10:45:38,034 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Cawley
+Mobile Number: 07359140668
+Email Address: cawleyalan9@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr A Cawley\nMobile Number: 07359140668\nEmail Address: cawleyalan9@gmail.com.docx'
+2024-06-17 10:45:38,057 - LetterAutomationLogger - ERROR - Error generating letter for Mr D Janes & Mrs R Janes
+07948417747/ 07948417748
+danieljanes90@gmail.com
+rachvanilla123@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr D Janes & Mrs R Janes\n07948417747/ 07948417748\ndanieljanes90@gmail.com\nrachvanilla123@gmail.com.docx'
+2024-06-17 10:45:38,090 - LetterAutomationLogger - ERROR - Error generating letter for Mr D R Noake & Ms P C Pearson
+Telephone Number: 01753868913: [Errno 22] Invalid argument: 'print_server\\Mr D R Noake & Ms P C Pearson\nTelephone Number: 01753868913.docx'
+2024-06-17 10:45:38,151 - LetterAutomationLogger - ERROR - Error generating letter for Customer Name: Mr C Harvie
+Mobile Number: 07544912424
+chrisjharvie1978@gmail.com: [Errno 22] Invalid argument: 'print_server\\Customer Name: Mr C Harvie\nMobile Number: 07544912424\nchrisjharvie1978@gmail.com.docx'
+2024-06-17 10:45:38,177 - LetterAutomationLogger - ERROR - Error generating letter for Mrs S E Sneyd-Jones
+07845719101
+sarahsneyd72@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Mrs S E Sneyd-Jones\n07845719101\nsarahsneyd72@hotmail.co.uk.docx'
+2024-06-17 10:45:38,351 - LetterAutomationLogger - INFO - Printing document: print_server\Contact House: 01344 780992 or 01344 30442 for appt s..docx
+2024-06-17 10:45:39,413 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Contact House: 01344 780992 or 01344 30442 for appt s..docx
+2024-06-17 10:45:39,413 - LetterAutomationLogger - INFO - Generated and sent letter for Contact House: 01344 780992 or 01344 30442 for appt s.
+2024-06-17 10:45:39,592 - LetterAutomationLogger - INFO - Printing document: print_server\Contact House: 01344 780992 or 01344 30442 for appt s.
+graham.kenyon@choicecaregroup.com.docx
+2024-06-17 10:45:40,786 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Contact House: 01344 780992 or 01344 30442 for appt s.
+graham.kenyon@choicecaregroup.com.docx
+2024-06-17 10:45:40,786 - LetterAutomationLogger - INFO - Generated and sent letter for Contact House: 01344 780992 or 01344 30442 for appt s.
+graham.kenyon@choicecaregroup.com
+2024-06-17 10:45:40,917 - LetterAutomationLogger - INFO - Printing document: print_server\Contact House: 01344 780992 or 01344 30442 for appt s..docx
+2024-06-17 10:45:42,783 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Contact House: 01344 780992 or 01344 30442 for appt s..docx
+2024-06-17 10:45:42,783 - LetterAutomationLogger - INFO - Generated and sent letter for Contact House: 01344 780992 or 01344 30442 for appt s.
+2024-06-17 10:45:42,914 - LetterAutomationLogger - INFO - Printing document: print_server\Contact House: 01344 780992 or 01344 30442 for appt s..docx
+2024-06-17 10:45:43,695 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Contact House: 01344 780992 or 01344 30442 for appt s..docx
+2024-06-17 10:45:43,696 - LetterAutomationLogger - INFO - Generated and sent letter for Contact House: 01344 780992 or 01344 30442 for appt s.
+2024-06-17 10:45:43,720 - LetterAutomationLogger - ERROR - Error generating letter for Mr R Lowry
+01420257013
+07807456953
+RAYMONDLOWRY@YAHOO.COM: [Errno 22] Invalid argument: 'print_server\\Mr R Lowry\n01420257013\n07807456953\nRAYMONDLOWRY@YAHOO.COM.docx'
+2024-06-17 10:45:43,780 - LetterAutomationLogger - ERROR - Error generating letter for Mr A T Fairbairn
+07905832126
+anthonyfairbairn76@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr A T Fairbairn\n07905832126\nanthonyfairbairn76@gmail.com.docx'
+2024-06-17 10:45:43,808 - LetterAutomationLogger - ERROR - Error generating letter for Mr B Lamont
+07305791467
+bradlamont03@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr B Lamont\n07305791467\nbradlamont03@gmail.com.docx'
+2024-06-17 10:45:43,836 - LetterAutomationLogger - ERROR - Error generating letter for Mr R Radmore
+ 07444426803: [Errno 22] Invalid argument: 'print_server\\Mr R Radmore\n 07444426803.docx'
+2024-06-17 10:45:43,859 - LetterAutomationLogger - ERROR - Error generating letter for Ms F Gomme
+ 07990870415
+gomme.francesca@gmail.com_x000D_: [Errno 22] Invalid argument: 'print_server\\Ms F Gomme\n 07990870415\ngomme.francesca@gmail.com_x000D_.docx'
+2024-06-17 10:45:43,890 - LetterAutomationLogger - ERROR - Error generating letter for Mr AM Smith
+07910147891
+Aaronmsmith@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Mr AM Smith\n07910147891\nAaronmsmith@hotmail.co.uk.docx'
+2024-06-17 10:45:43,908 - LetterAutomationLogger - ERROR - Error generating letter for Ms Bev Floyd
+02380 615952
+07776158708
+Bev_dyer@yahoo.co.uk: [Errno 22] Invalid argument: 'print_server\\Ms Bev Floyd\n02380 615952\n07776158708\nBev_dyer@yahoo.co.uk.docx'
+2024-06-17 10:45:43,956 - LetterAutomationLogger - ERROR - Error generating letter for Mrs Z Young
+07809606555
+janna2551@yahoo.com: [Errno 22] Invalid argument: 'print_server\\Mrs Z Young\n07809606555\njanna2551@yahoo.com.docx'
+2024-06-17 10:45:44,257 - LetterAutomationLogger - INFO - Printing document: print_server\NOT SUPPLIED.docx
+2024-06-17 10:45:45,027 - LetterAutomationLogger - INFO - Document sent to printer: print_server\NOT SUPPLIED.docx
+2024-06-17 10:45:45,027 - LetterAutomationLogger - INFO - Generated and sent letter for NOT SUPPLIED
+2024-06-17 10:45:45,044 - LetterAutomationLogger - ERROR - Error generating letter for Mr J Raggett (in prison - contact girlfriend)
+ 07519773011
+ edraggett1@gmail.com
+07442206987 - Girlfriend
+miariva16@hotmail.com: [Errno 22] Invalid argument: 'print_server\\Mr J Raggett (in prison - contact girlfriend)\n 07519773011\n edraggett1@gmail.com\n07442206987 - Girlfriend\nmiariva16@hotmail.com.docx'
+2024-06-17 10:45:45,078 - LetterAutomationLogger - ERROR - Error generating letter for Mr M Joel
+ 07545218235: [Errno 22] Invalid argument: 'print_server\\Mr M Joel\n 07545218235.docx'
+2024-06-17 10:45:45,096 - LetterAutomationLogger - ERROR - Error generating letter for Ms J M Bannon
+ 07831869550
+ jackiebannon@gmail.com: [Errno 22] Invalid argument: 'print_server\\Ms J M Bannon\n 07831869550\n jackiebannon@gmail.com.docx'
+2024-06-17 10:45:45,225 - LetterAutomationLogger - INFO - Printing document: print_server\Customer Name: Mr J Holmes
+07858160003
+jasonholmes776@gmail.com.docx
+2024-06-17 10:45:46,471 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Customer Name: Mr J Holmes
+07858160003
+jasonholmes776@gmail.com.docx
+2024-06-17 10:45:46,471 - LetterAutomationLogger - INFO - Generated and sent letter for Customer Name: Mr J Holmes
+07858160003
+jasonholmes776@gmail.com
+2024-06-17 10:45:46,594 - LetterAutomationLogger - INFO - Printing document: print_server\NOT SUPPLIED .docx
+2024-06-17 10:45:47,176 - LetterAutomationLogger - INFO - Document sent to printer: print_server\NOT SUPPLIED .docx
+2024-06-17 10:45:47,176 - LetterAutomationLogger - INFO - Generated and sent letter for NOT SUPPLIED 
+2024-06-17 10:45:47,194 - LetterAutomationLogger - ERROR - Error generating letter for Miss G Butcher
+07821953881
+Gemmabutcher12@outlook.com_x000D_: [Errno 22] Invalid argument: 'print_server\\Miss G Butcher\n07821953881\nGemmabutcher12@outlook.com_x000D_.docx'
+2024-06-17 10:45:47,225 - LetterAutomationLogger - ERROR - Error generating letter for Mr L Sidaway
+07935844878
+lsidaway30@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr L Sidaway\n07935844878\nlsidaway30@gmail.com.docx'
+2024-06-17 10:45:47,243 - LetterAutomationLogger - ERROR - Error generating letter for Mr L Edwards & Mrs C A Edwards
+02392646536
+07837582698
+carolandles1@googlemail.com: [Errno 22] Invalid argument: 'print_server\\Mr L Edwards & Mrs C A Edwards\n02392646536\n07837582698\ncarolandles1@googlemail.com.docx'
+2024-06-17 10:45:47,390 - LetterAutomationLogger - INFO - Printing document: print_server\Partnership Living Property. Phone( Ahelene 07903255862 ) to make appointment.docx
+2024-06-17 10:45:48,363 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Partnership Living Property. Phone( Ahelene 07903255862 ) to make appointment.docx
+2024-06-17 10:45:48,363 - LetterAutomationLogger - INFO - Generated and sent letter for Partnership Living Property. Phone( Ahelene 07903255862 ) to make appointment
+2024-06-17 10:45:48,388 - LetterAutomationLogger - ERROR - Error generating letter for Miss A O'Donovan
+07933112747
+armineodonovan@icloud.com: [Errno 22] Invalid argument: "print_server\\Miss A O'Donovan\n07933112747\narmineodonovan@icloud.com.docx"
+2024-06-17 10:45:48,407 - LetterAutomationLogger - ERROR - Error generating letter for Mr SA Milnes
+07355813456
+stuartmilnes@msn.com: [Errno 22] Invalid argument: 'print_server\\Mr SA Milnes\n07355813456\nstuartmilnes@msn.com.docx'
+2024-06-17 10:45:48,433 - LetterAutomationLogger - ERROR - Error generating letter for Miss B Smith & Mr H Lewis
+07359502927
+bethanymay04@icloud.com: [Errno 22] Invalid argument: 'print_server\\Miss B Smith & Mr H Lewis\n07359502927\nbethanymay04@icloud.com.docx'
+2024-06-17 10:45:48,463 - LetterAutomationLogger - ERROR - Error generating letter for Miss M Riva
+07442206987
+miariva16@hotmail.com: [Errno 22] Invalid argument: 'print_server\\Miss M Riva\n07442206987\nmiariva16@hotmail.com.docx'
+2024-06-17 10:45:48,498 - LetterAutomationLogger - ERROR - Error generating letter for Miss TC Westaway
+07785 703615
+tianawestaway18@icloud.com: [Errno 22] Invalid argument: 'print_server\\Miss TC Westaway\n07785 703615\ntianawestaway18@icloud.com.docx'
+2024-06-17 10:45:48,555 - LetterAutomationLogger - ERROR - Error generating letter for Mr C Smith & Miss H Stevens
+07793097325
+hollystevens99@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr C Smith & Miss H Stevens\n07793097325\nhollystevens99@gmail.com.docx'
+2024-06-17 10:45:48,596 - LetterAutomationLogger - ERROR - Error generating letter for Miss A Thorn & Mr J Johnson
+01420473725
+07565016543
+Amara.paige@hotmail.co.u: [Errno 22] Invalid argument: 'print_server\\Miss A Thorn & Mr J Johnson\n01420473725\n07565016543\nAmara.paige@hotmail.co.u.docx'
+2024-06-17 10:45:48,637 - LetterAutomationLogger - ERROR - Error generating letter for Mr BS Chorley
+07355 510460
+Brandonchorley53@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr BS Chorley\n07355 510460\nBrandonchorley53@gmail.com.docx'
+2024-06-17 10:45:48,725 - LetterAutomationLogger - ERROR - Error generating letter for Miss M Oprea 
+07503223185
+elenamonalisa88@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss M Oprea \n07503223185\nelenamonalisa88@gmail.com.docx'
+2024-06-17 10:45:48,750 - LetterAutomationLogger - ERROR - Error generating letter for Miss I Morris
+07904206704
+imogencarvell41@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss I Morris\n07904206704\nimogencarvell41@gmail.com.docx'
+2024-06-17 10:45:48,766 - LetterAutomationLogger - ERROR - Error generating letter for Miss TC Westaway
+07785 703615
+tianawestaway18@icloud.com: [Errno 22] Invalid argument: 'print_server\\Miss TC Westaway\n07785 703615\ntianawestaway18@icloud.com.docx'
+2024-06-17 10:45:48,891 - LetterAutomationLogger - INFO - Printing document: print_server\NOT SUPPLIED.docx
+2024-06-17 10:45:49,249 - LetterAutomationLogger - INFO - Document sent to printer: print_server\NOT SUPPLIED.docx
+2024-06-17 10:45:49,250 - LetterAutomationLogger - INFO - Generated and sent letter for NOT SUPPLIED
+2024-06-17 10:45:49,264 - LetterAutomationLogger - ERROR - Error generating letter for Ms M Boyd
+07961539897
+Melissa.A.Boyd@icloud.Com: [Errno 22] Invalid argument: 'print_server\\Ms M Boyd\n07961539897\nMelissa.A.Boyd@icloud.Com.docx'
+2024-06-17 10:45:49,278 - LetterAutomationLogger - ERROR - Error generating letter for Miss S A Harris 
+07875275494: [Errno 22] Invalid argument: 'print_server\\Miss S A Harris \n07875275494.docx'
+2024-06-17 10:45:49,303 - LetterAutomationLogger - ERROR - Error generating letter for Mr J Faith
+07849 693354
+johngfaith27@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr J Faith\n07849 693354\njohngfaith27@gmail.com.docx'
+2024-06-17 10:45:49,318 - LetterAutomationLogger - ERROR - Error generating letter for Mr M Harris
+07821084047
+michael511@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Mr M Harris\n07821084047\nmichael511@hotmail.co.uk.docx'
+2024-06-17 10:45:49,336 - LetterAutomationLogger - ERROR - Error generating letter for Mr M Harris
+07821084047
+michael511@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Mr M Harris\n07821084047\nmichael511@hotmail.co.uk.docx'
+2024-06-17 10:45:49,352 - LetterAutomationLogger - ERROR - Error generating letter for Mr F J Livermore
+07377131923: [Errno 22] Invalid argument: 'print_server\\Mr F J Livermore\n07377131923.docx'
+2024-06-17 10:45:49,438 - LetterAutomationLogger - INFO - Printing document: print_server\Mr M J W Harding.docx
+2024-06-17 10:45:51,008 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Mr M J W Harding.docx
+2024-06-17 10:45:51,008 - LetterAutomationLogger - INFO - Generated and sent letter for Mr M J W Harding
+2024-06-17 10:45:51,034 - LetterAutomationLogger - ERROR - Error generating letter for Mrs P Few
+0142086950: [Errno 22] Invalid argument: 'print_server\\Mrs P Few\n0142086950.docx'
+2024-06-17 10:45:51,062 - LetterAutomationLogger - ERROR - Error generating letter for Miss L Keet
+ 07389790069
+ lucie.luff@yahoo.com: [Errno 22] Invalid argument: 'print_server\\Miss L Keet\n 07389790069\n lucie.luff@yahoo.com.docx'
+2024-06-17 10:45:51,187 - LetterAutomationLogger - INFO - Printing document: print_server\Mr S Uniacke_x000D_.docx
+2024-06-17 10:45:52,807 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Mr S Uniacke_x000D_.docx
+2024-06-17 10:45:52,807 - LetterAutomationLogger - INFO - Generated and sent letter for Mr S Uniacke_x000D_
+2024-06-17 10:45:52,828 - LetterAutomationLogger - ERROR - Error generating letter for Mr PC Spooner & Mrs JE Spooner
+07836509004
+peterspooner49@btinternet.com: [Errno 22] Invalid argument: 'print_server\\Mr PC Spooner & Mrs JE Spooner\n07836509004\npeterspooner49@btinternet.com.docx'
+2024-06-17 10:45:52,888 - LetterAutomationLogger - ERROR - Error generating letter for FLAT 21	Andrew Liotta <liotta.uk@gmail.com>	": [Errno 22] Invalid argument: 'print_server\\FLAT 21\tAndrew Liotta <liotta.uk@gmail.com>\t".docx'
+2024-06-17 10:45:53,063 - LetterAutomationLogger - INFO - Printing document: print_server\07925883895.docx
+2024-06-17 10:45:53,976 - LetterAutomationLogger - INFO - Document sent to printer: print_server\07925883895.docx
+2024-06-17 10:45:53,976 - LetterAutomationLogger - INFO - Generated and sent letter for 07925883895
+2024-06-17 10:45:54,012 - LetterAutomationLogger - ERROR - Error generating letter for Housing partner - Duncan Holden - 07780 901739 or 01753747391
+FLAT 43B - Miss Worsfold - 07586290257 or Miss Foreman - 07990316787: [Errno 22] Invalid argument: 'print_server\\Housing partner - Duncan Holden - 07780 901739 or 01753747391\nFLAT 43B - Miss Worsfold - 07586290257 or Miss Foreman - 07990316787.docx'
+2024-06-17 10:45:54,407 - LetterAutomationLogger - INFO - Printing document: print_server\NONE SUPPLIED .docx
+2024-06-17 10:46:11,084 - LetterAutomationLogger - ERROR - Error loading sheet columns: 'LetterAutomationGUI' object has no attribute 'file_path'
+2024-06-17 10:46:35,547 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'Sheet1' not found
+2024-06-17 10:53:13,951 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-17 10:53:14,909 - LetterAutomationLogger - ERROR - Error generating letter for Mr R J Chandler
+07460202000
+chandrob@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr R J Chandler\n07460202000\nchandrob@gmail.com.docx'
+2024-06-17 10:53:14,917 - LetterAutomationLogger - ERROR - Error generating letter for Ms N J Griffin
+07758922449
+nicolag1963@hotmail.com: [Errno 22] Invalid argument: 'print_server\\Ms N J Griffin\n07758922449\nnicolag1963@hotmail.com.docx'
+2024-06-17 10:53:14,926 - LetterAutomationLogger - ERROR - Error generating letter for Customer Name: Mr J Cousin
+Telephone Number: 
+Mobile Number: 07476718771
+Email Address: cousinphotos@gmail.com: [Errno 22] Invalid argument: 'print_server\\Customer Name: Mr J Cousin\nTelephone Number: \nMobile Number: 07476718771\nEmail Address: cousinphotos@gmail.com.docx'
+2024-06-17 10:53:14,971 - LetterAutomationLogger - INFO - Printing document: print_server\Mr Styles .docx
+2024-06-17 10:53:15,031 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Mr Styles .docx
+2024-06-17 10:53:15,031 - LetterAutomationLogger - INFO - Generated and sent letter for Mr Styles 
+2024-06-17 10:53:15,100 - LetterAutomationLogger - INFO - Printing document: print_server\Mr Khurshid - 07919461432.docx
+2024-06-17 10:53:15,224 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Mr Khurshid - 07919461432.docx
+2024-06-17 10:53:15,224 - LetterAutomationLogger - INFO - Generated and sent letter for Mr Khurshid - 07919461432
+2024-06-17 10:53:15,238 - LetterAutomationLogger - ERROR - Error generating letter for  Mrs I Ball
+Telephone Number: 01344627976
+Mobile Number: 07714782777: [Errno 22] Invalid argument: 'print_server\\ Mrs I Ball\nTelephone Number: 01344627976\nMobile Number: 07714782777.docx'
+2024-06-17 10:53:15,255 - LetterAutomationLogger - ERROR - Error generating letter for Miss E Evans 
+Mobile Number: 07506575560
+evanselizabeth1@icloud.com: [Errno 22] Invalid argument: 'print_server\\Miss E Evans \nMobile Number: 07506575560\nevanselizabeth1@icloud.com.docx'
+2024-06-17 10:53:15,269 - LetterAutomationLogger - ERROR - Error generating letter for Mr S Chandler-King & Miss N 
+McGuire Mobile Number: 07437004317
+stevenking13@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Mr S Chandler-King & Miss N \nMcGuire Mobile Number: 07437004317\nstevenking13@hotmail.co.uk.docx'
+2024-06-17 10:53:15,283 - LetterAutomationLogger - ERROR - Error generating letter for Mr J Woodford 07399164720
+woodfordjacob12@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr J Woodford 07399164720\nwoodfordjacob12@gmail.com.docx'
+2024-06-17 10:53:15,299 - LetterAutomationLogger - ERROR - Error generating letter for Miss A Caldwell & Mr K Marks
+07904293571
+abbeycaldwell@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Miss A Caldwell & Mr K Marks\n07904293571\nabbeycaldwell@hotmail.co.uk.docx'
+2024-06-17 10:53:15,314 - LetterAutomationLogger - ERROR - Error generating letter for Miss A Whitton
+07496178061
+whittonamy0@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss A Whitton\n07496178061\nwhittonamy0@gmail.com.docx'
+2024-06-17 10:53:15,330 - LetterAutomationLogger - ERROR - Error generating letter for  Mr M Tomala
+07828846334
+marektomala1@wp.pl: [Errno 22] Invalid argument: 'print_server\\ Mr M Tomala\n07828846334\nmarektomala1@wp.pl.docx'
+2024-06-17 10:53:15,341 - LetterAutomationLogger - ERROR - Error generating letter for Miss G Anderson
+07463780047
+ gabbieanderson12@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss G Anderson\n07463780047\n gabbieanderson12@gmail.com.docx'
+2024-06-17 10:53:15,357 - LetterAutomationLogger - ERROR - Error generating letter for Miss G M Lee
+07519051734
+Ginalee98@hotail.co.uk: [Errno 22] Invalid argument: 'print_server\\Miss G M Lee\n07519051734\nGinalee98@hotail.co.uk.docx'
+2024-06-17 10:53:15,372 - LetterAutomationLogger - ERROR - Error generating letter for Mr F Deylami & Mrs F Zareyan
+Mobile Number: 07882042067
+ deylami100@yahoo.co.uk: [Errno 22] Invalid argument: 'print_server\\Mr F Deylami & Mrs F Zareyan\nMobile Number: 07882042067\n deylami100@yahoo.co.uk.docx'
+2024-06-17 10:53:15,390 - LetterAutomationLogger - ERROR - Error generating letter for  Miss J King
+ 07487880686
+jordan.king1997@hotmail.com: [Errno 22] Invalid argument: 'print_server\\ Miss J King\n 07487880686\njordan.king1997@hotmail.com.docx'
+2024-06-17 10:53:15,405 - LetterAutomationLogger - ERROR - Error generating letter for Mr J McClure
+01730624273
+07379382377
+jordanmcclure@hotmail.co.uk: [Errno 22] Invalid argument: 'print_server\\Mr J McClure\n01730624273\n07379382377\njordanmcclure@hotmail.co.uk.docx'
+2024-06-17 10:53:15,422 - LetterAutomationLogger - ERROR - Error generating letter for Mr N Dodd
+ 07764793789
+neild@maximcomms.co.uk: [Errno 22] Invalid argument: 'print_server\\Mr N Dodd\n 07764793789\nneild@maximcomms.co.uk.docx'
+2024-06-17 10:53:15,440 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Rawlings
+ 07724413504: [Errno 22] Invalid argument: 'print_server\\Mr A Rawlings\n 07724413504.docx'
+2024-06-17 10:53:15,457 - LetterAutomationLogger - ERROR - Error generating letter for  Ms L Liu
+ 07899121525
+lucia_jia_rejoice@yahoo.co.uk: [Errno 22] Invalid argument: 'print_server\\ Ms L Liu\n 07899121525\nlucia_jia_rejoice@yahoo.co.uk.docx'
+2024-06-17 10:53:15,475 - LetterAutomationLogger - ERROR - Error generating letter for Mr KJ Colwill
+0778699265: [Errno 22] Invalid argument: 'print_server\\Mr KJ Colwill\n0778699265.docx'
+2024-06-17 10:53:15,492 - LetterAutomationLogger - ERROR - Error generating letter for  Miss D Piatkowska
+ 07548202945
+dagmarapiatkowska1996@outlook.com: [Errno 22] Invalid argument: 'print_server\\ Miss D Piatkowska\n 07548202945\ndagmarapiatkowska1996@outlook.com.docx'
+2024-06-17 10:53:15,509 - LetterAutomationLogger - ERROR - Error generating letter for Ms KL Dugan
+ 07392691733
+ kimlouise1404@gmail.com: [Errno 22] Invalid argument: 'print_server\\Ms KL Dugan\n 07392691733\n kimlouise1404@gmail.com.docx'
+2024-06-17 10:53:15,594 - LetterAutomationLogger - INFO - Printing document: print_server\key safe code 2891.docx
+2024-06-17 10:53:15,734 - LetterAutomationLogger - INFO - Document sent to printer: print_server\key safe code 2891.docx
+2024-06-17 10:53:15,735 - LetterAutomationLogger - INFO - Generated and sent letter for key safe code 2891
+2024-06-17 10:53:15,750 - LetterAutomationLogger - ERROR - Error generating letter for Mr & Mrs Nowak –
+Tel – 01730 895513
+Mob - 07717495724
+Email – Stefan.n@ntlworld.com: [Errno 22] Invalid argument: 'print_server\\Mr & Mrs Nowak –\nTel – 01730 895513\nMob - 07717495724\nEmail – Stefan.n@ntlworld.com.docx'
+2024-06-17 10:53:15,854 - LetterAutomationLogger - INFO - Printing document: print_server\Mrs Fisher 07300936250..docx
+2024-06-17 10:53:16,085 - LetterAutomationLogger - INFO - Document sent to printer: print_server\Mrs Fisher 07300936250..docx
+2024-06-17 10:53:16,085 - LetterAutomationLogger - INFO - Generated and sent letter for Mrs Fisher 07300936250.
+2024-06-17 10:53:16,101 - LetterAutomationLogger - ERROR - Error generating letter for Miss J McPherson
+07540349825
+jaijays.jim@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss J McPherson\n07540349825\njaijays.jim@gmail.com.docx'
+2024-06-17 10:53:16,117 - LetterAutomationLogger - ERROR - Error generating letter for Miss D M Moss
+Telephone Number: 01753841307
+Mobile Number: 07522048385: [Errno 22] Invalid argument: 'print_server\\Miss D M Moss\nTelephone Number: 01753841307\nMobile Number: 07522048385.docx'
+2024-06-17 10:53:16,134 - LetterAutomationLogger - ERROR - Error generating letter for Ms R Rider
+ 07534 427515
+rebeccarider567@gmail.com: [Errno 22] Invalid argument: 'print_server\\Ms R Rider\n 07534 427515\nrebeccarider567@gmail.com.docx'
+2024-06-17 10:53:16,152 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Rawlings
+ 07724413504: [Errno 22] Invalid argument: 'print_server\\Mr A Rawlings\n 07724413504.docx'
+2024-06-17 10:53:16,239 - LetterAutomationLogger - INFO - Printing document: print_server\07488256144.docx
+2024-06-17 10:53:16,575 - LetterAutomationLogger - INFO - Document sent to printer: print_server\07488256144.docx
+2024-06-17 10:53:16,575 - LetterAutomationLogger - INFO - Generated and sent letter for 07488256144
+2024-06-17 10:53:16,593 - LetterAutomationLogger - ERROR - Error generating letter for Miss M Somuah
+ 07446535003
+mildred_somuah@yahoo.com: [Errno 22] Invalid argument: 'print_server\\Miss M Somuah\n 07446535003\nmildred_somuah@yahoo.com.docx'
+2024-06-17 10:53:16,610 - LetterAutomationLogger - ERROR - Error generating letter for Mr D W Hockley
+ 01420542792
+ 07876820294
+derek.hockley34@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr D W Hockley\n 01420542792\n 07876820294\nderek.hockley34@gmail.com.docx'
+2024-06-17 10:53:16,629 - LetterAutomationLogger - ERROR - Error generating letter for Miss H Furnival
+07443492192
+ hopefurnival9@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss H Furnival\n07443492192\n hopefurnival9@gmail.com.docx'
+2024-06-17 10:53:16,646 - LetterAutomationLogger - ERROR - Error generating letter for Mr A Wilson
+ 07548961543
+abo.wilson.aw@icloud.com: [Errno 22] Invalid argument: 'print_server\\Mr A Wilson\n 07548961543\nabo.wilson.aw@icloud.com.docx'
+2024-06-17 10:53:16,664 - LetterAutomationLogger - ERROR - Error generating letter for Ms A E Stephenson
+07904910526
+ anneofwales@live.co.uk: [Errno 22] Invalid argument: 'print_server\\Ms A E Stephenson\n07904910526\n anneofwales@live.co.uk.docx'
+2024-06-17 10:53:16,682 - LetterAutomationLogger - ERROR - Error generating letter for Mr M Eariss & Mrs S Eariss
+01329238670
+ 07535336444
+mark_eariss@hotmail.com: [Errno 22] Invalid argument: 'print_server\\Mr M Eariss & Mrs S Eariss\n01329238670\n 07535336444\nmark_eariss@hotmail.com.docx'
+2024-06-17 10:53:16,698 - LetterAutomationLogger - ERROR - Error generating letter for Miss L McKenner
+ 07469773483
+ 07469773483
+mckenner.lisa@gmail.com: [Errno 22] Invalid argument: 'print_server\\Miss L McKenner\n 07469773483\n 07469773483\nmckenner.lisa@gmail.com.docx'
+2024-06-17 10:53:16,715 - LetterAutomationLogger - ERROR - Error generating letter for Mrs M Choudhury
+ 07563476491
+07563476491
+dinara.choudhury@icloud.com: [Errno 22] Invalid argument: 'print_server\\Mrs M Choudhury\n 07563476491\n07563476491\ndinara.choudhury@icloud.com.docx'
+2024-06-17 10:53:16,734 - LetterAutomationLogger - ERROR - Error generating letter for Mrs R Nikiforoviene
+ 07749995962
+ rimanikifo@googlemail.com: [Errno 22] Invalid argument: 'print_server\\Mrs R Nikiforoviene\n 07749995962\n rimanikifo@googlemail.com.docx'
+2024-06-17 10:53:16,748 - LetterAutomationLogger - ERROR - Error generating letter for Mrs D McIntosh
+02380221409
+ 07527907962: [Errno 22] Invalid argument: 'print_server\\Mrs D McIntosh\n02380221409\n 07527907962.docx'
+2024-06-17 10:53:16,961 - LetterAutomationLogger - ERROR - Error generating letter for Mr C Linnell & Miss L M 
+Pomeroy
+07746296180
+ chrislinnell556@gmail.com: [Errno 22] Invalid argument: 'print_server\\Mr C Linnell & Miss L M \nPomeroy\n07746296180\n chrislinnell556@gmail.com.docx'
+2024-06-17 10:53:16,979 - LetterAutomationLogger - ERROR - Error generating letter for Ms B Graham
+01420475466: [Errno 22] Invalid argument: 'print_server\\Ms B Graham\n01420475466.docx'
+2024-06-17 10:53:16,996 - LetterAutomationLogger - ERROR - Error generating letter for Mr R Vernier
+ 07925096266
+rogmvern@btinternet.com: [Errno 22] Invalid argument: 'print_server\\Mr R Vernier\n 07925096266\nrogmvern@btinternet.com.docx'
+2024-06-17 10:53:17,047 - LetterAutomationLogger - ERROR - Error generating letter for Mrs B Kovacova
+07910138240
+ bronislava33@seznam.cz: [Errno 22] Invalid argument: 'print_server\\Mrs B Kovacova\n07910138240\n bronislava33@seznam.cz.docx'
+2024-06-17 10:53:17,082 - LetterAutomationLogger - ERROR - Error generating letter for  Mr R Attwood
+ 07845459917
+ Robattwood@aol.com_x000D_: [Errno 22] Invalid argument: 'print_server\\ Mr R Attwood\n 07845459917\n Robattwood@aol.com_x000D_.docx'
+2024-06-17 10:53:17,346 - LetterAutomationLogger - INFO - Printing document: print_server\NOT SUPPLIED.docx
+2024-06-17 10:53:35,834 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'Sheet1' not found
+2024-06-17 10:55:00,694 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'Sheet1' not found
+2024-06-17 10:59:48,658 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'Sheet1' not found
+2024-06-17 10:59:56,438 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'Sheet1' not found
+2024-06-17 11:04:36,858 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'Sheet1' not found
+2024-06-17 11:04:39,572 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'Sheet1' not found
+2024-06-17 11:04:55,398 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'Sheet1' not found
+2024-06-17 11:05:04,223 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'Sheet1' not found
+2024-06-17 11:05:54,686 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'Sheet1' not found
+2024-06-17 11:05:59,278 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'Sheet1' not found
+2024-06-17 11:17:39,920 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'Sheet1' not found
+2024-06-17 11:17:43,204 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'Sheet1' not found
+2024-06-17 11:21:24,479 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-17 11:21:25,463 - LetterAutomationLogger - ERROR - Error filtering data: "Column '1ST ACCESS LETTER DATE/CALL' not found in DataFrame columns"
+2024-06-17 11:21:25,517 - LetterAutomationLogger - ERROR - Error generating and printing letters: 'Name'
+2024-06-17 11:22:21,627 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-17 11:22:22,591 - LetterAutomationLogger - ERROR - Error filtering data: "Column '1ST ACCESS LETTER DATE/CALL' not found in DataFrame columns"
+2024-06-17 11:22:22,624 - LetterAutomationLogger - ERROR - Error generating and printing letters: 'Name'
+2024-06-17 11:22:37,580 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-17 11:22:38,611 - LetterAutomationLogger - ERROR - Error filtering data: "Column '1ST ACCESS LETTER DATE/CALL' not found in DataFrame columns"
+2024-06-17 11:22:38,644 - LetterAutomationLogger - ERROR - Error generating and printing letters: 'Name'
+2024-06-17 11:23:05,611 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-17 11:23:06,577 - LetterAutomationLogger - ERROR - Error filtering data: "Column '1ST ACCESS LETTER DATE/CALL' not found in DataFrame columns"
+2024-06-17 11:23:06,610 - LetterAutomationLogger - ERROR - Error generating and printing letters: 'Name'
+2024-06-17 11:25:53,169 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-17 11:25:54,121 - LetterAutomationLogger - ERROR - Error filtering data: "Column '1ST ACCESS LETTER DATE/CALL' not found in DataFrame columns"
+2024-06-17 11:25:54,156 - LetterAutomationLogger - ERROR - Error generating and printing letters: 'Name'
+2024-06-17 11:26:43,716 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-17 11:26:44,678 - LetterAutomationLogger - ERROR - Error filtering data: "Column '1ST ACCESS LETTER DATE/CALL' not found in DataFrame columns"
+2024-06-17 11:26:44,713 - LetterAutomationLogger - ERROR - Error generating and printing letters: 'Name'
+2024-06-17 11:27:45,366 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-17 11:27:46,313 - LetterAutomationLogger - ERROR - Error filtering data: "Column '1ST ACCESS LETTER DATE/CALL' not found in DataFrame columns"
+2024-06-17 11:27:46,350 - LetterAutomationLogger - ERROR - Error generating and printing letters: 'Name'
+2024-06-17 11:57:14,519 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'ABRI ONLY TRAKER' not found
+2024-06-17 11:57:19,603 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'ABRI ONLY TRAKER' not found
+2024-06-17 11:57:32,022 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'ABRI ONLY TRAKER ' not found
+2024-06-17 11:57:37,773 - LetterAutomationLogger - ERROR - Error loading sheet columns: Worksheet named 'ABRI ONLY TRAKER ' not found
+2024-06-17 11:59:14,614 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-17 11:59:15,625 - LetterAutomationLogger - ERROR - Error generating and printing letters: 'Name'
+2024-06-17 12:00:36,700 - LetterAutomationLogger - INFO - Collecting data from local Excel file
+2024-06-17 12:00:37,745 - LetterAutomationLogger - ERROR - Error generating and printing letters: 'Name'
