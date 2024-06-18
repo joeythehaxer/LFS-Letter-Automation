@@ -1,4 +1,5 @@
 import os
+import win32com.client
 from custom_logging import Logger
 
 class Printer:
@@ -8,11 +9,14 @@ class Printer:
 
     def print_letter(self, file_path):
         try:
-            self.logger.log('info', f'Printing document: {file_path}')
-            # Placeholder for actual print logic
             if os.path.exists(file_path):
-                # Example command to print a document on Windows (this command may vary)
-                os.system(f'start /min notepad /p {file_path}')
+                self.logger.log('info', f'Printing document: {file_path}')
+                word = win32com.client.Dispatch("Word.Application")
+                word.Visible = False
+                doc = word.Documents.Open(file_path)
+                doc.PrintOut()
+                doc.Close()
+                word.Quit()
                 self.logger.log('info', f'Document sent to printer: {file_path}')
             else:
                 self.logger.log('error', f'File not found: {file_path}')

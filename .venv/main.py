@@ -1,11 +1,9 @@
-from data_collection import DataCollector
-from template_management import TemplateManager
-from letter_generation import LetterGenerator
-from printing import Printer
-from watcher import TeamsExcelWatcher
-from custom_logging import Logger
 import json
 import os
+from data_collection import DataCollector
+from letter_generation import LetterGenerator
+from printing import Printer
+from custom_logging import Logger
 
 DEFAULT_CONFIG_PATH = 'default_config.json'
 
@@ -19,50 +17,29 @@ def load_defaults():
 
 
 def run_cli():
-    # Load default configuration
     config = load_defaults()
-
-    # Initialize logger
     logger = Logger()
-
-    # Initialize components
-    data_collector = DataCollector(logger)
-    template_manager = TemplateManager(config['TEMPLATES_DIR'], logger)
+    data_collector = DataCollector(logger, config)
     printer = Printer(config['PRINT_SERVER_DIR'], logger)
-    letter_generator = LetterGenerator(template_manager, logger, printer)
+    letter_generator = LetterGenerator(config, logger, printer)
 
     if config['USE_TEAMS_EXCEL']:
-        watcher = TeamsExcelWatcher(
-            data_collector,
-            logger,
-            config['TENANT_ID'],
-            config['CLIENT_ID'],
-            config['CLIENT_SECRET'],
-            config['EXCEL_FILE_ID'],
-            config['EXCEL_FILE_DRIVE'],
-            config['WATCHER_INTERVAL']
-        )
+        from watcher import TeamsExcelWatcher
+        watcher = TeamsExcelWatcher(data_collector, logger, config)
         excel_data = watcher.get_excel_data()
         df = data_collector.parse_excel_data(excel_data)
     else:
         df = data_collector.collect_data()
 
-    # Collect and filter data
     filtered_data = data_collector.filter_data(df)
-    data = filtered_data.to_dict(orient='records')
-
-    # Generate and print letters
-    letter_generator.generate_and_print_letters(data)
+    letter_generator.generate_and_print_letters(filtered_data)
 
 
 if __name__ == "__main__":
     config = load_defaults()
     if config['USE_GUI']:
-        from gui import LetterAutomationGUI
-        import tkinter as tk
+        from gui import run_gui
 
-        root = tk.Tk()
-        app = LetterAutomationGUI(root)
-        root.mainloop()
+        run_gui(config)
     else:
         run_cli()
