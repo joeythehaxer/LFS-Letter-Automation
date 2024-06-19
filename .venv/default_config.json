@@ -1,5 +1,5 @@
 {
-  "USE_GUI": true,
+  "USE_GUI": false,
   "USE_TEAMS_EXCEL": false,
   "HEADER_ROW": 2,
   "LOCAL_EXCEL_FILE": "residents.xlsx",
@@ -41,9 +41,9 @@
   "TEMPLATES_DIR": "templates",
   "PRINT_SERVER_DIR": "print_server",
   "WATCHER_INTERVAL": 604800,
-  "TENANT_ID": "your-tenant-id",
-  "CLIENT_ID": "your-client-id",
-  "CLIENT_SECRET": "your-client-secret",
-  "EXCEL_FILE_ID": "your-excel-file-id",
-  "EXCEL_FILE_DRIVE": "your-excel-file-drive"
+  "TENANT_ID": "788fad43-a566-43af-8439-620d928bbf8c",
+  "CLIENT_ID": "bb8e80c4-cc21-4891-80d6-ff5daa369982",
+  "CLIENT_SECRET": "df43c572-d961-49de-a513-9d3d5aa81429",
+  "EXCEL_FILE_ID": "01NIOAFPKWE2M222EDOZDJMDTMDSIW3BNL",
+  "EXCEL_FILE_DRIVE": "b!i5mk_h-R8k2eIWb3P4ATZayLWzXFbKdOmUcwAtGhXI2KWtB96fT8TJo8AbtXnoaP"
 }

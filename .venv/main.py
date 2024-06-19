@@ -4,6 +4,7 @@ from data_collection import DataCollector
 from letter_generation import LetterGenerator
 from printing import Printer
 from custom_logging import Logger
+from template_management import TemplateManager
 
 DEFAULT_CONFIG_PATH = 'default_config.json'
 

@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74a96bdd-1efa-4d84-addb-91076e962341" name="Changes" comment="v4, print, letter selection, and filename non-functional">
+    <list default="true" id="74a96bdd-1efa-4d84-addb-91076e962341" name="Changes" comment="v5, print, file name, watcher non-functional, added file selection mechanism">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/default_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/default_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/letter_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/letter_generation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/printing.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/printing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/template_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/template_management.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/templates/1. Remedial Works Letter Green.docx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/template1A.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/templates/2. Remedial Works Letter Amber.docx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/template2A.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/templates/3. Remedial Works Letter Red.docx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/template3A.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/templates/template2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/template2.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/templates/template3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/template3.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718791081800</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="v5, print, file name, watcher non-functional, added file selection mechanism">
+      <option name="closed" value="true" />
+      <created>1718802391770</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718802391770</updated>
+    </task>
+    <task id="LOCAL-00010" summary="v5, print, file name, watcher non-functional, added file selection mechanism">
+      <option name="closed" value="true" />
+      <created>1718806925451</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718806925451</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,7 +203,8 @@
     <MESSAGE value="added gui and on off switch for gui" />
     <MESSAGE value="added filtration and gui" />
     <MESSAGE value="v4, print, letter selection, and filename non-functional" />
-    <option name="LAST_COMMIT_MESSAGE" value="v4, print, letter selection, and filename non-functional" />
+    <MESSAGE value="v5, print, file name, watcher non-functional, added file selection mechanism" />
+    <option name="LAST_COMMIT_MESSAGE" value="v5, print, file name, watcher non-functional, added file selection mechanism" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
