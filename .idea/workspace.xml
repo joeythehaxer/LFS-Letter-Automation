@@ -8,8 +8,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/default_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/default_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/letter_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/letter_generation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/templates/template1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/template1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/printing.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/printing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/template_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/template_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/templates/1. Remedial Works Letter Green.docx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/template1A.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/templates/2. Remedial Works Letter Amber.docx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/template2A.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/templates/3. Remedial Works Letter Red.docx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/template3A.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/templates/template2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/template2.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/templates/template3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/template3.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +84,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="OPENAI_API_KEY" value="sk-proj-JWO6ZW0Zuqya85wy5htBT3BlbkFJDty2nuiK1q7X1ojWELlp" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv" />
@@ -169,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718787303188</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="v4, print, letter selection, and filename non-functional">
+      <option name="closed" value="true" />
+      <created>1718791081800</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718791081800</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

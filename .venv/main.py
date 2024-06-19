@@ -7,7 +7,6 @@ from custom_logging import Logger
 
 DEFAULT_CONFIG_PATH = 'default_config.json'
 
-
 def load_defaults():
     if os.path.exists(DEFAULT_CONFIG_PATH):
         with open(DEFAULT_CONFIG_PATH, 'r') as f:
@@ -15,13 +14,13 @@ def load_defaults():
     else:
         raise FileNotFoundError(f"{DEFAULT_CONFIG_PATH} not found. Please create it with the necessary configurations.")
 
-
 def run_cli():
     config = load_defaults()
     logger = Logger()
     data_collector = DataCollector(logger, config)
     printer = Printer(config['PRINT_SERVER_DIR'], logger)
-    letter_generator = LetterGenerator(config, logger, printer)
+    template_manager = TemplateManager(config['TEMPLATES_DIR'], logger)
+    letter_generator = LetterGenerator(config, logger, printer, template_manager)
 
     if config['USE_TEAMS_EXCEL']:
         from watcher import TeamsExcelWatcher
@@ -34,12 +33,10 @@ def run_cli():
     filtered_data = data_collector.filter_data(df)
     letter_generator.generate_and_print_letters(filtered_data)
 
-
 if __name__ == "__main__":
     config = load_defaults()
     if config['USE_GUI']:
         from gui import run_gui
-
         run_gui(config)
     else:
         run_cli()

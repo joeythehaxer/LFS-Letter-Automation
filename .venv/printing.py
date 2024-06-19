@@ -1,5 +1,5 @@
 import os
-import win32com.client
+import win32com.client as win32
 from custom_logging import Logger
 
 class Printer:
@@ -8,17 +8,20 @@ class Printer:
         self.logger = logger
 
     def print_letter(self, file_path):
+        if not os.path.exists(file_path):
+            self.logger.log('error', f'File not found: {file_path}')
+            raise FileNotFoundError(f'File not found: {file_path}')
+
         try:
-            if os.path.exists(file_path):
-                self.logger.log('info', f'Printing document: {file_path}')
-                word = win32com.client.Dispatch("Word.Application")
-                word.Visible = False
-                doc = word.Documents.Open(file_path)
-                doc.PrintOut()
-                doc.Close()
-                word.Quit()
-                self.logger.log('info', f'Document sent to printer: {file_path}')
-            else:
-                self.logger.log('error', f'File not found: {file_path}')
+            self.logger.log('info', f'Opening document: {file_path}')
+            word = win32.gencache.EnsureDispatch('Word.Application')
+            word.Visible = False
+            doc = word.Documents.Open(file_path)
+            self.logger.log('info', f'Printing document: {file_path}')
+            doc.PrintOut()
+            doc.Close(False)
+            word.Quit()
+            self.logger.log('info', f'Successfully printed: {file_path}')
         except Exception as e:
             self.logger.log('error', f'Error printing document {file_path}: {e}')
+            raise

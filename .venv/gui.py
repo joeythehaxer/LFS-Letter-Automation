@@ -3,10 +3,11 @@ from tkinter import filedialog, messagebox
 import pandas as pd
 import json
 import os
-from letter_generation import LetterGenerator
-from data_collection import DataCollector
+from letter_generation import LetterGenerator, load_defaults
+from template_management import TemplateManager
 from custom_logging import Logger
 from printing import Printer
+from data_collection import DataCollector
 
 DEFAULT_CONFIG_PATH = 'default_config.json'
 
@@ -17,7 +18,8 @@ class LetterAutomationGUI:
         self.logger = Logger()
         self.data_collector = DataCollector(self.logger, self.config)
         self.printer = Printer(self.config['PRINT_SERVER_DIR'], self.logger)
-        self.letter_generator = LetterGenerator(self.config, self.logger, self.printer)
+        self.template_manager = TemplateManager(self.config['TEMPLATES_DIR'], self.logger)
+        self.letter_generator = LetterGenerator(self.config, self.logger, self.printer, self.template_manager)
         self.df = None
         self.file_path = None
 

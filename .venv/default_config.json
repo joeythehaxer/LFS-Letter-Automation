@@ -21,16 +21,16 @@
       "value": "FED"
     }
   ],
-  "REVIEW_POSITIVE_VALUE": "A ",
+  "REVIEW_POSITIVE_VALUE": "A NEW DOOR/S REQUIRED",
   "TEMPLATE_GROUP1": {
     "LETTER_1_TEMPLATE": "template1",
     "LETTER_2_TEMPLATE": "template2",
     "LETTER_3_TEMPLATE": "template3"
   },
   "TEMPLATE_GROUP2": {
-    "LETTER_1_TEMPLATE": "template1",
-    "LETTER_2_TEMPLATE": "template2",
-    "LETTER_3_TEMPLATE": "template3"
+    "LETTER_1_TEMPLATE": "template1A",
+    "LETTER_2_TEMPLATE": "template2A",
+    "LETTER_3_TEMPLATE": "template3A"
   },
   "PLACEHOLDERS": {
     "NAME_PLACEHOLDER": "Supplied Contact",

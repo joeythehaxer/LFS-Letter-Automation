@@ -3,6 +3,7 @@ import json
 from datetime import datetime
 from docx import Document
 from openai import OpenAI
+from template_management import TemplateManager
 
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 from custom_logging import Logger
@@ -12,10 +13,11 @@ DEFAULT_CONFIG_PATH = 'default_config.json'
 # Ensure your OpenAI API key is set in the environment variables
 
 class LetterGenerator:
-    def __init__(self, config, logger, printer):
+    def __init__(self, config, logger, printer, template_manager):
         self.config = config
         self.logger = logger
         self.printer = printer
+        self.template_manager = template_manager
 
     def clean_name(self, text):
         if not text:
@@ -67,6 +69,8 @@ class LetterGenerator:
                 value = self.format_address(data[column])
             elif column == 'Date':
                 value = datetime.now().strftime("%d %B %Y")
+            elif column == self.config['WORK_ORDER_COLUMN']:
+                value = data[column]
             else:
                 value = str(data[column])
 
@@ -93,15 +97,33 @@ class LetterGenerator:
 
     def generate_and_print_letters(self, data_list):
         for data in data_list:
-            template_path = os.path.join(self.config['TEMPLATES_DIR'], f"{self.config['TEMPLATE_GROUP1']['LETTER_1_TEMPLATE']}.docx")
-            document = Document(template_path)
-            personalized_document = self.replace_placeholders(document, data)
-            sanitized_name = self.sanitize_filename(f"{data[self.config['NAME_COLUMN']]}")
-            file_path = os.path.join(self.config['PRINT_SERVER_DIR'], sanitized_name)
-            file_path = os.path.normpath(file_path)  # Normalize the path to make it Windows-friendly
-            personalized_document.save(file_path)
-            # self.printer.print_letter(file_path)
-            self.logger.log('info', f'Generated letter for {data[self.config['NAME_COLUMN']]}')
+            try:
+                self.logger.log('info', f"Processing data for: {data}")
+                template_name = self.template_manager.determine_next_letter(data)
+                if template_name:
+                    self.logger.log('info', f'Using template: {template_name}')
+                    document = self.template_manager.load_template(template_name)
+                    self.logger.log('info', f'Template loaded: {template_name}')
+                    personalized_document = self.replace_placeholders(document, data)
+                    sanitized_name = self.sanitize_filename(f"{data[self.config['NAME_COLUMN']]}")
+                    file_path = os.path.join(self.config['PRINT_SERVER_DIR'], sanitized_name)
+                    file_path = os.path.normpath(file_path)  # Normalize the path to make it Windows-friendly
+                    self.logger.log('info', f'Saving document to: {file_path}')
+                    personalized_document.save(file_path)
+                    if os.path.exists(file_path):
+                        self.logger.log('info', f'Document saved successfully: {file_path}')
+                        try:
+                            self.printer.print_letter(file_path)
+                            self.logger.log('info', f'Printed letter for {data[self.config['NAME_COLUMN']]}')
+                        except Exception as e:
+                            self.logger.log('error', f'Error printing document {file_path}: {e}')
+                    else:
+                        self.logger.log('error', f'Failed to save document: {file_path}')
+                    self.template_manager.update_excel(data, template_name)
+                else:
+                    self.logger.log('info', f'Skipping {data[self.config["NAME_COLUMN"]]}, all letters have been sent.')
+            except Exception as e:
+                self.logger.log('error', f"Error generating and printing letters for {data.get(self.config['NAME_COLUMN'], 'Unknown')}: {e}")
 
 def inline_replace(element, old_text, new_text):
     if old_text in element.text:
@@ -123,6 +145,7 @@ if __name__ == "__main__":
     logger = Logger()
     # Assuming you have a Printer class already defined
     printer = Printer(config['PRINT_SERVER_DIR'], logger)
-    letter_generator = LetterGenerator(config, logger, printer)
+    template_manager = TemplateManager(config['TEMPLATES_DIR'], logger)
+    letter_generator = LetterGenerator(config, logger, printer, template_manager)
     # Assuming you have data_list available
     letter_generator.generate_and_print_letters(data_list)

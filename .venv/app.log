@@ -2686,3 +2686,836 @@ SO31 1EX
 McGuire Mobile Number: 07437004317
 stevenking13@hotmail.co.uk
 2024-06-19 10:56:23,136 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr J Woodford
+2024-06-19 12:31:27,019 - LetterAutomationLogger - INFO - Loaded default config: {'USE_GUI': True, 'USE_TEAMS_EXCEL': False, 'HEADER_ROW': 2, 'LOCAL_EXCEL_FILE': 'residents.xlsx', 'EXCEL_SHEET_NAME': 'ABRI ONLY TRACKER', 'ADDRESS_COLUMN': 'ITEM LOCATION / ADDRESS', 'NAME_COLUMN': 'Supplied Contact', 'WORK_ORDER_COLUMN': 'PO number / Action Number', 'LETTER_1_COLUMN': '1ST ACCESS LETTER DATE/CALL ', 'LETTER_2_COLUMN': '2ND ACCESS LETTER DATE/CALL', 'LETTER_3_COLUMN': '3RD ACCESS LETTER DATE/CALL', 'REVIEW_COLUMN': 'Review 1', 'FILTERS': [{'column': 'ORDER STATUS', 'value': 'LIVE'}, {'column': 'TYPE OF WORKS', 'value': 'FED'}], 'REVIEW_POSITIVE_VALUE': 'A NEW DOOR/S REQUIRED', 'TEMPLATE_GROUP1': {'LETTER_1_TEMPLATE': 'template1', 'LETTER_2_TEMPLATE': 'template2', 'LETTER_3_TEMPLATE': 'template3'}, 'TEMPLATE_GROUP2': {'LETTER_1_TEMPLATE': 'template1A', 'LETTER_2_TEMPLATE': 'template2A', 'LETTER_3_TEMPLATE': 'template3A'}, 'PLACEHOLDERS': {'NAME_PLACEHOLDER': 'Supplied Contact', 'ADDRESS_PLACEHOLDER': 'ITEM LOCATION / ADDRESS', 'DATE_PLACEHOLDER': 'Date', 'WO': 'PO number / Action Number'}, 'TEMPLATES_DIR': 'templates', 'PRINT_SERVER_DIR': 'print_server', 'WATCHER_INTERVAL': 604800, 'TENANT_ID': 'your-tenant-id', 'CLIENT_ID': 'your-client-id', 'CLIENT_SECRET': 'your-client-secret', 'EXCEL_FILE_ID': 'your-excel-file-id', 'EXCEL_FILE_DRIVE': 'your-excel-file-drive'}
+2024-06-19 12:37:42,387 - LetterAutomationLogger - INFO - Loaded default config: {'USE_GUI': True, 'USE_TEAMS_EXCEL': False, 'HEADER_ROW': 2, 'LOCAL_EXCEL_FILE': 'residents.xlsx', 'EXCEL_SHEET_NAME': 'ABRI ONLY TRACKER', 'ADDRESS_COLUMN': 'ITEM LOCATION / ADDRESS', 'NAME_COLUMN': 'Supplied Contact', 'WORK_ORDER_COLUMN': 'PO number / Action Number', 'LETTER_1_COLUMN': '1ST ACCESS LETTER DATE/CALL ', 'LETTER_2_COLUMN': '2ND ACCESS LETTER DATE/CALL', 'LETTER_3_COLUMN': '3RD ACCESS LETTER DATE/CALL', 'REVIEW_COLUMN': 'Review 1', 'FILTERS': [{'column': 'ORDER STATUS', 'value': 'LIVE'}, {'column': 'TYPE OF WORKS', 'value': 'FED'}], 'REVIEW_POSITIVE_VALUE': 'A NEW DOOR/S REQUIRED', 'TEMPLATE_GROUP1': {'LETTER_1_TEMPLATE': 'template1', 'LETTER_2_TEMPLATE': 'template2', 'LETTER_3_TEMPLATE': 'template3'}, 'TEMPLATE_GROUP2': {'LETTER_1_TEMPLATE': 'template1A', 'LETTER_2_TEMPLATE': 'template2A', 'LETTER_3_TEMPLATE': 'template3A'}, 'PLACEHOLDERS': {'NAME_PLACEHOLDER': 'Supplied Contact', 'ADDRESS_PLACEHOLDER': 'ITEM LOCATION / ADDRESS', 'DATE_PLACEHOLDER': 'Date', 'WO': 'PO number / Action Number'}, 'TEMPLATES_DIR': 'templates', 'PRINT_SERVER_DIR': 'print_server', 'WATCHER_INTERVAL': 604800, 'TENANT_ID': 'your-tenant-id', 'CLIENT_ID': 'your-client-id', 'CLIENT_SECRET': 'your-client-secret', 'EXCEL_FILE_ID': 'your-excel-file-id', 'EXCEL_FILE_DRIVE': 'your-excel-file-drive'}
+2024-06-19 12:40:34,592 - LetterAutomationLogger - INFO - Loaded default config: {'USE_GUI': True, 'USE_TEAMS_EXCEL': False, 'HEADER_ROW': 2, 'LOCAL_EXCEL_FILE': 'residents.xlsx', 'EXCEL_SHEET_NAME': 'ABRI ONLY TRACKER', 'ADDRESS_COLUMN': 'ITEM LOCATION / ADDRESS', 'NAME_COLUMN': 'Supplied Contact', 'WORK_ORDER_COLUMN': 'PO number / Action Number', 'LETTER_1_COLUMN': '1ST ACCESS LETTER DATE/CALL ', 'LETTER_2_COLUMN': '2ND ACCESS LETTER DATE/CALL', 'LETTER_3_COLUMN': '3RD ACCESS LETTER DATE/CALL', 'REVIEW_COLUMN': 'Review 1', 'FILTERS': [{'column': 'ORDER STATUS', 'value': 'LIVE'}, {'column': 'TYPE OF WORKS', 'value': 'FED'}], 'REVIEW_POSITIVE_VALUE': 'A NEW DOOR/S REQUIRED', 'TEMPLATE_GROUP1': {'LETTER_1_TEMPLATE': 'template1', 'LETTER_2_TEMPLATE': 'template2', 'LETTER_3_TEMPLATE': 'template3'}, 'TEMPLATE_GROUP2': {'LETTER_1_TEMPLATE': 'template1A', 'LETTER_2_TEMPLATE': 'template2A', 'LETTER_3_TEMPLATE': 'template3A'}, 'PLACEHOLDERS': {'NAME_PLACEHOLDER': 'Supplied Contact', 'ADDRESS_PLACEHOLDER': 'ITEM LOCATION / ADDRESS', 'DATE_PLACEHOLDER': 'Date', 'WO': 'PO number / Action Number'}, 'TEMPLATES_DIR': 'templates', 'PRINT_SERVER_DIR': 'print_server', 'WATCHER_INTERVAL': 604800, 'TENANT_ID': 'your-tenant-id', 'CLIENT_ID': 'your-client-id', 'CLIENT_SECRET': 'your-client-secret', 'EXCEL_FILE_ID': 'your-excel-file-id', 'EXCEL_FILE_DRIVE': 'your-excel-file-drive'}
+2024-06-19 12:40:49,104 - LetterAutomationLogger - INFO - Skipping Mr R J Chandler
+07460202000
+chandrob@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,104 - LetterAutomationLogger - INFO - Skipping Ms N J Griffin
+07758922449
+nicolag1963@hotmail.com, all letters have been sent.
+2024-06-19 12:40:49,104 - LetterAutomationLogger - INFO - Skipping Customer Name: Mr J Cousin
+Telephone Number: 
+Mobile Number: 07476718771
+Email Address: cousinphotos@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,104 - LetterAutomationLogger - INFO - Skipping Mr Styles , all letters have been sent.
+2024-06-19 12:40:49,104 - LetterAutomationLogger - INFO - Skipping Mr Khurshid - 07919461432, all letters have been sent.
+2024-06-19 12:40:49,104 - LetterAutomationLogger - INFO - Skipping  Mrs I Ball
+Telephone Number: 01344627976
+Mobile Number: 07714782777, all letters have been sent.
+2024-06-19 12:40:49,104 - LetterAutomationLogger - INFO - Skipping Miss E Evans 
+Mobile Number: 07506575560
+evanselizabeth1@icloud.com, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Mr S Chandler-King & Miss N 
+McGuire Mobile Number: 07437004317
+stevenking13@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Mr J Woodford 07399164720
+woodfordjacob12@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Miss A Caldwell & Mr K Marks
+07904293571
+abbeycaldwell@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Miss A Whitton
+07496178061
+whittonamy0@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping  Mr M Tomala
+07828846334
+marektomala1@wp.pl, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Miss G Anderson
+07463780047
+ gabbieanderson12@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Miss G M Lee
+07519051734
+Ginalee98@hotail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Mr F Deylami & Mrs F Zareyan
+Mobile Number: 07882042067
+ deylami100@yahoo.co.uk, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping  Miss J King
+ 07487880686
+jordan.king1997@hotmail.com, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Mr J McClure
+01730624273
+07379382377
+jordanmcclure@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Mr N Dodd
+ 07764793789
+neild@maximcomms.co.uk, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Mr A Rawlings
+ 07724413504, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping  Ms L Liu
+ 07899121525
+lucia_jia_rejoice@yahoo.co.uk, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Mr KJ Colwill
+0778699265, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping  Miss D Piatkowska
+ 07548202945
+dagmarapiatkowska1996@outlook.com, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Ms KL Dugan
+ 07392691733
+ kimlouise1404@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping key safe code 2891, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Mr & Mrs Nowak –
+Tel – 01730 895513
+Mob - 07717495724
+Email – Stefan.n@ntlworld.com, all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Mrs Fisher 07300936250., all letters have been sent.
+2024-06-19 12:40:49,105 - LetterAutomationLogger - INFO - Skipping Miss J McPherson
+07540349825
+jaijays.jim@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,106 - LetterAutomationLogger - INFO - Skipping Miss D M Moss
+Telephone Number: 01753841307
+Mobile Number: 07522048385, all letters have been sent.
+2024-06-19 12:40:49,106 - LetterAutomationLogger - INFO - Skipping Ms R Rider
+ 07534 427515
+rebeccarider567@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,106 - LetterAutomationLogger - INFO - Skipping Mr A Rawlings
+ 07724413504, all letters have been sent.
+2024-06-19 12:40:49,106 - LetterAutomationLogger - INFO - Skipping 07488256144, all letters have been sent.
+2024-06-19 12:40:49,106 - LetterAutomationLogger - INFO - Skipping Miss M Somuah
+ 07446535003
+mildred_somuah@yahoo.com, all letters have been sent.
+2024-06-19 12:40:49,106 - LetterAutomationLogger - INFO - Skipping Mr D W Hockley
+ 01420542792
+ 07876820294
+derek.hockley34@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,106 - LetterAutomationLogger - INFO - Skipping Miss H Furnival
+07443492192
+ hopefurnival9@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,106 - LetterAutomationLogger - INFO - Skipping Mr A Wilson
+ 07548961543
+abo.wilson.aw@icloud.com, all letters have been sent.
+2024-06-19 12:40:49,106 - LetterAutomationLogger - INFO - Skipping Ms A E Stephenson
+07904910526
+ anneofwales@live.co.uk, all letters have been sent.
+2024-06-19 12:40:49,106 - LetterAutomationLogger - INFO - Skipping Mr M Eariss & Mrs S Eariss
+01329238670
+ 07535336444
+mark_eariss@hotmail.com, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Miss L McKenner
+ 07469773483
+ 07469773483
+mckenner.lisa@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Mrs M Choudhury
+ 07563476491
+07563476491
+dinara.choudhury@icloud.com, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Mrs R Nikiforoviene
+ 07749995962
+ rimanikifo@googlemail.com, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Mrs D McIntosh
+02380221409
+ 07527907962, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Mr C Linnell & Miss L M 
+Pomeroy
+07746296180
+ chrislinnell556@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Ms B Graham
+01420475466, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Mr R Vernier
+ 07925096266
+rogmvern@btinternet.com, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Mrs B Kovacova
+07910138240
+ bronislava33@seznam.cz, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping  Mr R Attwood
+ 07845459917
+ Robattwood@aol.com_x000D_, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping NOT SUPPLIED, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping  Mr P J Roberts
+ 07802322033, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Mr J Weighill
+ 07806808425
+07806808425
+ strongebox4jw@btinternet.com, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Mrs S E M Knight
+07889265754, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Ms M Madondoro
+ 07543034702
+madondorom@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Ms M P Prince
+ 01420488316, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Ms M Robins
+ 01420475401
+ 07790408922, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Mrs J Norgate
+ 01420479845_x000D_, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping Mr S Eaton
+07496919005
+ weaton248@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,107 - LetterAutomationLogger - INFO - Skipping  Mrs E H Perry
+ 01753713935
+07878825371
+biturbo10@aol.com, all letters have been sent.
+2024-06-19 12:40:49,108 - LetterAutomationLogger - INFO - Skipping Mrs J Hawkins & Mr P Hibberd
+07488243549, all letters have been sent.
+2024-06-19 12:40:49,108 - LetterAutomationLogger - INFO - Skipping Mr MH Bindon
+07557381950
+m.bindon246@btinternet.com, all letters have been sent.
+2024-06-19 12:40:49,108 - LetterAutomationLogger - INFO - Skipping Miss PM Scriven
+02380600830
+patscriven2017@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,108 - LetterAutomationLogger - INFO - Skipping Mr R Oliver
+07723446690
+ rcoliver54@gmail.com_x000D_, all letters have been sent.
+2024-06-19 12:40:49,108 - LetterAutomationLogger - INFO - Skipping  Mr S Callan
+07791379331_x000D_, all letters have been sent.
+2024-06-19 12:40:49,108 - LetterAutomationLogger - INFO - Skipping Mr P Butterworth
+07862194997
+peterbutterworth8@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,108 - LetterAutomationLogger - INFO - Skipping Mr A Arthurs
+07762017714
+alanarthurs01@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,108 - LetterAutomationLogger - INFO - Skipping Mr D Jones
+07775813778
+ davejns05@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,108 - LetterAutomationLogger - INFO - Skipping Mr J Green
+07717875779, all letters have been sent.
+2024-06-19 12:40:49,108 - LetterAutomationLogger - INFO - Skipping Mrs M Cross
+07904659701
+marilyncross@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,108 - LetterAutomationLogger - INFO - Skipping Mr J Burnett
+07833096671
+jb50v8@msn.com, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping  Mr M Blake
+07795208259, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Mr J Buntin
+01753542742, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping temp No. (contact first) 07748854425
+shannonrawlings@hotmail.co.uk
+07479383789, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Mr C King
+01753670812
+07886251220
+rosherking@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Mrs K Awan
+ 07405233268, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Mr A Pritchard
+07916876631
+pritchardanthony472@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping nan, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Voyage Care
+ 01189461775
+26stbarnabusroad@voyagecare.com, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping  Mr I Savage
+07424857077
+von.savage@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Mr R Donnelly
+ 07958139567
+ jackiemiddleton310@yahoo.co.uk, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Mr K Coleman
+07379757064, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Mr J Richardson & Miss A 
+Dawson
+01753594266
+07590464029
+dj_kurious20@hotmail.com, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Mrs W Gerrard & Mr G Bocking
+01753549862
+07403240821
+wendy.gerrard@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Miss N Jama & Mr M Sharif 
+Abduallahi
+ 07506753350
+naima_quruh@hotmail.co.u, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Mr G J Wilday
+ 07717315805
+ glengooner74@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Mr R W Coumbe
+ 07780651129
+Mum (Pat Combe) 0142085457, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Mr W Lopez Rodriguez
+ 07591760068
+wilson.uk@yahoo.com, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping Mr A Jozwiak 
+Mobile Number: 07548165647
+Email Address: magnusjozwiak@outlook.com, all letters have been sent.
+2024-06-19 12:40:49,109 - LetterAutomationLogger - INFO - Skipping  Mrs J Szatkowska
+Mobile Number: 07590114626
+Email Address: maciuszekjoanna@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,110 - LetterAutomationLogger - INFO - Skipping Miss M Street
+ 07951480080
+ melissaks95@hotmail.com, all letters have been sent.
+2024-06-19 12:40:49,110 - LetterAutomationLogger - INFO - Skipping  Ms C Bamigbola
+ 07983386160
+christine2005b@yahoo.co.uk, all letters have been sent.
+2024-06-19 12:40:49,110 - LetterAutomationLogger - INFO - Skipping  Ms W Holdway
+ 07876190826
+Holdwaywendy180@yahoo.com, all letters have been sent.
+2024-06-19 12:40:49,110 - LetterAutomationLogger - INFO - Skipping Mr A Jackson
+01709962418
+07788128370
+adamjackson764@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,110 - LetterAutomationLogger - INFO - Skipping Mr A Bradshaw
+07936740114
+andy.s.bradshaw@btinternet.com, all letters have been sent.
+2024-06-19 12:40:49,110 - LetterAutomationLogger - INFO - Skipping Mrs J Farrar
+07864815698
+ jaf04031960@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,110 - LetterAutomationLogger - INFO - Skipping Miss CA Brindley & Mr HJ Wheeldon
+07927291479
+ lottieanais@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,110 - LetterAutomationLogger - INFO - Skipping Mr C Bennett
+ 07804032376, all letters have been sent.
+2024-06-19 12:40:49,110 - LetterAutomationLogger - INFO - Skipping Miss L Sines & Mr S Loveridge
+ 07359656733
+seanloveridge31@gmail.com_x000D_, all letters have been sent.
+2024-06-19 12:40:49,110 - LetterAutomationLogger - INFO - Skipping Mr & Mrs P Evans
+01753339547
+07495737954
+paulevans0001@hotmail.com, all letters have been sent.
+2024-06-19 12:40:49,110 - LetterAutomationLogger - INFO - Skipping Ms J Casey
+ 07730134242
+ jadecasey52@icloud.com, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping Mr M L Davidson
+00127622867
+ 07778050189
+ml.davidson@btinternet.com, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping Mr P B Kennedy
+ 07492858140
+philip.kennedy69@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping Ms G Neenan
+01753646826
+07935491990
+ graceandhenry@sky.com, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping Miss S Hatt
+ 01730601734
+ 07539341149
+Shell-82@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping Mrs M Nickless
+07974192051
+michnickless79@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping Mr A Everle
+ 07841959447
+ev2008@live.co.uk, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping Miss C L Outlaw
+02380326878_x000D_, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping Miss K Maidment
+ 07376543493
+REDLYNX1994@GMAIL.COM, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping Miss E Patterson
+ 07398217279
+ emilypatterson106@yahoo.co.uk, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping  Miss J J Prescott
+ 02392591589
+ 07541220357, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping Ms D West
+07834521862
+deliawest54@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping  Miss T West
+ 07506714645
+westtanya888@yahoo.co.uk, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping  Miss S Penfold
+ 07895886955
+shalice82@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping Mrs Morris
+07903389243
+Scribbie12.cj@googlemail.com, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping  Mr A Young
+07432838482, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping  Mr S Davis
+01420769702
+ 07882066331
+chopperd1936@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping  Mr S Peters
+07580168171
+stuartapeters@yahoo.co.uk, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping Miss N Gordon
+07519939557
+nadgordon@outlook.com, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping Mrs S Green & Mr M Green
+ 07828839232
+sofiahgreen@hotmail.com, all letters have been sent.
+2024-06-19 12:40:49,111 - LetterAutomationLogger - INFO - Skipping  Miss E Welch
+ 07397955104
+ e.welch66@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,112 - LetterAutomationLogger - INFO - Skipping Miss C Turner
+07837540983
+claireturnip@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,112 - LetterAutomationLogger - INFO - Skipping Miss M Jones
+07548376342
+mandymacey42@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,112 - LetterAutomationLogger - INFO - Skipping Mrs V Forrest & Mr S Forrest
+07818799560
+ vbarnes2807@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,112 - LetterAutomationLogger - INFO - Skipping Ms C A Booth
+ 07446670050
+carolebooth701@icloud.com, all letters have been sent.
+2024-06-19 12:40:49,112 - LetterAutomationLogger - INFO - Skipping Mrs T Green
+07871566409
+ teeaj1970@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,112 - LetterAutomationLogger - INFO - Skipping Mrs J Limb
+ 01753267653
+ 07740084963, all letters have been sent.
+2024-06-19 12:40:49,112 - LetterAutomationLogger - INFO - Skipping Mrs R E Taylor
+ 07926399749 - bit deaf, can't hear properly, all letters have been sent.
+2024-06-19 12:40:49,112 - LetterAutomationLogger - INFO - Skipping 07936880091
+jnesbitt425@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,112 - LetterAutomationLogger - INFO - Skipping E J R English
+07702590711
+english1974@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,112 - LetterAutomationLogger - INFO - Skipping Mrs P-K Lambeth
+Mobile Number: 07940361777, all letters have been sent.
+2024-06-19 12:40:49,112 - LetterAutomationLogger - INFO - Skipping  Mrs A Woodland
+Mobile Number: 07840265092, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Miss E Morley
+07402685737
+e.morley23@hotmail.com, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Miss L Hull
+01420257352
+lisa.m.hull@hotmail.com, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping  Miss T Guyon
+Mobile Number: 07547206448
+Email Address: tracyguyon@icloud.com, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Mr J Bullet
+Mobile Number: 07482055000
+Email Address: jakeisemailed@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Miss F Erdogan
+Mobile Number: 07957250669
+Email Address: fgerdogan@outlook.com, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Miss Z Piper
+Mobile Number: 07808049428
+Email Address: zellapiper@icloud.com, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Mr M A McGeoch
+Mobile Number: 07712438675, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Miss P Sweeney
+Mobile Number: 07925388663
+Email Address: paulaswee@icloud.com, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Mr M Roberts 
+Mobile Number: 07818484854
+matroberts68@hotmail.com, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Mrs S Donnelly
+Telephone Number: 07496312789
+Mobile Number: 07496312789
+Email Address: sphelps1993@yahoo.com, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Customer Name: Ms K Ringwald
+Mobile Number: 07522262256
+Email Address: kas.ringwald@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping  Mr D Scadding
+07711044418
+ellishahughes1998@icloud.com_x000D_, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Mr A Chivers
+Mobile Number: 07932889358
+aaronchivers37@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping  Mr M Foreman
+Mobile Number: 07878356548
+max.foreman1972@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping VOID - key safe box on right side of communal door (outside) - code is 2891, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Mr T Hughes
+Mobile Number: 07395831353
+tristanhughes30@outlook.com, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Ms V Sauls
+Mobile Number: 07555158545 valenciasaul@yahoo.co.uk, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Miss M Spratt & Mr B Hardie
+Mobile Number: 07467377169
+meganspratt11@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,113 - LetterAutomationLogger - INFO - Skipping Miss J Harrison
+Mobile Number: 07903550704
+Email Address: shevenom@yahoo.com, all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Miss C Male
+Mobile Number: 07852218348
+mistelmale83@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Miss J Crick
+Mobile Number: 07710822393
+Email Address: janetcrick00@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Miss J Berkouz 
+Mobile Number: 07519808040
+Jennyhudson7575@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Mr A Cawley
+Mobile Number: 07359140668
+Email Address: cawleyalan9@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Mr D Janes & Mrs R Janes
+07948417747/ 07948417748
+danieljanes90@gmail.com
+rachvanilla123@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Mr D R Noake & Ms P C Pearson
+Telephone Number: 01753868913, all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Customer Name: Mr C Harvie
+Mobile Number: 07544912424
+chrisjharvie1978@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Mrs S E Sneyd-Jones
+07845719101
+sarahsneyd72@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Contact House: 01344 780992 or 01344 30442 for appt s., all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Contact House: 01344 780992 or 01344 30442 for appt s.
+graham.kenyon@choicecaregroup.com, all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Contact House: 01344 780992 or 01344 30442 for appt s., all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Contact House: 01344 780992 or 01344 30442 for appt s., all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Mr R Lowry
+01420257013
+07807456953
+RAYMONDLOWRY@YAHOO.COM, all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Mr A T Fairbairn
+07905832126
+anthonyfairbairn76@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,114 - LetterAutomationLogger - INFO - Skipping Mr B Lamont
+07305791467
+bradlamont03@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,115 - LetterAutomationLogger - INFO - Skipping Mr R Radmore
+ 07444426803, all letters have been sent.
+2024-06-19 12:40:49,115 - LetterAutomationLogger - INFO - Skipping Ms F Gomme
+ 07990870415
+gomme.francesca@gmail.com_x000D_, all letters have been sent.
+2024-06-19 12:40:49,115 - LetterAutomationLogger - INFO - Skipping Mr AM Smith
+07910147891
+Aaronmsmith@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,115 - LetterAutomationLogger - INFO - Skipping Ms Bev Floyd
+02380 615952
+07776158708
+Bev_dyer@yahoo.co.uk, all letters have been sent.
+2024-06-19 12:40:49,115 - LetterAutomationLogger - INFO - Skipping Mrs Z Young
+07809606555
+janna2551@yahoo.com, all letters have been sent.
+2024-06-19 12:40:49,115 - LetterAutomationLogger - INFO - Skipping NOT SUPPLIED, all letters have been sent.
+2024-06-19 12:40:49,115 - LetterAutomationLogger - INFO - Skipping Mr J Raggett (in prison - contact girlfriend)
+ 07519773011
+ edraggett1@gmail.com
+07442206987 - Girlfriend
+miariva16@hotmail.com, all letters have been sent.
+2024-06-19 12:40:49,115 - LetterAutomationLogger - INFO - Skipping Mr M Joel
+ 07545218235, all letters have been sent.
+2024-06-19 12:40:49,115 - LetterAutomationLogger - INFO - Skipping Ms J M Bannon
+ 07831869550
+ jackiebannon@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,115 - LetterAutomationLogger - INFO - Skipping Customer Name: Mr J Holmes
+07858160003
+jasonholmes776@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,116 - LetterAutomationLogger - INFO - Skipping NOT SUPPLIED , all letters have been sent.
+2024-06-19 12:40:49,116 - LetterAutomationLogger - INFO - Skipping Miss G Butcher
+07821953881
+Gemmabutcher12@outlook.com_x000D_, all letters have been sent.
+2024-06-19 12:40:49,116 - LetterAutomationLogger - INFO - Skipping Mr L Sidaway
+07935844878
+lsidaway30@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,116 - LetterAutomationLogger - INFO - Skipping Mr L Edwards & Mrs C A Edwards
+02392646536
+07837582698
+carolandles1@googlemail.com, all letters have been sent.
+2024-06-19 12:40:49,116 - LetterAutomationLogger - INFO - Skipping Partnership Living Property. Phone( Ahelene 07903255862 ) to make appointment, all letters have been sent.
+2024-06-19 12:40:49,116 - LetterAutomationLogger - INFO - Skipping Miss A O'Donovan
+07933112747
+armineodonovan@icloud.com, all letters have been sent.
+2024-06-19 12:40:49,116 - LetterAutomationLogger - INFO - Skipping Mr SA Milnes
+07355813456
+stuartmilnes@msn.com, all letters have been sent.
+2024-06-19 12:40:49,116 - LetterAutomationLogger - INFO - Skipping Miss B Smith & Mr H Lewis
+07359502927
+bethanymay04@icloud.com, all letters have been sent.
+2024-06-19 12:40:49,116 - LetterAutomationLogger - INFO - Skipping Miss M Riva
+07442206987
+miariva16@hotmail.com, all letters have been sent.
+2024-06-19 12:40:49,116 - LetterAutomationLogger - INFO - Skipping Miss TC Westaway
+07785 703615
+tianawestaway18@icloud.com, all letters have been sent.
+2024-06-19 12:40:49,117 - LetterAutomationLogger - INFO - Skipping Mr C Smith & Miss H Stevens
+07793097325
+hollystevens99@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,117 - LetterAutomationLogger - INFO - Skipping Miss A Thorn & Mr J Johnson
+01420473725
+07565016543
+Amara.paige@hotmail.co.u, all letters have been sent.
+2024-06-19 12:40:49,117 - LetterAutomationLogger - INFO - Skipping Mr BS Chorley
+07355 510460
+Brandonchorley53@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,117 - LetterAutomationLogger - INFO - Skipping Miss M Oprea 
+07503223185
+elenamonalisa88@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,117 - LetterAutomationLogger - INFO - Skipping Miss I Morris
+07904206704
+imogencarvell41@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,117 - LetterAutomationLogger - INFO - Skipping Miss TC Westaway
+07785 703615
+tianawestaway18@icloud.com, all letters have been sent.
+2024-06-19 12:40:49,117 - LetterAutomationLogger - INFO - Skipping NOT SUPPLIED, all letters have been sent.
+2024-06-19 12:40:49,117 - LetterAutomationLogger - INFO - Skipping Ms M Boyd
+07961539897
+Melissa.A.Boyd@icloud.Com, all letters have been sent.
+2024-06-19 12:40:49,117 - LetterAutomationLogger - INFO - Skipping Miss S A Harris 
+07875275494, all letters have been sent.
+2024-06-19 12:40:49,117 - LetterAutomationLogger - INFO - Skipping Mr J Faith
+07849 693354
+johngfaith27@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,118 - LetterAutomationLogger - INFO - Skipping Mr M Harris
+07821084047
+michael511@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,118 - LetterAutomationLogger - INFO - Skipping Mr M Harris
+07821084047
+michael511@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,118 - LetterAutomationLogger - INFO - Skipping Mr F J Livermore
+07377131923, all letters have been sent.
+2024-06-19 12:40:49,118 - LetterAutomationLogger - INFO - Skipping Mr M J W Harding, all letters have been sent.
+2024-06-19 12:40:49,118 - LetterAutomationLogger - INFO - Skipping Mrs P Few
+0142086950, all letters have been sent.
+2024-06-19 12:40:49,118 - LetterAutomationLogger - INFO - Skipping Miss L Keet
+ 07389790069
+ lucie.luff@yahoo.com, all letters have been sent.
+2024-06-19 12:40:49,118 - LetterAutomationLogger - INFO - Skipping Mr S Uniacke_x000D_, all letters have been sent.
+2024-06-19 12:40:49,118 - LetterAutomationLogger - INFO - Skipping Mr PC Spooner & Mrs JE Spooner
+07836509004
+peterspooner49@btinternet.com, all letters have been sent.
+2024-06-19 12:40:49,118 - LetterAutomationLogger - INFO - Skipping FLAT 21	Andrew Liotta <liotta.uk@gmail.com>	", all letters have been sent.
+2024-06-19 12:40:49,118 - LetterAutomationLogger - INFO - Skipping 07925883895, all letters have been sent.
+2024-06-19 12:40:49,119 - LetterAutomationLogger - INFO - Skipping Housing partner - Duncan Holden - 07780 901739 or 01753747391
+FLAT 43B - Miss Worsfold - 07586290257 or Miss Foreman - 07990316787, all letters have been sent.
+2024-06-19 12:40:49,119 - LetterAutomationLogger - INFO - Skipping NONE SUPPLIED , all letters have been sent.
+2024-06-19 12:40:49,119 - LetterAutomationLogger - INFO - Skipping "Tel: 07500907334
+Email: rkseligman@gmail.com"	Miss R Seligman, all letters have been sent.
+2024-06-19 12:40:49,119 - LetterAutomationLogger - INFO - Skipping Mr Scard - 07517654147, all letters have been sent.
+2024-06-19 12:40:49,119 - LetterAutomationLogger - INFO - Skipping "Housing partner - Duncan Holden - 07780 901739 or 01753747391
+FLAT 49A - Mr Hall - 07445580660", all letters have been sent.
+2024-06-19 12:40:49,119 - LetterAutomationLogger - INFO - Skipping Housing partner - Duncan Holden - 07780 901739 or 01753747391
+FLAT 49B - Mr Ormonde-Dobbin - 07393319192, all letters have been sent.
+2024-06-19 12:40:49,119 - LetterAutomationLogger - INFO - Skipping - jordanreece1694@gmail.com/07466145209, all letters have been sent.
+2024-06-19 12:40:49,119 - LetterAutomationLogger - INFO - Skipping Miss YLR Pattenden & Mr BL 
+Reynolds
+ 07752713715
+yasmin23pattenden23@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,119 - LetterAutomationLogger - INFO - Skipping Miss M Connor
+07554275632
+mandagriffin@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,119 - LetterAutomationLogger - INFO - Skipping PARTNERSHIP AND LIVING PROPERTY APPT TO BE MADE BEFORE ATTENDING - 01296 720084
+Christine Barrett - Service Manager - Chris.Barrett@hightownha.org.uk - 07393 466719 
+Sorina Hill - 07765 436941 - sorina.hill@hightownha.org.uk, all letters have been sent.
+2024-06-19 12:40:49,119 - LetterAutomationLogger - INFO - Skipping PARTNERSHIP AND LIVING PROPERTY APPT TO BE MADE BEFORE ATTENDING - 01296 720084
+Christine Barrett - Service Manager - Chris.Barrett@hightownha.org.uk - 07393 466719 
+Sorina Hill - 07765 436941 - sorina.hill@hightownha.org.uk, all letters have been sent.
+2024-06-19 12:40:49,119 - LetterAutomationLogger - INFO - Skipping Partnership and living property appt to be made before attending 01296 720083 
+Tina Waltz - Acting Scheme Manager -Tina.waltz@hightownha.org.uk 
+Christine Barrett - Service Manager -Chris.Barrett@hightownha.org.uk - 07393 466719 
+Sorina Hill - 07765 436941 - sorina.hill@hightownha.org.uk , all letters have been sent.
+2024-06-19 12:40:49,119 - LetterAutomationLogger - INFO - Skipping Partnership and living property appt to be made before attending 01296 720083 
+Tina Waltz - Acting Scheme Manager -Tina.waltz@hightownha.org.uk 
+Christine Barrett - Service Manager -Chris.Barrett@hightownha.org.uk - 07393 466719 
+Sorina Hill - 07765 436941 - sorina.hill@hightownha.org.uk , all letters have been sent.
+2024-06-19 12:40:49,120 - LetterAutomationLogger - INFO - Skipping Partnership and living property appt to be made before attending 01296 720083 
+Tina Waltz - Acting Scheme Manager -Tina.waltz@hightownha.org.uk 
+Christine Barrett - Service Manager -Chris.Barrett@hightownha.org.uk - 07393 466719 
+Sorina Hill - 07765 436941 - sorina.hill@hightownha.org.uk , all letters have been sent.
+2024-06-19 12:40:49,120 - LetterAutomationLogger - INFO - Skipping Mr & Mrs M Lowe
+01344566639
+07713778473
+mauricelowe86@yahoo.co.uk, all letters have been sent.
+2024-06-19 12:40:49,120 - LetterAutomationLogger - INFO - Skipping Contact Selina Ferguson - ABRI
+selina.ferguson@abri.co.uk, all letters have been sent.
+2024-06-19 12:40:49,120 - LetterAutomationLogger - INFO - Skipping Contact Selina Ferguson - ABRI
+selina.ferguson@abri.co.uk, all letters have been sent.
+2024-06-19 12:40:49,120 - LetterAutomationLogger - INFO - Skipping NONE SUPPLIED , all letters have been sent.
+2024-06-19 12:40:49,120 - LetterAutomationLogger - INFO - Skipping Mr L Fulton
+07774328085
+lewisfulton14@gmail.com, all letters have been sent.
+2024-06-19 12:40:49,120 - LetterAutomationLogger - INFO - Skipping Customer Name: Mrs S Wilks
+Telephone Number: 01753621069
+Mobile Number: 07976820251
+Email Address: sheilawilks4@hotmail.co.uk, all letters have been sent.
+2024-06-19 12:40:49,120 - LetterAutomationLogger - INFO - Skipping Mrs E Compton
+02392697581
+07954701493
+comptonresidence@yahoo.co.uk, all letters have been sent.
+2024-06-19 12:40:49,120 - LetterAutomationLogger - INFO - Skipping Miss J McAvery
+07513600872
+Jemgr89@outlook.com, all letters have been sent.
+2024-06-19 12:40:49,120 - LetterAutomationLogger - INFO - Skipping Mrs L Busch
+Telephone Number: 02393786573
+Mobile Number:
+Email Address: lyndabusch1@sky.com, all letters have been sent.
+2024-06-19 12:40:49,121 - LetterAutomationLogger - INFO - Skipping Ms C Sargent
+Telephone Number: 01483 351590
+Mobile Number:
+Email Address:
+teamleader.ccs@crowthornecare.co.uk, all letters have been sent.
+2024-06-19 12:40:49,121 - LetterAutomationLogger - INFO - Skipping Mrs L Smith
+ 07444187200, all letters have been sent.
+2024-06-19 12:45:40,996 - LetterAutomationLogger - INFO - Loaded default config: {'USE_GUI': True, 'USE_TEAMS_EXCEL': False, 'HEADER_ROW': 2, 'LOCAL_EXCEL_FILE': 'residents.xlsx', 'EXCEL_SHEET_NAME': 'ABRI ONLY TRACKER', 'ADDRESS_COLUMN': 'ITEM LOCATION / ADDRESS', 'NAME_COLUMN': 'Supplied Contact', 'WORK_ORDER_COLUMN': 'PO number / Action Number', 'LETTER_1_COLUMN': '1ST ACCESS LETTER DATE/CALL ', 'LETTER_2_COLUMN': '2ND ACCESS LETTER DATE/CALL', 'LETTER_3_COLUMN': '3RD ACCESS LETTER DATE/CALL', 'REVIEW_COLUMN': 'Review 1', 'FILTERS': [{'column': 'ORDER STATUS', 'value': 'LIVE'}, {'column': 'TYPE OF WORKS', 'value': 'FED'}], 'REVIEW_POSITIVE_VALUE': 'A NEW DOOR/S REQUIRED', 'TEMPLATE_GROUP1': {'LETTER_1_TEMPLATE': 'template1', 'LETTER_2_TEMPLATE': 'template2', 'LETTER_3_TEMPLATE': 'template3'}, 'TEMPLATE_GROUP2': {'LETTER_1_TEMPLATE': 'template1A', 'LETTER_2_TEMPLATE': 'template2A', 'LETTER_3_TEMPLATE': 'template3A'}, 'PLACEHOLDERS': {'NAME_PLACEHOLDER': 'Supplied Contact', 'ADDRESS_PLACEHOLDER': 'ITEM LOCATION / ADDRESS', 'DATE_PLACEHOLDER': 'Date', 'WO': 'PO number / Action Number'}, 'TEMPLATES_DIR': 'templates', 'PRINT_SERVER_DIR': 'print_server', 'WATCHER_INTERVAL': 604800, 'TENANT_ID': 'your-tenant-id', 'CLIENT_ID': 'your-client-id', 'CLIENT_SECRET': 'your-client-secret', 'EXCEL_FILE_ID': 'your-excel-file-id', 'EXCEL_FILE_DRIVE': 'your-excel-file-drive'}
+2024-06-19 12:45:54,473 - LetterAutomationLogger - INFO - Checking which letter to send for: Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 12:45:54,473 - LetterAutomationLogger - INFO - Third letter needs to be sent to: Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 12:45:54,473 - LetterAutomationLogger - INFO - Using template: template3
+2024-06-19 12:45:54,488 - LetterAutomationLogger - INFO - Template loaded: template3
+2024-06-19 12:45:55,082 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr R J Chandler
+2024-06-19 12:45:55,789 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 45B Queens Crescent  
+Horndean  
+Waterlooville  
+PO8 9ND
+2024-06-19 12:45:55,803 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 12:45:55,809 - LetterAutomationLogger - INFO - Replacing placeholder WO with AB0391729
+2024-06-19 12:45:55,814 - LetterAutomationLogger - INFO - Saving document to: print_server\MrRJChandler07460202000chandro.docx
+2024-06-19 12:45:55,855 - LetterAutomationLogger - INFO - Document saved successfully: print_server\MrRJChandler07460202000chandro.docx
+2024-06-19 12:45:55,855 - LetterAutomationLogger - INFO - Opening document: print_server\MrRJChandler07460202000chandro.docx
+2024-06-19 12:45:59,087 - LetterAutomationLogger - ERROR - Error printing document print_server\MrRJChandler07460202000chandro.docx: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Sorry, we couldn't find your file. Was it moved, renamed, or deleted?\r (C:\\...\\MrRJChandler07460202000chandro...)", 'wdmain11.chm', 24654, -2146823114), None)
+2024-06-19 12:45:59,088 - LetterAutomationLogger - ERROR - Error printing document print_server\MrRJChandler07460202000chandro.docx: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Sorry, we couldn't find your file. Was it moved, renamed, or deleted?\r (C:\\...\\MrRJChandler07460202000chandro...)", 'wdmain11.chm', 24654, -2146823114), None)
+2024-06-19 12:51:10,249 - LetterAutomationLogger - INFO - Loaded default config: {'USE_GUI': True, 'USE_TEAMS_EXCEL': False, 'HEADER_ROW': 2, 'LOCAL_EXCEL_FILE': 'residents.xlsx', 'EXCEL_SHEET_NAME': 'ABRI ONLY TRACKER', 'ADDRESS_COLUMN': 'ITEM LOCATION / ADDRESS', 'NAME_COLUMN': 'Supplied Contact', 'WORK_ORDER_COLUMN': 'PO number / Action Number', 'LETTER_1_COLUMN': '1ST ACCESS LETTER DATE/CALL ', 'LETTER_2_COLUMN': '2ND ACCESS LETTER DATE/CALL', 'LETTER_3_COLUMN': '3RD ACCESS LETTER DATE/CALL', 'REVIEW_COLUMN': 'Review 1', 'FILTERS': [{'column': 'ORDER STATUS', 'value': 'LIVE'}, {'column': 'TYPE OF WORKS', 'value': 'FED'}], 'REVIEW_POSITIVE_VALUE': 'A NEW DOOR/S REQUIRED', 'TEMPLATE_GROUP1': {'LETTER_1_TEMPLATE': 'template1', 'LETTER_2_TEMPLATE': 'template2', 'LETTER_3_TEMPLATE': 'template3'}, 'TEMPLATE_GROUP2': {'LETTER_1_TEMPLATE': 'template1A', 'LETTER_2_TEMPLATE': 'template2A', 'LETTER_3_TEMPLATE': 'template3A'}, 'PLACEHOLDERS': {'NAME_PLACEHOLDER': 'Supplied Contact', 'ADDRESS_PLACEHOLDER': 'ITEM LOCATION / ADDRESS', 'DATE_PLACEHOLDER': 'Date', 'WO': 'PO number / Action Number'}, 'TEMPLATES_DIR': 'templates', 'PRINT_SERVER_DIR': 'print_server', 'WATCHER_INTERVAL': 604800, 'TENANT_ID': 'your-tenant-id', 'CLIENT_ID': 'your-client-id', 'CLIENT_SECRET': 'your-client-secret', 'EXCEL_FILE_ID': 'your-excel-file-id', 'EXCEL_FILE_DRIVE': 'your-excel-file-drive'}
+2024-06-19 12:51:26,761 - LetterAutomationLogger - INFO - Checking which letter to send for: Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 12:51:26,761 - LetterAutomationLogger - INFO - Third letter needs to be sent to: Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 12:51:26,761 - LetterAutomationLogger - INFO - Using template: template3
+2024-06-19 12:51:26,770 - LetterAutomationLogger - INFO - Template loaded: template3
+2024-06-19 12:51:27,828 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr R J Chandler
+2024-06-19 12:51:28,583 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 45B Queens Crescent  
+Horndean  
+Waterlooville  
+PO8 9ND
+2024-06-19 12:51:28,599 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 12:51:28,606 - LetterAutomationLogger - INFO - Replacing placeholder WO with AB0391729
+2024-06-19 12:51:28,611 - LetterAutomationLogger - INFO - Saving document to: print_server\MrRJChandler07460202000chandro.docx
+2024-06-19 12:51:28,662 - LetterAutomationLogger - INFO - Document saved successfully: print_server\MrRJChandler07460202000chandro.docx
+2024-06-19 12:51:28,662 - LetterAutomationLogger - INFO - Printed letter for Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 12:51:49,991 - LetterAutomationLogger - INFO - Loaded default config: {'USE_GUI': True, 'USE_TEAMS_EXCEL': False, 'HEADER_ROW': 2, 'LOCAL_EXCEL_FILE': 'residents.xlsx', 'EXCEL_SHEET_NAME': 'ABRI ONLY TRACKER', 'ADDRESS_COLUMN': 'ITEM LOCATION / ADDRESS', 'NAME_COLUMN': 'Supplied Contact', 'WORK_ORDER_COLUMN': 'PO number / Action Number', 'LETTER_1_COLUMN': '1ST ACCESS LETTER DATE/CALL ', 'LETTER_2_COLUMN': '2ND ACCESS LETTER DATE/CALL', 'LETTER_3_COLUMN': '3RD ACCESS LETTER DATE/CALL', 'REVIEW_COLUMN': 'Review 1', 'FILTERS': [{'column': 'ORDER STATUS', 'value': 'LIVE'}, {'column': 'TYPE OF WORKS', 'value': 'FED'}], 'REVIEW_POSITIVE_VALUE': 'A NEW DOOR/S REQUIRED', 'TEMPLATE_GROUP1': {'LETTER_1_TEMPLATE': 'template1', 'LETTER_2_TEMPLATE': 'template2', 'LETTER_3_TEMPLATE': 'template3'}, 'TEMPLATE_GROUP2': {'LETTER_1_TEMPLATE': 'template1A', 'LETTER_2_TEMPLATE': 'template2A', 'LETTER_3_TEMPLATE': 'template3A'}, 'PLACEHOLDERS': {'NAME_PLACEHOLDER': 'Supplied Contact', 'ADDRESS_PLACEHOLDER': 'ITEM LOCATION / ADDRESS', 'DATE_PLACEHOLDER': 'Date', 'WO': 'PO number / Action Number'}, 'TEMPLATES_DIR': 'templates', 'PRINT_SERVER_DIR': 'print_server', 'WATCHER_INTERVAL': 604800, 'TENANT_ID': 'your-tenant-id', 'CLIENT_ID': 'your-client-id', 'CLIENT_SECRET': 'your-client-secret', 'EXCEL_FILE_ID': 'your-excel-file-id', 'EXCEL_FILE_DRIVE': 'your-excel-file-drive'}
+2024-06-19 12:52:08,058 - LetterAutomationLogger - INFO - Checking which letter to send for: Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 12:52:08,059 - LetterAutomationLogger - INFO - Third letter needs to be sent to: Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 12:52:08,059 - LetterAutomationLogger - INFO - Using template: template3
+2024-06-19 12:52:08,068 - LetterAutomationLogger - INFO - Template loaded: template3
+2024-06-19 12:52:09,205 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr R J Chandler
+2024-06-19 12:52:09,877 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 45B Queens Crescent  
+Horndean  
+Waterlooville  
+PO8 9ND
+2024-06-19 12:52:09,891 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 12:52:09,898 - LetterAutomationLogger - INFO - Replacing placeholder WO with AB0391729
+2024-06-19 12:52:09,904 - LetterAutomationLogger - INFO - Saving document to: print_server\MrRJChandler07460202000chandro.docx
+2024-06-19 12:52:09,950 - LetterAutomationLogger - INFO - Document saved successfully: print_server\MrRJChandler07460202000chandro.docx
+2024-06-19 12:52:09,950 - LetterAutomationLogger - INFO - Printed letter for Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 12:58:15,533 - LetterAutomationLogger - INFO - Loaded default config: {'USE_GUI': True, 'USE_TEAMS_EXCEL': False, 'HEADER_ROW': 2, 'LOCAL_EXCEL_FILE': 'residents.xlsx', 'EXCEL_SHEET_NAME': 'ABRI ONLY TRACKER', 'ADDRESS_COLUMN': 'ITEM LOCATION / ADDRESS', 'NAME_COLUMN': 'Supplied Contact', 'WORK_ORDER_COLUMN': 'PO number / Action Number', 'LETTER_1_COLUMN': '1ST ACCESS LETTER DATE/CALL ', 'LETTER_2_COLUMN': '2ND ACCESS LETTER DATE/CALL', 'LETTER_3_COLUMN': '3RD ACCESS LETTER DATE/CALL', 'REVIEW_COLUMN': 'Review 1', 'FILTERS': [{'column': 'ORDER STATUS', 'value': 'LIVE'}, {'column': 'TYPE OF WORKS', 'value': 'FED'}], 'REVIEW_POSITIVE_VALUE': 'A NEW DOOR/S REQUIRED', 'TEMPLATE_GROUP1': {'LETTER_1_TEMPLATE': 'template1', 'LETTER_2_TEMPLATE': 'template2', 'LETTER_3_TEMPLATE': 'template3'}, 'TEMPLATE_GROUP2': {'LETTER_1_TEMPLATE': 'template1A', 'LETTER_2_TEMPLATE': 'template2A', 'LETTER_3_TEMPLATE': 'template3A'}, 'PLACEHOLDERS': {'NAME_PLACEHOLDER': 'Supplied Contact', 'ADDRESS_PLACEHOLDER': 'ITEM LOCATION / ADDRESS', 'DATE_PLACEHOLDER': 'Date', 'WO': 'PO number / Action Number'}, 'TEMPLATES_DIR': 'templates', 'PRINT_SERVER_DIR': 'print_server', 'WATCHER_INTERVAL': 604800, 'TENANT_ID': 'your-tenant-id', 'CLIENT_ID': 'your-client-id', 'CLIENT_SECRET': 'your-client-secret', 'EXCEL_FILE_ID': 'your-excel-file-id', 'EXCEL_FILE_DRIVE': 'your-excel-file-drive'}
+2024-06-19 12:58:32,096 - LetterAutomationLogger - INFO - Checking which letter to send for: Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 12:58:32,096 - LetterAutomationLogger - INFO - Third letter needs to be sent to: Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 12:58:32,096 - LetterAutomationLogger - INFO - Using template: template3
+2024-06-19 12:58:32,104 - LetterAutomationLogger - INFO - Template loaded: template3
+2024-06-19 12:58:32,665 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr R J Chandler
+2024-06-19 12:58:33,813 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 45B
+Queens Crescent
+Horndean
+Waterlooville
+PO8 9ND
+2024-06-19 12:58:33,833 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 12:58:33,842 - LetterAutomationLogger - INFO - Replacing placeholder WO with AB0391729
+2024-06-19 12:58:33,849 - LetterAutomationLogger - INFO - Saving document to: print_server\MrRJChandler07460202000chandro.docx
+2024-06-19 12:58:33,899 - LetterAutomationLogger - INFO - Document saved successfully: print_server\MrRJChandler07460202000chandro.docx
+2024-06-19 12:58:33,900 - LetterAutomationLogger - INFO - Printed letter for Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 14:01:19,117 - LetterAutomationLogger - INFO - Loaded default config: {'USE_GUI': True, 'USE_TEAMS_EXCEL': False, 'HEADER_ROW': 2, 'LOCAL_EXCEL_FILE': 'residents.xlsx', 'EXCEL_SHEET_NAME': 'ABRI ONLY TRACKER', 'ADDRESS_COLUMN': 'ITEM LOCATION / ADDRESS', 'NAME_COLUMN': 'Supplied Contact', 'WORK_ORDER_COLUMN': 'PO number / Action Number', 'LETTER_1_COLUMN': '1ST ACCESS LETTER DATE/CALL ', 'LETTER_2_COLUMN': '2ND ACCESS LETTER DATE/CALL', 'LETTER_3_COLUMN': '3RD ACCESS LETTER DATE/CALL', 'REVIEW_COLUMN': 'Review 1', 'FILTERS': [{'column': 'ORDER STATUS', 'value': 'LIVE'}, {'column': 'TYPE OF WORKS', 'value': 'FED'}], 'REVIEW_POSITIVE_VALUE': 'A NEW DOOR/S REQUIRED', 'TEMPLATE_GROUP1': {'LETTER_1_TEMPLATE': 'template1', 'LETTER_2_TEMPLATE': 'template2', 'LETTER_3_TEMPLATE': 'template3'}, 'TEMPLATE_GROUP2': {'LETTER_1_TEMPLATE': 'template1A', 'LETTER_2_TEMPLATE': 'template2A', 'LETTER_3_TEMPLATE': 'template3A'}, 'PLACEHOLDERS': {'NAME_PLACEHOLDER': 'Supplied Contact', 'ADDRESS_PLACEHOLDER': 'ITEM LOCATION / ADDRESS', 'DATE_PLACEHOLDER': 'Date', 'WO': 'PO number / Action Number'}, 'TEMPLATES_DIR': 'templates', 'PRINT_SERVER_DIR': 'print_server', 'WATCHER_INTERVAL': 604800, 'TENANT_ID': 'your-tenant-id', 'CLIENT_ID': 'your-client-id', 'CLIENT_SECRET': 'your-client-secret', 'EXCEL_FILE_ID': 'your-excel-file-id', 'EXCEL_FILE_DRIVE': 'your-excel-file-drive'}
+2024-06-19 14:02:54,357 - LetterAutomationLogger - INFO - Processing data for: {'ITEM ID': 433.0, 'CLIENT': 'Abri Housing', 'CLIENT DERIVATIVE\n(RAISED BY)': 'CAROLINE EVANS', 'LFS JOB NUMBER': 2860, 'PO number / Action Number': 'AB0391729', 'Tender Number / Risk Hub': 150397, 'DATE RECEIVED (DATE RAISED)': datetime.datetime(2023, 5, 15, 0, 0), 'TARGET DATE': datetime.datetime(2023, 6, 14, 0, 0), 'Supplied Contact': 'Mr R J Chandler\n07460202000\nchandrob@gmail.com', 'ITEM LOCATION / ADDRESS': 'Flat 45B Queens Crescent, Horndean, Waterlooville, PO8 9ND', 'AREA': nan, 'POSTCODE': 'PO8 9ND', 'Action Description': 'Replace flat entrance door with FD30s doorset as per your quotation\nThis job replaces U0259921 as it was raised to the block and not individual properties ', 'Review 1': 'A NEW DOOR/S REQUIRED', 'TYPE OF WORKS': 'FED', 'INSTALL NOTES': 'ASBESTOS PRESENT\nASSIGNED TO \nNEED COLOUR CHOICE\nBurgandy Red', 'ITEM OF WORKS COUNT': 1.0, 'ORDER STATUS': 'LIVE', 'PRODUCTION STATUS': 'IN PRODUCTION', 'ITEM STATUS': 'CALL TO ARRANGE APPOINTMENT / SEND OUT LETTER IF NO ANSWER', 'FIRE STOPPING STATUS': nan, '1ST ACCESS LETTER DATE/CALL ': 'Email & letter 26/04/2024 PDC 31/01/2024', '2ND ACCESS LETTER DATE/CALL': 'Email 16/5/24\nPDC', '3RD ACCESS LETTER DATE/CALL': nan, 'ANY CARDED DATES': 'Called no ansa, no VM 26/04/2024 PDC ', 'BOOKED DATE': nan, 'OPERATIVE': 'ALEX/JOSH ', 'COMMENTS ': 'Emailed 16/5/2024  Tel No. failed PDC\n~ \nCalled no answer, need letter/email 11/12/23 VEG\nMEASURE IN FOLDER 12/01/2024 JOSH & ALEX', 'COMPLETION EVIDENCE RECEIVED': nan, 'PROCESSED TO CLIENT FILE': nan, 'FIRAS': 'REQ', 'FIRAS REFERENCE': nan, 'FINANCIAL': nan, 'WORK ORDER VALUE': 1592, 'Final Invoice Number': nan, 'Sent  Application Date': nan, 'Final Invoice Date / Valuation Date': nan, 'Invoice / Valuation Approved Date': nan, 'TOTAL VALUE': nan, 'FS': nan, 'DW': nan, 'Deposit Invoice Number ': nan, 'Deposit Invoice Date': nan, 'INVOICING NOTES': nan}
+2024-06-19 14:02:54,357 - LetterAutomationLogger - INFO - Checking which letter to send for: Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 14:02:54,357 - LetterAutomationLogger - INFO - Third letter needs to be sent to: Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 14:02:54,357 - LetterAutomationLogger - INFO - Using template: template3
+2024-06-19 14:02:54,380 - LetterAutomationLogger - INFO - Template loaded: template3
+2024-06-19 14:02:54,977 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr R J Chandler
+2024-06-19 14:02:55,967 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 45B Queens Crescent  
+Horndean  
+Waterlooville  
+PO8 9ND
+2024-06-19 14:02:55,987 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 14:02:55,997 - LetterAutomationLogger - INFO - Replacing placeholder WO with AB0391729
+2024-06-19 14:02:56,004 - LetterAutomationLogger - INFO - Saving document to: print_server\MrRJChandler07460202000chandro.docx
+2024-06-19 14:02:56,047 - LetterAutomationLogger - INFO - Document saved successfully: print_server\MrRJChandler07460202000chandro.docx
+2024-06-19 14:02:56,047 - LetterAutomationLogger - INFO - Opening document: print_server\MrRJChandler07460202000chandro.docx
+2024-06-19 14:02:58,299 - LetterAutomationLogger - ERROR - Error printing document print_server\MrRJChandler07460202000chandro.docx: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Sorry, we couldn't find your file. Was it moved, renamed, or deleted?\r (C:\\...\\MrRJChandler07460202000chandro...)", 'wdmain11.chm', 24654, -2146823114), None)
+2024-06-19 14:02:58,299 - LetterAutomationLogger - ERROR - Error printing document print_server\MrRJChandler07460202000chandro.docx: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Sorry, we couldn't find your file. Was it moved, renamed, or deleted?\r (C:\\...\\MrRJChandler07460202000chandro...)", 'wdmain11.chm', 24654, -2146823114), None)
+2024-06-19 14:03:00,261 - LetterAutomationLogger - ERROR - Error generating and printing letters for Mr R J Chandler
+07460202000
+chandrob@gmail.com: 'Supplied Contact'
+2024-06-19 14:03:00,264 - LetterAutomationLogger - INFO - Processing data for: {'ITEM ID': 442.0, 'CLIENT': 'Abri Housing', 'CLIENT DERIVATIVE\n(RAISED BY)': 'CAROLINE EVANS', 'LFS JOB NUMBER': 3592, 'PO number / Action Number': ' AB0391907', 'Tender Number / Risk Hub': 150465, 'DATE RECEIVED (DATE RAISED)': datetime.datetime(2023, 5, 15, 0, 0), 'TARGET DATE': datetime.datetime(2023, 6, 14, 0, 0), 'Supplied Contact': 'Ms N J Griffin\n07758922449\nnicolag1963@hotmail.com', 'ITEM LOCATION / ADDRESS': 'Flat 72A Queens Crescent\nHorndean\nWaterlooville\nPO8 9ND', 'AREA': nan, 'POSTCODE': 'PO8 9ND', 'Action Description': 'Replace flat entrance door with FD30s flush doorset as per your quotation', 'Review 1': 'A NEW DOOR/S REQUIRED', 'TYPE OF WORKS': 'FED', 'INSTALL NOTES': 'Customer to provide asbestos details if non-available', 'ITEM OF WORKS COUNT': 1.0, 'ORDER STATUS': 'LIVE', 'PRODUCTION STATUS': 'MEASURED', 'ITEM STATUS': 'SCHEDULE', 'FIRE STOPPING STATUS': nan, '1ST ACCESS LETTER DATE/CALL ': '26/04/2024\n31/01/2024 VM & 7 day Letter', '2ND ACCESS LETTER DATE/CALL': '07/05/2024 VM & letter ', '3RD ACCESS LETTER DATE/CALL': nan, 'ANY CARDED DATES': 'VM & Email 29/4/2024 PDC', 'BOOKED DATE': nan, 'OPERATIVE': nan, 'COMMENTS ': 'Measure in folder 17/11/2023\nCalled for colour choice, no answer, needs letter/email 11.12.23 VEG', 'COMPLETION EVIDENCE RECEIVED': nan, 'PROCESSED TO CLIENT FILE': nan, 'FIRAS': 'REQ', 'FIRAS REFERENCE': nan, 'FINANCIAL': nan, 'WORK ORDER VALUE': 1716.18, 'Final Invoice Number': nan, 'Sent  Application Date': nan, 'Final Invoice Date / Valuation Date': nan, 'Invoice / Valuation Approved Date': nan, 'TOTAL VALUE': nan, 'FS': nan, 'DW': nan, 'Deposit Invoice Number ': nan, 'Deposit Invoice Date': nan, 'INVOICING NOTES': nan}
+2024-06-19 14:03:00,264 - LetterAutomationLogger - INFO - Checking which letter to send for: Ms N J Griffin
+07758922449
+nicolag1963@hotmail.com
+2024-06-19 14:03:00,264 - LetterAutomationLogger - INFO - Third letter needs to be sent to: Ms N J Griffin
+07758922449
+nicolag1963@hotmail.com
+2024-06-19 14:03:00,264 - LetterAutomationLogger - INFO - Using template: template3
+2024-06-19 14:03:00,283 - LetterAutomationLogger - INFO - Template loaded: template3
+2024-06-19 14:03:00,730 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Ms N J Griffin
+2024-06-19 14:03:01,979 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 72A Queens Crescent  
+Horndean  
+Waterlooville  
+PO8 9ND
+2024-06-19 14:03:01,991 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 14:03:01,997 - LetterAutomationLogger - INFO - Replacing placeholder WO with  AB0391907
+2024-06-19 14:03:02,003 - LetterAutomationLogger - INFO - Saving document to: print_server\MsNJGriffin07758922449nicolag1.docx
+2024-06-19 14:03:02,041 - LetterAutomationLogger - INFO - Document saved successfully: print_server\MsNJGriffin07758922449nicolag1.docx
+2024-06-19 14:03:02,041 - LetterAutomationLogger - INFO - Opening document: print_server\MsNJGriffin07758922449nicolag1.docx
+2024-06-19 14:03:02,053 - LetterAutomationLogger - ERROR - Error printing document print_server\MsNJGriffin07758922449nicolag1.docx: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Sorry, we couldn't find your file. Was it moved, renamed, or deleted?\r (C:\\...\\MsNJGriffin07758922449nicolag1...)", 'wdmain11.chm', 24654, -2146823114), None)
+2024-06-19 14:03:02,053 - LetterAutomationLogger - ERROR - Error printing document print_server\MsNJGriffin07758922449nicolag1.docx: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Sorry, we couldn't find your file. Was it moved, renamed, or deleted?\r (C:\\...\\MsNJGriffin07758922449nicolag1...)", 'wdmain11.chm', 24654, -2146823114), None)
+2024-06-19 14:03:03,847 - LetterAutomationLogger - ERROR - Error generating and printing letters for Ms N J Griffin
+07758922449
+nicolag1963@hotmail.com: 'Supplied Contact'
+2024-06-19 14:03:03,848 - LetterAutomationLogger - INFO - Processing data for: {'ITEM ID': 37.0, 'CLIENT': 'Abri Housing', 'CLIENT DERIVATIVE\n(RAISED BY)': 'Micha', 'LFS JOB NUMBER': 3592, 'PO number / Action Number': 'AB0493831', 'Tender Number / Risk Hub': 158253, 'DATE RECEIVED (DATE RAISED)': datetime.datetime(2023, 8, 16, 0, 0), 'TARGET DATE': datetime.datetime(2023, 11, 6, 0, 0), 'Supplied Contact': 'Customer Name: Mr J Cousin\nTelephone Number: \nMobile Number: 07476718771\nEmail Address: cousinphotos@gmail.com', 'ITEM LOCATION / ADDRESS': 'Flat 36 Milton Close, Horton, Slough, SL3 9PP', 'AREA': nan, 'POSTCODE': 'SL3 9PP', 'Action Description': 'The entrance door to flat 36 has a hole in\nthe leaf which requires filling with proprietary materials.', 'Review 1': 'A NEW DOOR/S REQUIRED', 'TYPE OF WORKS': 'FED', 'INSTALL NOTES': 'COLOUR CHOICE ', 'ITEM OF WORKS COUNT': 1.0, 'ORDER STATUS': 'LIVE', 'PRODUCTION STATUS': 'MEASURED', 'ITEM STATUS': 'SCHEDULE', 'FIRE STOPPING STATUS': nan, '1ST ACCESS LETTER DATE/CALL ': nan, '2ND ACCESS LETTER DATE/CALL': nan, '3RD ACCESS LETTER DATE/CALL': nan, 'ANY CARDED DATES': datetime.datetime(2024, 2, 9, 0, 0), 'BOOKED DATE': datetime.datetime(2024, 5, 13, 0, 0), 'OPERATIVE': 'Robin ', 'COMMENTS ': 'new door set approved 14/05/2024 kb \ndoor set beyound repair sent to david to advise awaitin gresponse 13/05/2024kb \nAppt Booked 13/5/24 AM _ PDC \nASSIGNED TO ROBIN BUT NEED TO FOLLOW LETTER PROCESS\nNO ACCESS 09/02/2024 CARD LEFT KB', 'COMPLETION EVIDENCE RECEIVED': nan, 'PROCESSED TO CLIENT FILE': nan, 'FIRAS': 'NOT REQ', 'FIRAS REFERENCE': nan, 'FINANCIAL': nan, 'WORK ORDER VALUE': 45, 'Final Invoice Number': nan, 'Sent  Application Date': nan, 'Final Invoice Date / Valuation Date': nan, 'Invoice / Valuation Approved Date': nan, 'TOTAL VALUE': 1716.18, 'FS': 0, 'DW': 1716.18, 'Deposit Invoice Number ': nan, 'Deposit Invoice Date': nan, 'INVOICING NOTES': 'variation new door set approved 14/05/2024 kb '}
+2024-06-19 14:03:03,848 - LetterAutomationLogger - INFO - Checking which letter to send for: Customer Name: Mr J Cousin
+Telephone Number: 
+Mobile Number: 07476718771
+Email Address: cousinphotos@gmail.com
+2024-06-19 14:03:03,848 - LetterAutomationLogger - INFO - First letter needs to be sent to: Customer Name: Mr J Cousin
+Telephone Number: 
+Mobile Number: 07476718771
+Email Address: cousinphotos@gmail.com
+2024-06-19 14:03:03,848 - LetterAutomationLogger - INFO - Using template: template1
+2024-06-19 14:03:03,879 - LetterAutomationLogger - INFO - Template loaded: template1
+2024-06-19 14:03:04,307 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr J Cousin
+2024-06-19 14:03:05,049 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 36  
+Milton Close  
+Horton  
+Slough  
+SL3 9PP
+2024-06-19 14:03:05,062 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 14:03:05,074 - LetterAutomationLogger - INFO - Replacing placeholder WO with AB0493831
+2024-06-19 14:03:05,082 - LetterAutomationLogger - INFO - Saving document to: print_server\CustomerNameMrJCousinTelephone.docx
+2024-06-19 14:03:05,122 - LetterAutomationLogger - INFO - Document saved successfully: print_server\CustomerNameMrJCousinTelephone.docx
+2024-06-19 14:03:05,122 - LetterAutomationLogger - INFO - Opening document: print_server\CustomerNameMrJCousinTelephone.docx
+2024-06-19 14:03:05,133 - LetterAutomationLogger - ERROR - Error printing document print_server\CustomerNameMrJCousinTelephone.docx: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Sorry, we couldn't find your file. Was it moved, renamed, or deleted?\r (C:\\...\\CustomerNameMrJCousinTelephone...)", 'wdmain11.chm', 24654, -2146823114), None)
+2024-06-19 14:03:05,134 - LetterAutomationLogger - ERROR - Error printing document print_server\CustomerNameMrJCousinTelephone.docx: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Sorry, we couldn't find your file. Was it moved, renamed, or deleted?\r (C:\\...\\CustomerNameMrJCousinTelephone...)", 'wdmain11.chm', 24654, -2146823114), None)
+2024-06-19 14:03:07,139 - LetterAutomationLogger - ERROR - Error generating and printing letters for Customer Name: Mr J Cousin
+Telephone Number: 
+Mobile Number: 07476718771
+Email Address: cousinphotos@gmail.com: 'Supplied Contact'
+2024-06-19 14:03:07,140 - LetterAutomationLogger - INFO - Processing data for: {'ITEM ID': 58.0, 'CLIENT': 'Abri Housing', 'CLIENT DERIVATIVE\n(RAISED BY)': ' Caroline Evans', 'LFS JOB NUMBER': 3592, 'PO number / Action Number': 'AB0496798', 'Tender Number / Risk Hub': 154233, 'DATE RECEIVED (DATE RAISED)': datetime.datetime(2023, 8, 25, 0, 0), 'TARGET DATE': datetime.datetime(2023, 11, 19, 0, 0), 'Supplied Contact': 'Mr Styles ', 'ITEM LOCATION / ADDRESS': ' Flat 1 Albert Place\nEton Wick\nWindsor', 'AREA': nan, 'POSTCODE': 'SL4 6JF', 'Action Description': '- Replace flat entrance door as per your quotation 18/08/23 - \nNew FD30s door set closer hardwood threshold intumescent letterbox and spy viewer', 'Review 1': 'A NEW DOOR/S REQUIRED', 'TYPE OF WORKS': 'FED', 'INSTALL NOTES': 'ASBESTOS PRESENT \nREPORT REQUIRED \nVISIT IN PAIRS ', 'ITEM OF WORKS COUNT': 1.0, 'ORDER STATUS': 'LIVE', 'PRODUCTION STATUS': 'IN PRODUCTION', 'ITEM STATUS': 'CALL TO ARRANGE APPOINTMENT / SEND OUT LETTER IF NO ANSWER', 'FIRE STOPPING STATUS': nan, '1ST ACCESS LETTER DATE/CALL ': '7 Day Col Choice 31/1/24 PDC \nLetter 5/12/2023 PDC Call failed 2/11/2023 PDC', '2ND ACCESS LETTER DATE/CALL': nan, '3RD ACCESS LETTER DATE/CALL': nan, 'ANY CARDED DATES': nan, 'BOOKED DATE': 'booked for 03.11.23', 'OPERATIVE': 'Robin ', 'COMMENTS ': 'Measure in folder 03/11/2023\nALSO MAY BE REFERENCE TO TWINE 154234, PLEASE SEE WC EMAIL DATED 11/12/2023.', 'COMPLETION EVIDENCE RECEIVED': nan, 'PROCESSED TO CLIENT FILE': nan, 'FIRAS': 'Required', 'FIRAS REFERENCE': nan, 'FINANCIAL': nan, 'WORK ORDER VALUE': 1592, 'Final Invoice Number': nan, 'Sent  Application Date': nan, 'Final Invoice Date / Valuation Date': nan, 'Invoice / Valuation Approved Date': nan, 'TOTAL VALUE': nan, 'FS': nan, 'DW': nan, 'Deposit Invoice Number ': nan, 'Deposit Invoice Date': nan, 'INVOICING NOTES': nan}
+2024-06-19 14:03:07,140 - LetterAutomationLogger - INFO - Checking which letter to send for: Mr Styles 
+2024-06-19 14:03:07,140 - LetterAutomationLogger - INFO - Second letter needs to be sent to: Mr Styles 
+2024-06-19 14:03:07,140 - LetterAutomationLogger - INFO - Using template: template2
+2024-06-19 14:03:07,173 - LetterAutomationLogger - INFO - Template loaded: template2
+2024-06-19 14:03:07,558 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr Styles
+2024-06-19 14:03:08,136 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 1 Albert Place
+Eton Wick
+Windsor
+2024-06-19 14:03:08,151 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 14:03:08,158 - LetterAutomationLogger - INFO - Replacing placeholder WO with AB0496798
+2024-06-19 14:03:08,164 - LetterAutomationLogger - INFO - Saving document to: print_server\MrStyles.docx
+2024-06-19 14:03:08,207 - LetterAutomationLogger - INFO - Document saved successfully: print_server\MrStyles.docx
+2024-06-19 14:03:08,207 - LetterAutomationLogger - INFO - Opening document: print_server\MrStyles.docx
+2024-06-19 14:03:08,217 - LetterAutomationLogger - ERROR - Error printing document print_server\MrStyles.docx: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Sorry, we couldn't find your file. Was it moved, renamed, or deleted?\r (C:\\Windows\\system32\\...\\MrStyles.docx)", 'wdmain11.chm', 24654, -2146823114), None)
+2024-06-19 14:03:08,217 - LetterAutomationLogger - ERROR - Error printing document print_server\MrStyles.docx: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Sorry, we couldn't find your file. Was it moved, renamed, or deleted?\r (C:\\Windows\\system32\\...\\MrStyles.docx)", 'wdmain11.chm', 24654, -2146823114), None)
+2024-06-19 14:03:10,046 - LetterAutomationLogger - ERROR - Error generating and printing letters for Mr Styles : 'Supplied Contact'
+2024-06-19 14:03:10,048 - LetterAutomationLogger - INFO - Processing data for: {'ITEM ID': 69.0, 'CLIENT': 'Abri Housing', 'CLIENT DERIVATIVE\n(RAISED BY)': 'Caroline Evans', 'LFS JOB NUMBER': 3592, 'PO number / Action Number': 'AB0510269', 'Tender Number / Risk Hub': 155079, 'DATE RECEIVED (DATE RAISED)': datetime.datetime(2023, 9, 7, 0, 0), 'TARGET DATE': datetime.datetime(2023, 12, 3, 0, 0), 'Supplied Contact': 'Mr Khurshid - 07919461432', 'ITEM LOCATION / ADDRESS': 'Flat 84 Liddell Way, Ascot, SL5 9UY', 'AREA': nan, 'POSTCODE': 'SL5 9UY', 'Action Description': 'Replace flat entrance doorset (FD30s Flush FED) as per your quotation \nreceived 04/09/23 and approved by David Mason PLEASE ENSURE IF A SUITED LOCK IS FITTED TO REINSTATE TO NEW DOOR INSTALLATION', 'Review 1': 'A NEW DOOR/S REQUIRED', 'TYPE OF WORKS': 'FED', 'INSTALL NOTES': 'Number 7 - Grey', 'ITEM OF WORKS COUNT': 1.0, 'ORDER STATUS': 'LIVE', 'PRODUCTION STATUS': 'IN PRODUCTION', 'ITEM STATUS': 'CALL TO ARRANGE APPOINTMENT / SEND OUT LETTER IF NO ANSWER', 'FIRE STOPPING STATUS': nan, '1ST ACCESS LETTER DATE/CALL ': '05/12/2023 - PDC', '2ND ACCESS LETTER DATE/CALL': datetime.datetime(2024, 6, 6, 0, 0), '3RD ACCESS LETTER DATE/CALL': nan, 'ANY CARDED DATES': nan, 'BOOKED DATE': nan, 'OPERATIVE': nan, 'COMMENTS ': 'no contact asked paula to send letter with colour choices. 19/10/2023 LD \ncalled - will call back to confirm date 6/6/24 AD', 'COMPLETION EVIDENCE RECEIVED': nan, 'PROCESSED TO CLIENT FILE': nan, 'FIRAS': 'REQUIRED ', 'FIRAS REFERENCE': 'DX1454', 'FINANCIAL': nan, 'WORK ORDER VALUE': 1592, 'Final Invoice Number': nan, 'Sent  Application Date': nan, 'Final Invoice Date / Valuation Date': nan, 'Invoice / Valuation Approved Date': nan, 'TOTAL VALUE': nan, 'FS': nan, 'DW': nan, 'Deposit Invoice Number ': nan, 'Deposit Invoice Date': nan, 'INVOICING NOTES': 'VARIATION TO NEW RATES '}
+2024-06-19 14:03:10,048 - LetterAutomationLogger - INFO - Checking which letter to send for: Mr Khurshid - 07919461432
+2024-06-19 14:03:10,048 - LetterAutomationLogger - INFO - Third letter needs to be sent to: Mr Khurshid - 07919461432
+2024-06-19 14:03:10,048 - LetterAutomationLogger - INFO - Using template: template3
+2024-06-19 14:03:10,056 - LetterAutomationLogger - INFO - Template loaded: template3
+2024-06-19 14:03:10,545 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr Khurshid
+2024-06-19 14:03:11,183 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 84 Liddell Way  
+Ascot  
+SL5 9UY
+2024-06-19 14:03:11,192 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 14:03:11,197 - LetterAutomationLogger - INFO - Replacing placeholder WO with AB0510269
+2024-06-19 14:03:11,202 - LetterAutomationLogger - INFO - Saving document to: print_server\MrKhurshid07919461432.docx
+2024-06-19 14:03:11,258 - LetterAutomationLogger - INFO - Document saved successfully: print_server\MrKhurshid07919461432.docx
+2024-06-19 14:03:11,258 - LetterAutomationLogger - INFO - Opening document: print_server\MrKhurshid07919461432.docx
+2024-06-19 14:03:11,271 - LetterAutomationLogger - ERROR - Error printing document print_server\MrKhurshid07919461432.docx: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Sorry, we couldn't find your file. Was it moved, renamed, or deleted?\r (C:\\...\\MrKhurshid07919461432.docx)", 'wdmain11.chm', 24654, -2146823114), None)
+2024-06-19 14:03:11,271 - LetterAutomationLogger - ERROR - Error printing document print_server\MrKhurshid07919461432.docx: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Sorry, we couldn't find your file. Was it moved, renamed, or deleted?\r (C:\\...\\MrKhurshid07919461432.docx)", 'wdmain11.chm', 24654, -2146823114), None)
