@@ -6,7 +6,7 @@
   "EXCEL_SHEET_NAME": "ABRI ONLY TRACKER",
   "ADDRESS_COLUMN": "ITEM LOCATION / ADDRESS",
   "NAME_COLUMN": "Supplied Contact",
-  "WORK_ORDER_COLUMN": "Work Order Number",
+  "WORK_ORDER_COLUMN": "PO number / Action Number",
   "LETTER_1_COLUMN": "1ST ACCESS LETTER DATE/CALL ",
   "LETTER_2_COLUMN": "2ND ACCESS LETTER DATE/CALL",
   "LETTER_3_COLUMN": "3RD ACCESS LETTER DATE/CALL",
@@ -35,7 +35,8 @@
   "PLACEHOLDERS": {
     "NAME_PLACEHOLDER": "Supplied Contact",
     "ADDRESS_PLACEHOLDER": "ITEM LOCATION / ADDRESS",
-    "DATE_PLACEHOLDER": "Date"
+    "DATE_PLACEHOLDER": "Date",
+    "WO": "PO number / Action Number"
   },
   "TEMPLATES_DIR": "templates",
   "PRINT_SERVER_DIR": "print_server",

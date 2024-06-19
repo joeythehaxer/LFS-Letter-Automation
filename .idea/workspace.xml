@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74a96bdd-1efa-4d84-addb-91076e962341" name="Changes" comment="improved gui and added selection mechanism">
+    <list default="true" id="74a96bdd-1efa-4d84-addb-91076e962341" name="Changes" comment="v4, print, letter selection, and filename non-functional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/default_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/default_config.json" afterDir="false" />
@@ -76,7 +76,6 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="OPENAI_API_KEY" value="sk-proj-JWO6ZW0Zuqya85wy5htBT3BlbkFJDty2nuiK1q7X1ojWELlp" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv" />
@@ -162,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718197402976</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="v4, print, letter selection, and filename non-functional">
+      <option name="closed" value="true" />
+      <created>1718787303188</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718787303188</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -173,7 +180,8 @@
     <MESSAGE value="transferred customisable values to config.py" />
     <MESSAGE value="added gui and on off switch for gui" />
     <MESSAGE value="added filtration and gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="added filtration and gui" />
+    <MESSAGE value="v4, print, letter selection, and filename non-functional" />
+    <option name="LAST_COMMIT_MESSAGE" value="v4, print, letter selection, and filename non-functional" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

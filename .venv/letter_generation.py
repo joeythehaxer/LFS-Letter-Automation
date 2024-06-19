@@ -81,8 +81,13 @@ class LetterGenerator:
             for table in document.tables:
                 for row in table.rows:
                     for cell in row.cells:
-                        if f'{{{{{placeholder}}}}}' in cell.text:
-                            inline_replace(cell, f'{{{{{placeholder}}}}}', value)
+                        inline_replace(cell, f'{{{{{placeholder}}}}}', value)
+
+            # Replace placeholders in shapes (text boxes)
+            for shape in document.inline_shapes:
+                if shape._inline.graphic.graphicData.uri.endswith('/textFrame'):
+                    for paragraph in shape.text_frame.paragraphs:
+                        inline_replace(paragraph, f'{{{{{placeholder}}}}}', value)
 
         return document
 
