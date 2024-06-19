@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="74a96bdd-1efa-4d84-addb-91076e962341" name="Changes" comment="improved gui and added selection mechanism">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/default_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/default_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/letter_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/letter_generation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/templates/template1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/template1.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

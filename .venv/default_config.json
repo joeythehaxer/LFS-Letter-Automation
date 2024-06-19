@@ -34,7 +34,8 @@
   },
   "PLACEHOLDERS": {
     "NAME_PLACEHOLDER": "Supplied Contact",
-    "ADDRESS_PLACEHOLDER": "ITEM LOCATION / ADDRESS"
+    "ADDRESS_PLACEHOLDER": "ITEM LOCATION / ADDRESS",
+    "DATE_PLACEHOLDER": "Date"
   },
   "TEMPLATES_DIR": "templates",
   "PRINT_SERVER_DIR": "print_server",

@@ -1,5 +1,6 @@
 import os
 import json
+from datetime import datetime
 from docx import Document
 from openai import OpenAI
 
@@ -20,12 +21,14 @@ class LetterGenerator:
         if not text:
             return "Resident"
         try:
-            response = client.chat.completions.create(model="gpt-4o",
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": f"Extract the name including the person's title from the following text. Only provide the name, no additional text. If there is no obvious name, return 'Resident': '{text}'"}
-            ],
-            max_tokens=50)
+            response = client.chat.completions.create(
+                model="gpt-4o",
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": f"Extract the name including the person's title from the following text. Only provide the name, no additional text. If there is no obvious name, return 'Resident': '{text}'"}
+                ],
+                max_tokens=50
+            )
             name = response.choices[0].message.content.strip()
             return name if name else "Resident"
         except Exception as e:
@@ -36,12 +39,14 @@ class LetterGenerator:
         if not text:
             return "Address not available"
         try:
-            response = client.chat.completions.create(model="gpt-4o",
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": f"Format the following address for a letter with proper line breaks. Only provide the formatted address, no additional text: '{text}'"}
-            ],
-            max_tokens=150)
+            response = client.chat.completions.create(
+                model="gpt-4o",
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": f"Format the following address for a letter with proper line breaks. Only provide the formatted address, no additional text: '{text}'"}
+                ],
+                max_tokens=150
+            )
             formatted_address = response.choices[0].message.content.strip()
             return formatted_address if formatted_address else text
         except Exception as e:
@@ -60,6 +65,8 @@ class LetterGenerator:
                 value = self.clean_name(data[column])
             elif column == self.config['ADDRESS_COLUMN']:
                 value = self.format_address(data[column])
+            elif column == 'Date':
+                value = datetime.now().strftime("%d %B %Y")
             else:
                 value = str(data[column])
 

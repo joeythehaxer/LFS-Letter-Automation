@@ -2002,3 +2002,190 @@ rogmvern@btinternet.com: [Errno 22] Invalid argument: 'print_server\\Mr R Vernie
 2024-06-17 11:59:15,625 - LetterAutomationLogger - ERROR - Error generating and printing letters: 'Name'
 2024-06-17 12:00:36,700 - LetterAutomationLogger - INFO - Collecting data from local Excel file
 2024-06-17 12:00:37,745 - LetterAutomationLogger - ERROR - Error generating and printing letters: 'Name'
+2024-06-19 09:37:46,628 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr R J Chandler
+2024-06-19 09:37:47,588 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 45B Queens Crescent  
+Horndean  
+Waterlooville  
+PO8 9ND
+2024-06-19 09:37:47,638 - LetterAutomationLogger - INFO - Generated letter for Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 09:37:48,510 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Ms N J Griffin
+2024-06-19 09:37:49,366 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 72A Queens Crescent  
+Horndean  
+Waterlooville  
+PO8 9ND
+2024-06-19 09:37:49,438 - LetterAutomationLogger - INFO - Generated letter for Ms N J Griffin
+07758922449
+nicolag1963@hotmail.com
+2024-06-19 09:37:49,990 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr J Cousin
+2024-06-19 09:37:50,958 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 36 Milton Close
+Horton
+Slough
+SL3 9PP
+2024-06-19 09:37:51,022 - LetterAutomationLogger - INFO - Generated letter for Customer Name: Mr J Cousin
+Telephone Number: 
+Mobile Number: 07476718771
+Email Address: cousinphotos@gmail.com
+2024-06-19 09:37:51,529 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr Styles
+2024-06-19 09:37:52,276 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 1 Albert Place
+Eton Wick
+Windsor
+2024-06-19 09:37:52,356 - LetterAutomationLogger - INFO - Generated letter for Mr Styles 
+2024-06-19 09:37:52,926 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr Khurshid
+2024-06-19 09:37:53,831 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 84 Liddell Way  
+Ascot  
+SL5 9UY
+2024-06-19 09:37:53,895 - LetterAutomationLogger - INFO - Generated letter for Mr Khurshid - 07919461432
+2024-06-19 09:37:54,250 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mrs I Ball
+2024-06-19 09:43:06,929 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr R J Chandler
+2024-06-19 09:43:07,789 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 45B Queens Crescent  
+Horndean  
+Waterlooville  
+PO8 9ND
+2024-06-19 09:43:07,845 - LetterAutomationLogger - INFO - Generated letter for Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 09:43:08,431 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Ms N J Griffin
+2024-06-19 09:43:09,310 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 72A Queens Crescent  
+Horndean  
+Waterlooville  
+PO8 9ND
+2024-06-19 09:43:09,374 - LetterAutomationLogger - INFO - Generated letter for Ms N J Griffin
+07758922449
+nicolag1963@hotmail.com
+2024-06-19 09:43:09,783 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr J Cousin
+2024-06-19 09:43:10,494 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 36 Milton Close  
+Horton  
+Slough  
+SL3 9PP
+2024-06-19 09:43:10,559 - LetterAutomationLogger - INFO - Generated letter for Customer Name: Mr J Cousin
+Telephone Number: 
+Mobile Number: 07476718771
+Email Address: cousinphotos@gmail.com
+2024-06-19 09:43:11,128 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr Styles
+2024-06-19 09:43:12,422 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 1 Albert Place
+Eton Wick
+Windsor
+2024-06-19 09:43:12,491 - LetterAutomationLogger - INFO - Generated letter for Mr Styles 
+2024-06-19 09:52:36,287 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr R J Chandler
+2024-06-19 09:52:37,296 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 45B Queens Crescent  
+Horndean  
+Waterlooville  
+PO8 9ND
+2024-06-19 09:52:37,312 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:37,368 - LetterAutomationLogger - INFO - Generated letter for Mr R J Chandler
+07460202000
+chandrob@gmail.com
+2024-06-19 09:52:37,999 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Ms N J Griffin
+2024-06-19 09:52:38,718 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 72A Queens Crescent  
+Horndean  
+Waterlooville  
+PO8 9ND
+2024-06-19 09:52:38,726 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:38,774 - LetterAutomationLogger - INFO - Generated letter for Ms N J Griffin
+07758922449
+nicolag1963@hotmail.com
+2024-06-19 09:52:39,233 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr J Cousin
+2024-06-19 09:52:39,947 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 36 Milton Close  
+Horton  
+Slough  
+SL3 9PP
+2024-06-19 09:52:39,955 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:40,000 - LetterAutomationLogger - INFO - Generated letter for Customer Name: Mr J Cousin
+Telephone Number: 
+Mobile Number: 07476718771
+Email Address: cousinphotos@gmail.com
+2024-06-19 09:52:40,473 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr Styles
+2024-06-19 09:52:41,127 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 1 Albert Place  
+Eton Wick  
+Windsor
+2024-06-19 09:52:41,143 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:41,205 - LetterAutomationLogger - INFO - Generated letter for Mr Styles 
+2024-06-19 09:52:41,686 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr Khurshid
+2024-06-19 09:52:42,652 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 84 Liddell Way  
+Ascot  
+SL5 9UY
+2024-06-19 09:52:42,677 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:42,733 - LetterAutomationLogger - INFO - Generated letter for Mr Khurshid - 07919461432
+2024-06-19 09:52:43,380 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mrs I Ball
+2024-06-19 09:52:44,107 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 66 Liddell Way  
+Ascot  
+SL5 9UY
+2024-06-19 09:52:44,120 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:44,175 - LetterAutomationLogger - INFO - Generated letter for  Mrs I Ball
+Telephone Number: 01344627976
+Mobile Number: 07714782777
+2024-06-19 09:52:44,594 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Miss E Evans
+2024-06-19 09:52:45,362 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 62 Liddell Way  
+Ascot  
+SL5 9UY
+2024-06-19 09:52:45,371 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:45,438 - LetterAutomationLogger - INFO - Generated letter for Miss E Evans 
+Mobile Number: 07506575560
+evanselizabeth1@icloud.com
+2024-06-19 09:52:45,976 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr S Chandler-King & Miss N McGuire
+2024-06-19 09:52:46,855 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 14 Claypit Copse  
+Bursledon  
+Southampton  
+SO31 1EX
+2024-06-19 09:52:46,871 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:46,926 - LetterAutomationLogger - INFO - Generated letter for Mr S Chandler-King & Miss N 
+McGuire Mobile Number: 07437004317
+stevenking13@hotmail.co.uk
+2024-06-19 09:52:47,627 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr J Woodford
+2024-06-19 09:52:48,778 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 5
+97 Coxford Road
+Coxford
+Southampton
+SO16 5AA
+2024-06-19 09:52:48,793 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:48,858 - LetterAutomationLogger - INFO - Generated letter for Mr J Woodford 07399164720
+woodfordjacob12@gmail.com
+2024-06-19 09:52:49,443 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Miss A Caldwell & Mr K Marks
+2024-06-19 09:52:50,572 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 96 Linden House  
+Common Road  
+Langley  
+Slough  
+SL3 8TT
+2024-06-19 09:52:50,588 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:50,647 - LetterAutomationLogger - INFO - Generated letter for Miss A Caldwell & Mr K Marks
+07904293571
+abbeycaldwell@hotmail.co.uk
+2024-06-19 09:52:51,151 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Miss A Whitton
+2024-06-19 09:52:51,904 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 27 Bellsfield Court  
+Bell Lane  
+Eton Wick  
+Windsor  
+SL4 6JR
+2024-06-19 09:52:51,913 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:51,969 - LetterAutomationLogger - INFO - Generated letter for Miss A Whitton
+07496178061
+whittonamy0@gmail.com
+2024-06-19 09:52:52,724 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Mr M Tomala
+2024-06-19 09:52:53,440 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 21 New Road  
+Datchet  
+Slough  
+SL3 9HP
+2024-06-19 09:52:53,454 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:53,502 - LetterAutomationLogger - INFO - Generated letter for  Mr M Tomala
+07828846334
+marektomala1@wp.pl
+2024-06-19 09:52:54,069 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Miss G Anderson
+2024-06-19 09:52:55,107 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 6
+Clewer New Town
+Windsor
+SL4 3QE
+2024-06-19 09:52:55,122 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:55,177 - LetterAutomationLogger - INFO - Generated letter for Miss G Anderson
+07463780047
+ gabbieanderson12@gmail.com
+2024-06-19 09:52:55,648 - LetterAutomationLogger - INFO - Replacing placeholder NAME_PLACEHOLDER with Miss G M Lee
+2024-06-19 09:52:56,460 - LetterAutomationLogger - INFO - Replacing placeholder ADDRESS_PLACEHOLDER with Flat 2  
+95 Kingston Road  
+Portsmouth  
+PO2 7FH
+2024-06-19 09:52:56,468 - LetterAutomationLogger - INFO - Replacing placeholder DATE_PLACEHOLDER with 19 June 2024
+2024-06-19 09:52:56,516 - LetterAutomationLogger - INFO - Generated letter for Miss G M Lee
+07519051734
+Ginalee98@hotail.co.uk
