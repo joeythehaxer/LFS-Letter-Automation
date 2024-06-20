@@ -1,16 +1,13 @@
 import os
-import json
 from datetime import datetime
 from docx import Document
 from openai import OpenAI
 from template_management import TemplateManager
+import pandas as pd
 
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 from custom_logging import Logger
 
-DEFAULT_CONFIG_PATH = 'default_config.json'
-
-# Ensure your OpenAI API key is set in the environment variables
 
 class LetterGenerator:
     def __init__(self, config, logger, printer, template_manager):
@@ -27,7 +24,8 @@ class LetterGenerator:
                 model="gpt-4o",
                 messages=[
                     {"role": "system", "content": "You are a helpful assistant."},
-                    {"role": "user", "content": f"Extract the name including the person's title from the following text. Only provide the name, no additional text. If there is no obvious name, return 'Resident': '{text}'"}
+                    {"role": "user",
+                     "content": f"Extract the name including the person's title from the following text. Only provide the name, no additional text. If there is no obvious name, return 'Resident': '{text}'"}
                 ],
                 max_tokens=50
             )
@@ -45,7 +43,8 @@ class LetterGenerator:
                 model="gpt-4o",
                 messages=[
                     {"role": "system", "content": "You are a helpful assistant."},
-                    {"role": "user", "content": f"Format the following address for a letter with proper line breaks. Only provide the formatted address, no additional text: '{text}'"}
+                    {"role": "user",
+                     "content": f"Format the following address for a letter with proper line breaks. Only provide the formatted address, no additional text: '{text}'"}
                 ],
                 max_tokens=150
             )
@@ -56,7 +55,6 @@ class LetterGenerator:
             return text
 
     def sanitize_filename(self, filename):
-        # Remove all non-alphanumeric characters except underscore
         valid_filename = "".join(c for c in filename if c.isalnum() or c == "_")
         valid_filename = valid_filename[:30]  # Further limit filename length to avoid path length issues
         return f"{valid_filename}.docx"  # Ensure the filename has the .docx extension
@@ -113,17 +111,83 @@ class LetterGenerator:
                     if os.path.exists(file_path):
                         self.logger.log('info', f'Document saved successfully: {file_path}')
                         try:
-                            self.printer.print_letter(file_path)
-                            self.logger.log('info', f'Printed letter for {data[self.config['NAME_COLUMN']]}')
+                            pass  # self.printer.print_letter(file_path)
+                            # self.logger.log('info', f'Printed letter for {data[self.config["NAME_COLUMN"]]}')
+                            # Update the respective letter column with "sent letter" + current date
+                            self.update_letter_column(data, template_name)
                         except Exception as e:
                             self.logger.log('error', f'Error printing document {file_path}: {e}')
                     else:
                         self.logger.log('error', f'Failed to save document: {file_path}')
-                    self.template_manager.update_excel(data, template_name)
                 else:
                     self.logger.log('info', f'Skipping {data[self.config["NAME_COLUMN"]]}, all letters have been sent.')
             except Exception as e:
-                self.logger.log('error', f"Error generating and printing letters for {data.get(self.config['NAME_COLUMN'], 'Unknown')}: {e}")
+                self.logger.log('error',
+                                f"Error generating and printing letters for {data.get(self.config['NAME_COLUMN'], 'Unknown')}: {e}")
+
+    def update_letter_column(self, data, template_name):
+        self.logger.log('info', f'Updating letter column for template: {template_name}')
+        if template_name == self.config['TEMPLATE_GROUP1']['LETTER_1_TEMPLATE']:
+            column = self.config['LETTER_1_COLUMN']
+        elif template_name == self.config['TEMPLATE_GROUP1']['LETTER_2_TEMPLATE']:
+            column = self.config['LETTER_2_COLUMN']
+        elif template_name == self.config['TEMPLATE_GROUP1']['LETTER_3_TEMPLATE']:
+            column = self.config['LETTER_3_COLUMN']
+        else:
+            self.logger.log('warning', f'No matching column found for template: {template_name}')
+            return
+
+        current_date = datetime.now().strftime("%d %B %Y")
+        data[column] = f"sent letter {current_date}"
+        self.logger.log('info',
+                        f'Updated {column} with "sent letter {current_date}" for {data[self.config["NAME_COLUMN"]]}')
+
+        # Save the updated DataFrame to Excel
+        self.save_updated_data(data)
+
+    def save_updated_data(self, data):
+        try:
+            df = pd.read_excel(self.config['LOCAL_EXCEL_FILE'], sheet_name=self.config['EXCEL_SHEET_NAME'],
+                               header=self.config['HEADER_ROW'] - 1)
+            self.logger.log('info', 'Loaded Excel file for updating')
+
+            # Ensure the headers are correct
+            expected_headers = set(
+                [self.config['NAME_COLUMN'], self.config['LETTER_1_COLUMN'], self.config['LETTER_2_COLUMN'],
+                 self.config['LETTER_3_COLUMN']])
+            actual_headers = set(df.columns)
+            self.logger.log('info', f'Expected headers: {expected_headers}')
+            self.logger.log('info', f'Actual headers: {actual_headers}')
+            if not expected_headers.issubset(actual_headers):
+                self.logger.log('error', 'Excel file headers do not match the expected headers')
+                raise ValueError('Excel file headers do not match the expected headers')
+
+            # Ensure the data types are consistent for matching
+            data_name = str(data[self.config['NAME_COLUMN']])
+            df[self.config['NAME_COLUMN']] = df[self.config['NAME_COLUMN']].astype(str)
+            self.logger.log('info', f'Converted {self.config["NAME_COLUMN"]} column to string for matching')
+
+            # Find the row that matches the current data
+            matching_row = df[self.config['NAME_COLUMN']] == data_name
+            self.logger.log('info', f'Matching row: {matching_row}')
+
+            # Check if any row matches
+            if matching_row.any():
+                self.logger.log('info', f'Match found, updating the row for {data_name}')
+                # Create a Series with the same columns as df
+                updated_series = pd.Series(data, index=df.columns)
+                self.logger.log('info', f'Updated series to be set: {updated_series}')
+                df.loc[matching_row, :] = updated_series
+                self.logger.log('info', 'Updated DataFrame with new data')
+            else:
+                self.logger.log('warning', f'No matching row found for {data_name}')
+
+            df.to_excel(self.config['LOCAL_EXCEL_FILE'], index=False)
+            self.logger.log('info', 'Excel file updated successfully')
+        except Exception as e:
+            self.logger.log('error', f'Error updating Excel file: {e}')
+            raise
+
 
 def inline_replace(element, old_text, new_text):
     if old_text in element.text:
@@ -132,20 +196,16 @@ def inline_replace(element, old_text, new_text):
         if old_text in run.text:
             run.text = run.text.replace(old_text, new_text)
 
-def load_defaults():
-    if os.path.exists(DEFAULT_CONFIG_PATH):
-        with open(DEFAULT_CONFIG_PATH, 'r') as f:
-            return json.load(f)
-    else:
-        raise FileNotFoundError(f"{DEFAULT_CONFIG_PATH} not found. Please create it with the necessary configurations.")
 
-# Assuming the rest of your script uses this load_defaults function to load the configuration
+def load_defaults():
+    return config.load_defaults()
+
+
 if __name__ == "__main__":
     config = load_defaults()
     logger = Logger()
-    # Assuming you have a Printer class already defined
     printer = Printer(config['PRINT_SERVER_DIR'], logger)
     template_manager = TemplateManager(config['TEMPLATES_DIR'], logger)
     letter_generator = LetterGenerator(config, logger, printer, template_manager)
-    # Assuming you have data_list available
+    data_list = []  # Assume this is populated from somewhere
     letter_generator.generate_and_print_letters(data_list)

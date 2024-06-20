@@ -3,13 +3,12 @@ from tkinter import filedialog, messagebox
 import pandas as pd
 import json
 import os
-from letter_generation import LetterGenerator, load_defaults
+from letter_generation import LetterGenerator
 from template_management import TemplateManager
 from custom_logging import Logger
 from printing import Printer
 from data_collection import DataCollector
-
-DEFAULT_CONFIG_PATH = 'default_config.json'
+import config
 
 class LetterAutomationGUI:
     def __init__(self, root, config):
@@ -59,12 +58,7 @@ class LetterAutomationGUI:
         self.reset_button.pack(pady=10)
 
     def load_defaults(self):
-        if os.path.exists(DEFAULT_CONFIG_PATH):
-            with open(DEFAULT_CONFIG_PATH, 'r') as f:
-                self.config = json.load(f)
-        else:
-            messagebox.showerror("Error", f"{DEFAULT_CONFIG_PATH} not found.")
-            self.root.quit()
+        self.config = config.load_defaults()
 
     def browse_file(self):
         file_path = filedialog.askopenfilename(filetypes=[("Excel files", "*.xlsx *.xls")])
@@ -124,7 +118,7 @@ class LetterAutomationGUI:
         self.config['LOCAL_EXCEL_FILE'] = self.file_path
         self.config['EXCEL_SHEET_NAME'] = self.sheet_var.get()
         self.config['HEADER_ROW'] = self.header_row_var.get()
-        with open(DEFAULT_CONFIG_PATH, 'w') as f:
+        with open(config.DEFAULT_CONFIG_PATH, 'w') as f:
             json.dump(self.config, f)
         messagebox.showinfo("Success", "Defaults have been set.")
 
@@ -134,5 +128,5 @@ def run_gui(config):
     root.mainloop()
 
 if __name__ == "__main__":
-    config = load_defaults()
+    config = config.load_defaults()
     run_gui(config)
