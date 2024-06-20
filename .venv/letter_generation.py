@@ -4,6 +4,7 @@ from docx import Document
 from openai import OpenAI
 from template_management import TemplateManager
 import pandas as pd
+from openpyxl import load_workbook
 
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 from custom_logging import Logger
@@ -142,47 +143,39 @@ class LetterGenerator:
         self.logger.log('info',
                         f'Updated {column} with "sent letter {current_date}" for {data[self.config["NAME_COLUMN"]]}')
 
-        # Save the updated DataFrame to Excel
-        self.save_updated_data(data)
+        # Save the updated cell to Excel
+        self.save_updated_data(data, column)
 
-    def save_updated_data(self, data):
+    def save_updated_data(self, data, column):
         try:
-            df = pd.read_excel(self.config['LOCAL_EXCEL_FILE'], sheet_name=self.config['EXCEL_SHEET_NAME'],
-                               header=self.config['HEADER_ROW'] - 1)
+            # Load the workbook and select the sheet
+            workbook = load_workbook(self.config['LOCAL_EXCEL_FILE'])
+            sheet = workbook[self.config['EXCEL_SHEET_NAME']]
             self.logger.log('info', 'Loaded Excel file for updating')
 
-            # Ensure the headers are correct
-            expected_headers = set(
-                [self.config['NAME_COLUMN'], self.config['LETTER_1_COLUMN'], self.config['LETTER_2_COLUMN'],
-                 self.config['LETTER_3_COLUMN']])
-            actual_headers = set(df.columns)
-            self.logger.log('info', f'Expected headers: {expected_headers}')
-            self.logger.log('info', f'Actual headers: {actual_headers}')
-            if not expected_headers.issubset(actual_headers):
-                self.logger.log('error', 'Excel file headers do not match the expected headers')
-                raise ValueError('Excel file headers do not match the expected headers')
+            # Find the address column index
+            headers = [cell.value for cell in sheet[self.config['HEADER_ROW']]]
+            self.logger.log('info', f'Headers in sheet: {headers}')
+            if self.config['ADDRESS_COLUMN'] not in headers:
+                self.logger.log('error', 'Address column not found in headers')
+                raise ValueError('Address column not found in headers')
 
-            # Ensure the data types are consistent for matching
-            data_name = str(data[self.config['NAME_COLUMN']])
-            df[self.config['NAME_COLUMN']] = df[self.config['NAME_COLUMN']].astype(str)
-            self.logger.log('info', f'Converted {self.config["NAME_COLUMN"]} column to string for matching')
+            address_idx = headers.index(self.config['ADDRESS_COLUMN']) + 1  # Convert to 1-based index
 
             # Find the row that matches the current data
-            matching_row = df[self.config['NAME_COLUMN']] == data_name
-            self.logger.log('info', f'Matching row: {matching_row}')
-
-            # Check if any row matches
-            if matching_row.any():
-                self.logger.log('info', f'Match found, updating the row for {data_name}')
-                # Create a Series with the same columns as df
-                updated_series = pd.Series(data, index=df.columns)
-                self.logger.log('info', f'Updated series to be set: {updated_series}')
-                df.loc[matching_row, :] = updated_series
-                self.logger.log('info', 'Updated DataFrame with new data')
+            for row in sheet.iter_rows(min_row=self.config['HEADER_ROW'] + 1, max_row=sheet.max_row):
+                if str(row[address_idx - 1].value) == str(data[self.config['ADDRESS_COLUMN']]):
+                    row_idx = row[0].row
+                    self.logger.log('info', f'Matching row found: {row_idx}')
+                    # Update the specific cell
+                    col_idx = headers.index(column) + 1  # Convert to 1-based index
+                    sheet.cell(row=row_idx, column=col_idx, value=data[column])
+                    break
             else:
-                self.logger.log('warning', f'No matching row found for {data_name}')
+                self.logger.log('warning', f'No matching row found for address: {data[self.config["ADDRESS_COLUMN"]]}')
 
-            df.to_excel(self.config['LOCAL_EXCEL_FILE'], index=False)
+            # Save the workbook
+            workbook.save(self.config['LOCAL_EXCEL_FILE'])
             self.logger.log('info', 'Excel file updated successfully')
         except Exception as e:
             self.logger.log('error', f'Error updating Excel file: {e}')
@@ -198,7 +191,8 @@ def inline_replace(element, old_text, new_text):
 
 
 def load_defaults():
-    return config.load_defaults()
+    with open('default_config.json', 'r') as f:
+        return json.load(f)
 
 
 if __name__ == "__main__":
