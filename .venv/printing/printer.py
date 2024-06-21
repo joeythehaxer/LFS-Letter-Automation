@@ -1,6 +1,6 @@
 import os
 import win32com.client as win32
-from custom_logging import Logger
+from custom_logging.logger import Logger
 
 class Printer:
     def __init__(self, print_server_dir, logger):

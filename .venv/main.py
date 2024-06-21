@@ -1,38 +1,39 @@
-import config
-import webbrowser
-from data_collection import DataCollector
-from letter_generation import LetterGenerator
-from printing import Printer
-from custom_logging import Logger
-from template_management import TemplateManager
-import auth_helper
+import argparse
+from gui.gui import run_gui
+from config.settings import load_defaults
+from custom_logging.logger import Logger
+from data_collection.data_collector import DataCollector
+from printing.printer import Printer
+from template_management.template_manager import TemplateManager
+from letter_generation.letter_generator import LetterGenerator
+from watcher.teams_excel_watcher import TeamsExcelWatcher
+import logging
 
-def run_cli():
-    logger = Logger()
-    data_collector = DataCollector(logger, config.config)
-    printer = Printer(config.config['PRINT_SERVER_DIR'], logger)
-    template_manager = TemplateManager(config.config['TEMPLATES_DIR'], logger)
-    letter_generator = LetterGenerator(config.config, logger, printer, template_manager)
+def main():
+    parser = argparse.ArgumentParser(description="Letter Automation System")
+    parser.add_argument('--verbose', action='store_true', help="Enable verbose logging")
+    args = parser.parse_args()
 
-    if config.config['USE_TEAMS_EXCEL']:
-        from watcher import TeamsExcelWatcher
-        watcher = TeamsExcelWatcher(data_collector, logger, config.config)
-        excel_data = watcher.get_excel_data()
-        if not excel_data:
-            print("Failed to fetch Excel data. Starting authentication flow...")
-            webbrowser.open("http://127.0.0.1:5000/login")
-            auth_helper.app.run(debug=True, use_reloader=False)  # Start Flask app for authentication
-            return
-        df = data_collector.parse_excel_data(excel_data)
+    config = load_defaults()
+    logger = Logger(config, log_level=logging.DEBUG if args.verbose else logging.INFO)
+
+    if config.USE_GUI:
+        run_gui(config)
     else:
-        df = data_collector.collect_data()
+        data_collector = DataCollector(logger, config)
+        printer = Printer(config.PRINT_SERVER_DIR, logger)
+        template_manager = TemplateManager(config, logger)
+        letter_generator = LetterGenerator(config, logger, printer, template_manager)
 
-    filtered_data = data_collector.filter_data(df)
-    letter_generator.generate_and_print_letters(filtered_data.to_dict(orient='records'))
+        if config.USE_TEAMS_EXCEL:
+            watcher = TeamsExcelWatcher(data_collector, logger, config.TENANT_ID, config.CLIENT_ID, config.CLIENT_SECRET, config.EXCEL_FILE_ID, config.EXCEL_FILE_DRIVE)
+            excel_data = watcher.get_excel_data()
+            df = data_collector.parse_excel_data(excel_data)
+        else:
+            df = data_collector.collect_data()
+
+        filtered_data = data_collector.filter_data(df)
+        letter_generator.generate_and_print_letters(filtered_data.to_dict(orient='records'))
 
 if __name__ == "__main__":
-    if config.config['USE_GUI']:
-        from gui import run_gui
-        run_gui(config.config)
-    else:
-        run_cli()
+    main()

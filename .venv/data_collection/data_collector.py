@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 import os
-from custom_logging import Logger
+from custom_logging.logger import Logger
 
 
 class DataCollector:
@@ -30,19 +30,17 @@ class DataCollector:
     def collect_data(self):
         self.logger.log('info', 'Collecting data from local Excel file')
         try:
-            df = pd.read_excel(self.config['LOCAL_EXCEL_FILE'], sheet_name=self.config['EXCEL_SHEET_NAME'],
-                               header=self.config['HEADER_ROW'] - 1)
+            df = pd.read_excel(self.config.LOCAL_EXCEL_FILE, sheet_name=self.config.EXCEL_SHEET_NAME, header=self.config.HEADER_ROW - 1)
             return df
         except Exception as e:
             self.logger.log('error', f"Error collecting data from local Excel file: {e}")
             raise
 
     def filter_data(self, df):
-        letter_columns = [self.config['LETTER_1_COLUMN'], self.config['LETTER_2_COLUMN'],
-                          self.config['LETTER_3_COLUMN']]
+        letter_columns = [self.config.LETTER_1_COLUMN, self.config.LETTER_2_COLUMN, self.config.LETTER_3_COLUMN]
         filter_condition = df[letter_columns].isnull().any(axis=1) | (df[letter_columns] == '').any(axis=1)
 
-        for filter_cond in self.config['FILTERS']:
+        for filter_cond in self.config.FILTERS:
             column = filter_cond['column']
             value = filter_cond['value']
             filter_condition &= (df[column] == value)

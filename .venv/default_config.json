@@ -1,5 +1,5 @@
 {
-  "USE_GUI": false,
+  "USE_GUI": true,
   "USE_TEAMS_EXCEL": false,
   "HEADER_ROW": 2,
   "LOCAL_EXCEL_FILE": "residents.xlsx",
@@ -40,12 +40,11 @@
   },
   "TEMPLATES_DIR": "templates",
   "PRINT_SERVER_DIR": "print_server",
+  "LOGGING_ENABLED": true,
   "WATCHER_INTERVAL": 604800,
   "TENANT_ID": "788fad43-a566-43af-8439-620d928bbf8c",
   "CLIENT_ID": "bb8e80c4-cc21-4891-80d6-ff5daa369982",
   "CLIENT_SECRET": "ZEE8Q~ESfAAtqrv5cBjuSBL4BJJx0~3KX99vHdAA",
   "EXCEL_FILE_ID": "01NIOAFPKWE2M222EDOZDJMDTMDSIW3BNL",
-  "EXCEL_FILE_DRIVE": "b!i5mk_h-R8k2eIWb3P4ATZayLWzXFbKdOmUcwAtGhXI2KWtB96fT8TJo8AbtXnoaP",
-  "REDIRECT_URI": "http://localhost:5000/callback",
-  "SCOPE": ["User.Read", "Files.Read.All"]
+  "EXCEL_FILE_DRIVE": "b!i5mk_h-R8k2eIWb3P4ATZayLWzXFbKdOmUcwAtGhXI2KWtB96fT8TJo8AbtXnoaP"
 }
