@@ -36,15 +36,16 @@ class TemplateManager:
     def determine_next_letter(self, data):
         try:
             self.logger.log('info', f"Checking which letter to send for: {data[self.config.NAME_COLUMN]}")
+            group = self.config.TEMPLATE_GROUP1 if data[self.config.REVIEW_COLUMN] == self.config.REVIEW_POSITIVE_VALUE else self.config.TEMPLATE_GROUP2
             if pd.isna(data[self.config.LETTER_1_COLUMN]) or data[self.config.LETTER_1_COLUMN] == "":
                 self.logger.log('info', f"First letter needs to be sent to: {data[self.config.NAME_COLUMN]}")
-                return self.config.TEMPLATE_GROUP1['LETTER_1_TEMPLATE']
+                return group['LETTER_1_TEMPLATE']
             elif pd.isna(data[self.config.LETTER_2_COLUMN]) or data[self.config.LETTER_2_COLUMN] == "":
                 self.logger.log('info', f"Second letter needs to be sent to: {data[self.config.NAME_COLUMN]}")
-                return self.config.TEMPLATE_GROUP1['LETTER_2_TEMPLATE']
+                return group['LETTER_2_TEMPLATE']
             elif pd.isna(data[self.config.LETTER_3_COLUMN]) or data[self.config.LETTER_3_COLUMN] == "":
                 self.logger.log('info', f"Third letter needs to be sent to: {data[self.config.NAME_COLUMN]}")
-                return self.config.TEMPLATE_GROUP1['LETTER_3_TEMPLATE']
+                return group['LETTER_3_TEMPLATE']
             else:
                 self.logger.log('info', f"All letters have been sent to: {data[self.config.NAME_COLUMN]}")
                 return None
@@ -82,6 +83,9 @@ class TemplateManager:
 
     def get_column_name_for_letter_type(self, letter_type):
         for key, value in self.config.TEMPLATE_GROUP1.items():
+            if value == letter_type:
+                return getattr(self.config, key.replace('TEMPLATE', 'COLUMN'))
+        for key, value in self.config.TEMPLATE_GROUP2.items():
             if value == letter_type:
                 return getattr(self.config, key.replace('TEMPLATE', 'COLUMN'))
         return None

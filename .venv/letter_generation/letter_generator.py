@@ -124,9 +124,8 @@ class LetterGenerator:
                     if os.path.exists(file_path):
                         self.logger.log('info', f'Document saved successfully: {file_path}')
                         try:
-                            pass
-                            # self.printer.print_letter(sanitized_name)  # Pass only the file name to the printer
-                            # self.logger.log('info', f'Printed letter for {data[self.config.NAME_COLUMN]}')
+                            self.printer.print_letter(sanitized_name)  # Pass only the file name to the printer
+                            self.logger.log('info', f'Printed letter for {data[self.config.NAME_COLUMN]}')
                         except Exception as e:
                             self.logger.log('error', f'Error printing document {file_path}: {e}')
                     else:
