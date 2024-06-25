@@ -12,6 +12,8 @@ class Printer:
             self.logger.log('error', f'File not found: {file_path}')
             raise FileNotFoundError(f'File not found: {file_path}')
 
+        word = None
+        doc = None
         try:
             self.logger.log('info', f'Opening document: {file_path}')
             word = win32.gencache.EnsureDispatch('Word.Application')
@@ -19,9 +21,12 @@ class Printer:
             doc = word.Documents.Open(file_path)
             self.logger.log('info', f'Printing document: {file_path}')
             doc.PrintOut()
-            doc.Close(False)
-            word.Quit()
             self.logger.log('info', f'Successfully printed: {file_path}')
         except Exception as e:
             self.logger.log('error', f'Error printing document {file_path}: {e}')
             raise
+        finally:
+            if doc:
+                doc.Close(False)
+            if word:
+                word.Quit()

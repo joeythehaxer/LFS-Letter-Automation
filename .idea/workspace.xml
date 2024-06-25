@@ -6,7 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="74a96bdd-1efa-4d84-addb-91076e962341" name="Changes" comment="v5, print, file name, watcher non-functional, added file selection mechanism">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/default_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/default_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/auth_helper/auth_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/auth_helper/auth_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/custom_logging/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/custom_logging/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/data_collection/data_collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/data_collection/data_collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/gui/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/gui/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/letter_generation/letter_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/letter_generation/letter_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/printing/printer.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/printing/printer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/residents.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/residents.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/template_management/template_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/template_management/template_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/watcher/teams_excel_watcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/watcher/teams_excel_watcher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +32,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.venv/app.log" root0="SKIP_INSPECTION" />
@@ -193,6 +204,17 @@
     </task>
     <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

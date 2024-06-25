@@ -58,37 +58,37 @@ class LetterGenerator:
 
     def replace_placeholders(self, document, data):
         for placeholder, column in self.config.PLACEHOLDERS.items():
-            if column == self.config.NAME_COLUMN:
-                value = self.clean_name(data[column])
-            elif column == self.config.ADDRESS_COLUMN:
-                value = self.format_address(data[column])
-            elif column == 'Date':
-                value = datetime.now().strftime("%d %B %Y")
-            elif column == self.config.WORK_ORDER_COLUMN:
-                value = data[column]
-            else:
-                value = str(data[column])
+            value = self.get_value_for_placeholder(column, data)
 
             self.logger.log('info', f'Replacing placeholder {placeholder} with {value}')
-
-            # Replace placeholders in paragraphs
-            for paragraph in document.paragraphs:
-                if f'{{{{{placeholder}}}}}' in paragraph.text:
-                    inline_replace(paragraph, f'{{{{{placeholder}}}}}', value)
-
-            # Replace placeholders in tables
-            for table in document.tables:
-                for row in table.rows:
-                    for cell in row.cells:
-                        inline_replace(cell, f'{{{{{placeholder}}}}}', value)
-
-            # Replace placeholders in shapes (text boxes)
-            for shape in document.inline_shapes:
-                if shape._inline.graphic.graphicData.uri.endswith('/textFrame'):
-                    for paragraph in shape.text_frame.paragraphs:
-                        inline_replace(paragraph, f'{{{{{placeholder}}}}}', value)
+            self.replace_in_document(document, placeholder, value)
 
         return document
+
+    def get_value_for_placeholder(self, column, data):
+        if column == self.config.NAME_COLUMN:
+            return self.clean_name(data[column])
+        elif column == self.config.ADDRESS_COLUMN:
+            return self.format_address(data[column])
+        elif column == 'Date':
+            return datetime.now().strftime("%d %B %Y")
+        elif column == self.config.WORK_ORDER_COLUMN:
+            return data[column]
+        else:
+            return str(data[column])
+
+    def replace_in_document(self, document, placeholder, value):
+        tag = f'{{{{{placeholder}}}}}'
+        for paragraph in document.paragraphs:
+            paragraph.text = paragraph.text.replace(tag, value)
+        for table in document.tables:
+            for row in table.rows:
+                for cell in row.cells:
+                    cell.text = cell.text.replace(tag, value)
+        for shape in document.inline_shapes:
+            if hasattr(shape, 'text_frame'):
+                for paragraph in shape.text_frame.paragraphs:
+                    paragraph.text = paragraph.text.replace(tag, value)
 
     def generate_and_print_letters(self, data_list):
         for data in data_list:
@@ -119,10 +119,3 @@ class LetterGenerator:
                     self.logger.log('info', f'Skipping {data[self.config.NAME_COLUMN]}, all letters have been sent.')
             except Exception as e:
                 self.logger.log('error', f"Error generating and printing letters for {data.get(self.config.NAME_COLUMN, 'Unknown')}: {e}")
-
-def inline_replace(element, old_text, new_text):
-    if old_text in element.text:
-        element.text = element.text.replace(old_text, new_text)
-    for run in element.runs:
-        if old_text in run.text:
-            run.text = run.text.replace(old_text, new_text)
